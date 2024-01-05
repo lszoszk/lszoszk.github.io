@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: E-mail: l.szoszkiewicz@amu.edu.pl
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
