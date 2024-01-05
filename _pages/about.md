@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='[#](https://prawo.amu.edu.pl/en/)'>Adam Mickiewicz University</a>. E-mail: l.szoszkiewicz@amu.edu.pl
 
 profile:
   align: right
