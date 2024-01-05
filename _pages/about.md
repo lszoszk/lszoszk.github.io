@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Adam Mickiewicz University</a>. E-mail: l.szoszkiewicz@amu.edu.pl.
+subtitle: E-mail: l.szoszkiewicz@amu.edu.pl
 
 profile:
   align: right
