@@ -1,18 +1,13 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: UN Treaty Bodies Search
+description: Search and analyze General Comments/Recommendations adopted by the UN Treaty Bodies
+img: assets/img/project20.png
 importance: 1
 category: work
-related_publications: einstein1956investigations, einstein1950meaning
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project showcases a dynamic web application designed to facilitate the exploration and analysis of the General Comments/Recommendations adopted by the UN Treaty Bodies. Built with Flask, a Python web framework, the application provides a user-friendly interface for browsing, analyzing and exporting relevant paragraphs of the UN documents.
 
     ---
     layout: page
@@ -44,10 +39,18 @@ To give your project a background in the portfolio page, just add the img tag to
     This image can also have a caption. It's like magic.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+<p><strong>Why general Comments/Recommendations?</strong> UN Treaty Bodies adopted over 150 General Comments/Recommendations. They provide an authoritative interpretation of international human rights treaties. Hitherto, there was no database allowing for a search within documents. This platform allows for intuitive searches within these documents.</p>
 
+<p>Features include:
+<ul>
+    <li>A robust search functionality that allows users to filter <strong>relevant paragraphs</strong> from the documents based on <strong>keyword</strong>, <strong>concerned groups/persons</strong> (e.g., children, women, indigenous peoples), and by the UN Treaty Bodies (e.g., Committee on the Rights of the Child, Committee on Economic, Social and Cultural Rights).</li>
+    <li><strong>Advanced text processing capabilities</strong>, leveraging the Natural Language Toolkit (nltk) for word frequencies, bigram analysis, custom UN-related stopwords list, and <strong>search within search results functionality</strong>.</li>
+    <li>A caching system that optimizes performance and ensures quick access to recent searches.</li>
+    <li>An intuitive result highlighting mechanism that emphasizes search terms within the documents, improving readability and focus.</li>
+    <li>An export feature allowing users to download Excel search results for offline analysis.</li>
+    <li>Server-side session management to maintain user search preferences.</li>
+</ul>
+</p>
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
