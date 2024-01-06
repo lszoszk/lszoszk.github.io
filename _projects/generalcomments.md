@@ -18,14 +18,14 @@ This project showcases a dynamic web application designed to facilitate the expl
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project21.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project21-vertical.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    On the left, a home page. On the right, an analytical dashboard. Pictures generated with Smartmockups.
+    On the left, a home page. On the right is an analytical dashboard. Pictures generated with Smartmockups.
 </div>
 
 <p><strong>Why general Comments/Recommendations?</strong> UN Treaty Bodies adopted over 150 General Comments/Recommendations. They provide an authoritative interpretation of international human rights treaties. Hitherto, there was no database allowing for a search within documents. This platform allows for intuitive searches within these documents.</p>
