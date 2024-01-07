@@ -161,17 +161,27 @@ blockquote {
 
 //Button
 .button-57 {
-  position: relative;
-  overflow: hidden;
+  align-items: center;
+  background-color: #fff;
   border: 1px solid var(--global-text-color);
+  box-sizing: border-box;
   color: var(--global-text-color);
-  display: inline-block;
-  font-size: 14px;
-  line-height: 14px;
-  padding: 18px 18px 17px;
-  text-decoration: none;
   cursor: pointer;
-  background: #fff;
+  display: inline-flex;
+  fill: var(--global-text-color);
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 400;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -187,6 +197,10 @@ blockquote {
   border-color: var(--global-theme-color);
   color: var(--global-theme-color);
   fill: var(--global-theme-color);
+}
+
+.button-57:focus {
+  color: var(--global-text-color);
 }
 
 //Center container
