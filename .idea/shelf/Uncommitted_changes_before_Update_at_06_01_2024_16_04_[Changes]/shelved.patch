@@ -1,0 +1,26 @@
+Index: _bibliography/papers.bib
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>---\r\n---\r\n\r\n@string{aps = {American Physical Society,}}\r\n\r\n@book{einstein1956investigations,\r\n  bibtex_show={true},\r\n  title={Investigations on the Theory of the Brownian Movement},\r\n  author={Einstein, Albert},\r\n  year={1956},\r\n  publisher={Courier Corporation},\r\n  preview={brownian-motion.gif}\r\n}\r\n\r\n@article{einstein1950meaning,\r\n  abbr={AJP},\r\n  bibtex_show={true},\r\n  title={The meaning of relativity},\r\n  author={Einstein, Albert and Taub, AH},\r\n  journal={American Journal of Physics},\r\n  volume={18},\r\n  number={6},\r\n  pages={403--404},\r\n  year={1950},\r\n  publisher={American Association of Physics Teachers}\r\n}\r\n\r\n@article{PhysRev.47.777,\r\n  abbr={PhysRev},\r\n  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},\r\n  author={Einstein, A. and Podolsky, B. and Rosen, N.},\r\n  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},\r\n  journal={Phys. Rev.},\r\n  volume={47},\r\n  issue={10},\r\n  pages={777--780},\r\n  numpages={0},\r\n  year={1935},\r\n  month={May},\r\n  publisher=aps,\r\n  doi={10.1103/PhysRev.47.777},\r\n  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},\r\n  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},\r\n  pdf={example_pdf.pdf},\r\n  altmetric={248277},\r\n  dimensions={true},\r\n  selected={true}\r\n}\r\n\r\n@article{einstein1905molekularkinetischen,\r\n  title={{\\\"U}ber die von der molekularkinetischen Theorie der W{\\\"a}rme geforderte Bewegung von in ruhenden Fl{\\\"u}ssigkeiten suspendierten Teilchen},\r\n  author={Einstein, A.},\r\n  journal={Annalen der physik},\r\n  volume={322},\r\n  number={8},\r\n  pages={549--560},\r\n  year={1905},\r\n  publisher={Wiley Online Library}\r\n}\r\n\r\n@article{einstein1905movement,\r\n  abbr={Ann. Phys.},\r\n  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},\r\n  author={Einstein, A.},\r\n  journal={Ann. Phys.},\r\n  volume={17},\r\n  pages={549--560},\r\n  year={1905}\r\n}\r\n\r\n@article{einstein1905electrodynamics,\r\n  title={On the electrodynamics of moving bodies},\r\n  author={Einstein, A.},\r\n  year={1905}\r\n}\r\n\r\n@book{przibram1967letters,\r\n  bibtex_show={true},\r\n  title={Letters on wave mechanics},\r\n  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},\r\n  year={1967},\r\n  publisher={Vision},\r\n  preview={wave-mechanics.gif}\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/_bibliography/papers.bib b/_bibliography/papers.bib
+--- a/_bibliography/papers.bib	(revision 94f371fed299f9bce113dae27714bbcb63b62170)
++++ b/_bibliography/papers.bib	(date 1704314361452)
+@@ -1,6 +1,15 @@
+ ---
+ ---
+ 
++@article{Szoszkiewicz_2023,
++    title={Business and Human Rights in Central and Eastern Europe: Constitutional Law as a Driver for the International Human Rights Law},
++    DOI={10.1017/bhj.2023.13},
++    journal={Business and Human Rights Journal},
++    author={Szoszkiewicz, Łukasz},
++    year={2023},
++    url={https://www.cambridge.org/core/journals/business-and-human-rights-journal/article/business-and-human-rights-in-central-and-eastern-europe-constitutional-law-as-a-driver-for-the-international-human-rights-law/F3B9868A25E05DE4A69AE2C86D513555#}
++}
++
+ @string{aps = {American Physical Society,}}
+ 
+ @book{einstein1956investigations,
