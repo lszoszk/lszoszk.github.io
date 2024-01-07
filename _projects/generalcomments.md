@@ -9,7 +9,8 @@ category: work
 
 <p>This project showcases a dynamic web application designed to facilitate the exploration and analysis of the General Comments/Recommendations adopted by the UN Treaty Bodies. Built with Flask, a Python web framework, the application provides a user-friendly interface for browsing, analyzing and exporting relevant paragraphs of the UN documents.</p>
 
-<button class="button-57" role="button" href="https://lszoszk.pythonanywhere.com/"><span class="text">Visit website</span><span>Enjoy!</span></button>
+<p align="center"><button class="button-48" role="button" href="https://lszoszk.pythonanywhere.com/"><span class="text">Visit website</span></button></p>
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
