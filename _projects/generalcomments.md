@@ -12,16 +12,16 @@ category: work
 <p align="center">
 <a href="https://lszoszk.pythonanywhere.com/"><button class="button-57" role="button">visit website</button></a>
 </p>
-
+<br>
 <p><strong>Why general Comments/Recommendations?</strong> UN Treaty Bodies adopted over 150 General Comments/Recommendations. They provide an authoritative interpretation of international human rights treaties. Hitherto, there was no database allowing for a search within documents. This platform allows for intuitive searches within these documents.</p>
 
 Features include:
 <ul>
     <li>A robust search functionality that allows users to filter <strong>relevant paragraphs</strong> from the documents based on <strong>keyword</strong>, <strong>concerned groups/persons</strong> (e.g., children, women, indigenous peoples), and by the UN Treaty Bodies (e.g., Committee on the Rights of the Child, Committee on Economic, Social and Cultural Rights).</li>
     <li><strong>Advanced text processing capabilities</strong>, leveraging the Natural Language Toolkit (nltk) for word frequencies, bigram analysis, custom UN-related stopwords list, and <strong>search within search results functionality</strong>.</li>
-    <li>A caching system that optimizes performance and ensures quick access to recent searches.</li>
     <li>An intuitive result highlighting mechanism that emphasizes search terms within the documents, improving readability and focus.</li>
     <li>An export feature allowing users to <strong>download Excel search results</strong> for offline analysis.</li>
+    <li><strong>Responsive design</strong> that allows for a seamless experience across devices (<a href="https://getbootstrap.com/">bootstrap</a>).</li>
     <li>Server-side session management to maintain user search preferences.</li>
 </ul>
 
