@@ -163,8 +163,8 @@ blockquote {
 .button-57 {
   position: relative;
   overflow: hidden;
-  border: 1px solid $grey-color-dark;
-  color: $grey-color-dark;
+  border: 1px solid var(--global-text-color);
+  color: var(--global-text-color);
   display: inline-block;
   font-size: 14px;
   line-height: 14px;
@@ -205,8 +205,8 @@ blockquote {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: $purple-color;
-  color: $grey-color-dark;
+  background-color: var(--global-theme-color);
+  color: var(--global-text-color);
   transform-origin: bottom center;
   transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
   transform: skewY(9.3deg) scaleY(0);
@@ -222,18 +222,6 @@ blockquote {
   transform: translateX(-50%) translateY(-100%);
   opacity: 1;
   transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
-}
-
-/*Dark mode button*/
-.button-57-dark {
-  color: $cyan-color; /* Replace grey color with $cyan-color */
-  border-color: $cyan-color; /* Update border color for dark mode */
-  background-color: $grey-color-dark;
-}
-
-.button-57-dark:after {
-  color: $grey-color-dark;
-  background-color: $cyan-color;
 }
 
 //Center container
