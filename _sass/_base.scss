@@ -349,7 +349,7 @@ blockquote {
 // Button
 .button-57 {
   align-items: center;
-  background-color: #fff;
+  background-color: var(--global-bg-color);
   border: 1px solid var(--global-text-color);
   box-sizing: border-box;
   color: var(--global-text-color);
