@@ -7,6 +7,16 @@ nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+<h2>Human Rights and Technology in the Digital Age – An Interdisciplinary Perspective</h2>
+Digital technologies – such as Artificial Intelligence, biometric recognition systems, or credit scoring systems – are gradually entering our daily lives, without us even noticing them. This course aims at providing students with solid knowledge on the impact of these technologies on the protection of human rights. To this end, this course highlights the importance of an ethical, human-centric, and accessible tech-infused future.
 
-Organize your courses by years, topics, or universities, however you like!
+The course is divided into two modules, namely: 1) introduction to data science; and 2) international human rights law. The first module allows the students to better understand the concepts of programming, statistical modeling, and algorithms and gain some basic practical skills in these areas. In this context, the students will be provided with an opportunity to experience first-hand the dilemmas and challenges of designing an application (e.g. through running a code on their own). Within the second module, the students will learn about the existing case-law, regulations, and soft law initiatives related to the intersection of international human rights law and digital technologies. Completion of this module improves skills in analyzing legal texts and case law.
+
+The course includes three hand-on laboaratory classes:
+<ul>
+<li>Introduction to analyzing legal texts as data | <a href="https://colab.research.google.com/drive/1R6D8WYGCtRX_JUKWfaz69GhWHhwyFtil?usp=sharing">Google Colab</a></li>
+<li>Introduction to statistical modeling - predicting the outcomes of the ECtHR cases | <a href="https://colab.research.google.com/drive/19HVAq40ay3oBLLsxCEWjJG675UzyX5KV?usp=sharing">Google Colab</a></li>
+<li>Introduction to descriptive statistics - how to detect bias in data</li>
+</ul>
+
+<a href="https://amupie.amu.edu.pl/1222/details">More information</a>
