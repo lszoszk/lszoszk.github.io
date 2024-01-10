@@ -31,5 +31,5 @@ Features include:
     </div>
 </div>
 <div class="caption">
-    The home page of the application.
+    The home page of the application. Picture generated with Smartmockups.
 </div>

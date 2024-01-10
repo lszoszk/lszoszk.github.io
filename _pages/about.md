@@ -8,19 +8,17 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts:  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a social scientist with legal background and self-trained data scientist.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research focuses on the international protection of human rights and the challenges posed by new technologies, in particular Artificial Intelligence and neurotechnologies. Digital technologies break down borders and geographical barriers, so it is essential that we address the challenges they bring on a global scale. This is why my work concentrates on the UN framework, with a specific focus on economic, social, and cultural rights, as well as the rights of the child. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In my legal research, I employ a range of methodologies, including natural language processing, statistical analysis, corpus linguistics, and grounded theory.
+
+Currently, I am working on neurorights, the <a href="https://lszoszk.github.io/projects/goodpractices/">concept of 'good practice' in human rights</a>, and developing an advanced <a href="https://lszoszk.github.io/projects/generalcomments/">search engine for UN treaty body documents</a>.
