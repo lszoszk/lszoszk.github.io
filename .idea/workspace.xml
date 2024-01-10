@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="updating button">
+    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="update of the project">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_projects/generalcomments.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/generalcomments.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/2_project.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/goodpractices.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,8 @@
       <workItem from="1704553429155" duration="1323000" />
       <workItem from="1704630051405" duration="10630000" />
       <workItem from="1704648603436" duration="199000" />
-      <workItem from="1704653619061" duration="2233000" />
+      <workItem from="1704653619061" duration="3567000" />
+      <workItem from="1704893116052" duration="1884000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -249,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704654822911</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="update of the project">
+      <option name="closed" value="true" />
+      <created>1704656917800</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1704656917800</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,6 +321,7 @@
     <MESSAGE value="update of pictures" />
     <MESSAGE value="adding button" />
     <MESSAGE value="updating button" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating button" />
+    <MESSAGE value="update of the project" />
+    <option name="LAST_COMMIT_MESSAGE" value="update of the project" />
   </component>
 </project>
