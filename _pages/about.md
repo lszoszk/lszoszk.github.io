@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am a social scientist with legal background and self-trained data scientist.
 
-My research focuses on the <strong>international human rights law</strong> and the challenges posed by new technologies - Artificial Intelligence and neurotechnologies. Considering how digital technologies erase geographical boundaries, it's vital to address new challenges from the global perspective. This is why my work concentrates on the <strong>UN framework</strong>, with a specific focus on social rights and the rights of the child. 
+My research focuses on the <strong>international human rights law</strong> and the challenges posed by new technologies - <strong>Artificial Intelligence and neurotechnologies</strong>. Considering how digital technologies erase geographical boundaries, it's vital to address new challenges from the global perspective. This is why my work concentrates on the <strong>UN framework</strong>, with a specific focus on social rights and the rights of the child. 
 
 In my research, I employ a range of methodologies, including natural language processing, statistics, corpus linguistics, and grounded theory.
 
