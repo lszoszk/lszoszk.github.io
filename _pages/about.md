@@ -19,6 +19,6 @@ I am a social scientist with legal background and self-trained data scientist.
 
 My research focuses on the <strong>international human rights law</strong> and the challenges posed by new technologies - <strong>Artificial Intelligence and neurotechnologies</strong>. Considering how digital technologies erase geographical boundaries, it's vital to address new challenges from the global perspective. This is why my work concentrates on the <strong>UN framework</strong>, with a specific focus on social rights and the rights of the child. 
 
-In my research, I employ a range of methodologies, including natural language processing, statistics, corpus linguistics, and grounded theory.
+In my research, I employ a range of methodologies, including natural language processing (Python), statistics, corpus linguistics, and grounded theory.
 
-Currently, I am working on neurorights, the <a href="https://lszoszk.github.io/projects/goodpractices/">concept of 'good practice' in human rights</a>, and developing a <a href="https://lszoszk.github.io/projects/generalcomments/">search engine for UN Treaty Bodies' documents</a>.
+Currently, I am working on neurorights, the <a href="https://lszoszk.github.io/projects/goodpractices/">concept of 'good practice' in human rights</a>, and developing a <a href="https://lszoszk.github.io/projects/generalcomments/">search engine for the UN Treaty Bodies' documents</a>.

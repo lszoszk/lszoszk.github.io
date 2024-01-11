@@ -30,7 +30,7 @@
         - title: Teaching
           contents:
             - Constitutional law
-            - Human rights and technology in the digital age – an interdisciplinary perspective
+            - Human rights and technology in the digital age
     
     - title: Research Assistant
       institution: <a href="http://www.phrc.pl/?lang=en">Poznan Human Rights Centre</a> (Institute of Law Studies, Polish Academy of Sciences) 
@@ -45,11 +45,11 @@
 - title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">Do we need the recognition of neurorights? The scope of State and business actors' human rights obligations in the area of neurotechnologies</a>
+    - title: Do we need the recognition of neurorights? The scope of State and business actors' human rights obligations in the area of neurotechnologies
       year: 2024-now
       description: The project aims to determine the existing State and business actors' human rights obligations in neurotechnologies and assess whether recognition of new human rights (neurorights) is essential to protect individuals from the unintended consequences of applying such technologies. Funded by the <a href="https://www.ncn.gov.pl/en">National Science Centre</a>. 
     
-    - title: Promising or not
+    - title: <a href="https://lszoszk.github.io/projects/goodpractices/">Promising or not? The concept of "promising practices" in human rights</a>
       year: 2023-now
       description: Utilizing the qualitative interviews and grounded theory approach, the project explores how human rights experts utilize the concept of "good practices" in their work. Funded by the <a href="https://gchumanrights.org/home-backup.html">Global Campus of Human Rights</a> and the <a href="https://rightlivelihood.org/">Right Livelihood</a>.
     
