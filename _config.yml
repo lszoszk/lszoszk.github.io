@@ -120,8 +120,8 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Human rights and new technologies # blog_name will be displayed in your blog page
+blog_description: My blog # blog_description will be displayed in your blog page
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -136,8 +136,8 @@ related_blog_posts:
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
 # the information below.
 giscus:
-  repo:                          # <your-github-user-name>/<your-github-repo-name>
-  repo_id:                       # leave empty or specify your repo_id (see https://giscus.app/) 
+  repo: lszoszk/lszoszk.github.io"                         # <your-github-user-name>/<your-github-repo-name>
+  repo_id: R_kgDOLAEeJg                      # leave empty or specify your repo_id (see https://giscus.app/)
   category: Comments             # name of the category under which discussions will be created
   category_id:                   # leave empty or specify your category_id (see https://giscus.app/) 
   mapping: title                 # identify discussions by post title
@@ -149,7 +149,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: lszoszk # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
