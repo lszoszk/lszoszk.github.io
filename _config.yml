@@ -73,7 +73,7 @@ x_username: lszoszk # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: lukasz-szoszkiewicz # your LinkedIn user name
 telegram_username: # your Telegram user name
-scholar_userid: # your Google Scholar ID
+scholar_userid: _iLYbwMAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # your ORCID ID
@@ -113,7 +113,7 @@ contact_note: >
 google_analytics:  G-F3XBX45HQC # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics:  # cronitor RUM analytics site ID (format: XXXXXXXXX)
 
-google_site_verification:  # your google-site-verification ID (Google Search Console)
+google_site_verification:  tVvwaCpi8g1bUGbNzHAPHSWY8q0E47V-0MsogmaFXWQ # your google-site-verification ID (Google Search Console)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 # -----------------------------------------------------------------------------
