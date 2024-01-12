@@ -7,6 +7,8 @@ importance: 1
 category: work
 ---
 
+<a href="https://zenodo.org/doi/10.5281/zenodo.10495719"><img src="https://zenodo.org/badge/741047917.svg" alt="DOI"></a>
+
 <p>This project showcases a dynamic web application designed to facilitate the exploration and analysis of the General Comments/Recommendations adopted by the UN Treaty Bodies. Built with Flask, a Python web framework, the application provides a user-friendly interface for browsing, analyzing and exporting relevant paragraphs of the UN documents.</p>
 
 <p align="center">
