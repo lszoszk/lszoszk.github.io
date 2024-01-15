@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Add Google Search Console HTML file">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_01_2024_16_04_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_06_01_2024_16_04__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/3_project.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/neurorights.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/4_project.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/5_project.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/6_project.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/generalcomments.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/generalcomments.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +77,9 @@
       <workItem from="1705057389071" duration="824000" />
       <workItem from="1705073893357" duration="2393000" />
       <workItem from="1705094155113" duration="1590000" />
+      <workItem from="1705158206742" duration="1155000" />
+      <workItem from="1705174689471" duration="597000" />
+      <workItem from="1705321302046" duration="1491000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -415,7 +425,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705095152812</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Add Google Search Console HTML file">
+      <option name="closed" value="true" />
+      <created>1705158459385</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1705158459385</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
