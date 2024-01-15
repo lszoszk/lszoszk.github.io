@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Update projects">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Update publications">
       <change beforePath="$PROJECT_DIR$/_bibliography/papers.bib" beforeDir="false" afterPath="$PROJECT_DIR$/_bibliography/papers.bib" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +76,7 @@
       <workItem from="1705094155113" duration="1590000" />
       <workItem from="1705158206742" duration="1155000" />
       <workItem from="1705174689471" duration="597000" />
-      <workItem from="1705321302046" duration="4225000" />
+      <workItem from="1705321302046" duration="4532000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -447,7 +446,31 @@
       <option name="project" value="LOCAL" />
       <updated>1705324187344</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Update projects">
+      <option name="closed" value="true" />
+      <created>1705336926295</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1705336926295</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Update projects">
+      <option name="closed" value="true" />
+      <created>1705336951188</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1705336951188</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Update publications">
+      <option name="closed" value="true" />
+      <created>1705336965089</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1705336965089</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -514,7 +537,9 @@
     <MESSAGE value="update of the project" />
     <MESSAGE value="update of the website" />
     <MESSAGE value="Add Google Search Console HTML file" />
+    <MESSAGE value="Update p" />
     <MESSAGE value="Update projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update projects" />
+    <MESSAGE value="Update publications" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update publications" />
   </component>
 </project>
