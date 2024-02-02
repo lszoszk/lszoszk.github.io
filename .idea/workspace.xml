@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Update of publications">
-      <change afterPath="$PROJECT_DIR$/_news/announcement_4.md" afterDir="false" />
-    </list>
+    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Update of news" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,6 +58,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lszos\Documents\GitHub\lszoszk.github.io\_news" />
       <recent name="C:\Users\lszos\Documents\GitHub\lszoszk.github.io\assets\bibliography" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -95,15 +94,7 @@
       <workItem from="1705583474088" duration="21000" />
       <workItem from="1705756030448" duration="1905000" />
       <workItem from="1706232131774" duration="611000" />
-      <workItem from="1706875355905" duration="695000" />
-    </task>
-    <task id="LOCAL-00007" summary="adding button">
-      <option name="closed" value="true" />
-      <created>1704631363866</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1704631363866</updated>
+      <workItem from="1706875355905" duration="1152000" />
     </task>
     <task id="LOCAL-00008" summary="updating button">
       <option name="closed" value="true" />
@@ -489,7 +480,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706875914656</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Update of news">
+      <option name="closed" value="true" />
+      <created>1706876251039</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1706876251039</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -562,6 +561,7 @@
     <MESSAGE value="Update footer with social media icons" />
     <MESSAGE value="Update CV" />
     <MESSAGE value="Update of publications" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update of publications" />
+    <MESSAGE value="Update of news" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update of news" />
   </component>
 </project>
