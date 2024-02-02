@@ -8,7 +8,7 @@ middle_name:
 last_name: Szoszkiewicz
 email: l.szoszkiewicz@amu.edu.pl
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Personal website of Łukasz Szoszkiewicz, PhD. I am a social scientist with legal background and self-trained data scientist.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -85,7 +85,7 @@ osf_id: # your OSF ID
 research_gate_profile: Lukasz-Szoszkiewicz # your profile on ResearchGate
 scopus_id: # your profile on Scopus
 blogger_url: # your blogger URL
-work_url: # work page URL
+work_url: https://prawo.amu.edu.pl/en/c/title/doctors/p/dr-lukasz-szoszkiewicz-2/ # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
