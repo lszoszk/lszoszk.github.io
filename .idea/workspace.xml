@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Adding new project">
-      <change beforePath="$PROJECT_DIR$/_projects/generalcomments.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/generalcomments.md" afterDir="false" />
-    </list>
+    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Projects update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,15 +97,7 @@
       <workItem from="1706232131774" duration="611000" />
       <workItem from="1706875355905" duration="2218000" />
       <workItem from="1707206837928" duration="1188000" />
-      <workItem from="1707317936325" duration="4624000" />
-    </task>
-    <task id="LOCAL-00012" summary="updating button">
-      <option name="closed" value="true" />
-      <created>1704635805837</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1704635805837</updated>
+      <workItem from="1707317936325" duration="5223000" />
     </task>
     <task id="LOCAL-00013" summary="updating button">
       <option name="closed" value="true" />
@@ -493,7 +483,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707338161741</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Projects update">
+      <option name="closed" value="true" />
+      <created>1707338448572</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1707338448572</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -568,6 +566,7 @@
     <MESSAGE value="Update of publications" />
     <MESSAGE value="Update of news" />
     <MESSAGE value="Adding new project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding new project" />
+    <MESSAGE value="Projects update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projects update" />
   </component>
 </project>
