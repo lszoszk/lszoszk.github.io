@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Update of news">
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_projects/uncomfortabledata.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/uncomfortabledata.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_bibliography/papers.bib" beforeDir="false" afterPath="$PROJECT_DIR$/_bibliography/papers.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/projects.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/projects.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +52,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "didalgo.chatgpt.ToolWindow.ACTIVE": "ONLINE",
-    "last_opened_file_path": "C:/Users/lszos/Documents/GitHub/lszoszk.github.io/_news",
+    "last_opened_file_path": "C:/Users/lszos/Documents/GitHub/lszoszk.github.io/_projects",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,6 +64,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lszos\Documents\GitHub\lszoszk.github.io\_projects" />
       <recent name="C:\Users\lszos\Documents\GitHub\lszoszk.github.io\_news" />
       <recent name="C:\Users\lszos\Documents\GitHub\lszoszk.github.io\assets\bibliography" />
     </key>
@@ -96,15 +101,9 @@
       <workItem from="1705583474088" duration="21000" />
       <workItem from="1705756030448" duration="1905000" />
       <workItem from="1706232131774" duration="611000" />
-      <workItem from="1706875355905" duration="1520000" />
-    </task>
-    <task id="LOCAL-00009" summary="updating button">
-      <option name="closed" value="true" />
-      <created>1704634087869</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1704634087869</updated>
+      <workItem from="1706875355905" duration="2218000" />
+      <workItem from="1707206837928" duration="1188000" />
+      <workItem from="1707317936325" duration="4073000" />
     </task>
     <task id="LOCAL-00010" summary="updating button">
       <option name="closed" value="true" />
@@ -490,7 +489,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706876567061</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Update of news">
+      <option name="closed" value="true" />
+      <created>1706876993812</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1706876993812</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
