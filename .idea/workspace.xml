@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Update of news">
-      <change afterPath="$PROJECT_DIR$/_projects/uncomfortabledata.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/uncomfortabledata.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_bibliography/papers.bib" beforeDir="false" afterPath="$PROJECT_DIR$/_bibliography/papers.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/projects.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/projects.md" afterDir="false" />
+    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Adding new project">
+      <change beforePath="$PROJECT_DIR$/_projects/generalcomments.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/generalcomments.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,23 +99,7 @@
       <workItem from="1706232131774" duration="611000" />
       <workItem from="1706875355905" duration="2218000" />
       <workItem from="1707206837928" duration="1188000" />
-      <workItem from="1707317936325" duration="4073000" />
-    </task>
-    <task id="LOCAL-00010" summary="updating button">
-      <option name="closed" value="true" />
-      <created>1704634625743</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1704634625743</updated>
-    </task>
-    <task id="LOCAL-00011" summary="updating button">
-      <option name="closed" value="true" />
-      <created>1704635071166</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1704635071166</updated>
+      <workItem from="1707317936325" duration="4624000" />
     </task>
     <task id="LOCAL-00012" summary="updating button">
       <option name="closed" value="true" />
@@ -497,7 +477,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706876993812</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Adding new project">
+      <option name="closed" value="true" />
+      <created>1707337891901</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1707337891902</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Adding new project">
+      <option name="closed" value="true" />
+      <created>1707338161740</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1707338161741</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -571,6 +567,7 @@
     <MESSAGE value="Update CV" />
     <MESSAGE value="Update of publications" />
     <MESSAGE value="Update of news" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update of news" />
+    <MESSAGE value="Adding new project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding new project" />
   </component>
 </project>
