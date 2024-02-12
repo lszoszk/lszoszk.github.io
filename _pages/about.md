@@ -21,4 +21,4 @@ My research focuses on the <strong>international human rights law</strong> and t
 
 I employ a range of methodologies, including natural language processing (Python), statistics, corpus linguistics, and grounded theory.
 
-Currently, I am working on neurorights, the <a href="https://lszoszk.github.io/projects/goodpractices/">concept of 'good practice' in human rights</a>, and developing a <a href="https://lszoszk.github.io/projects/generalcomments/">search engine for the UN Treaty Bodies' documents</a>.
+Currently, I am working on <a href="https://lszoszk.github.io/projects/neurorights/">neurorights</a>, the <a href="https://lszoszk.github.io/projects/goodpractices/">concept of 'good practice' in human rights</a>, and developing a <a href="https://lszoszk.github.io/projects/generalcomments/">search engine for the UN Treaty Bodies' documents</a>.
