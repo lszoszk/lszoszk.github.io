@@ -19,7 +19,7 @@ related_publications: true
 <ul>
 <li><strong>data availability</strong> (developing the infrastructure to produce and make available data; conducting research as part of official statistics; and ensuring data literacy);</li>
 <li><strong>data accessibility</strong> (balancing the protection of data producers with the interests of researchers and the public in their reprocessing; data quality (ensuring the quality of public sector data, and establishment of participatory mechanisms for the representatives of concerned groups);</li>
-<li><strong>data quality</strong> (ensuring the quality of public sector data, and establishment of participatory mechanisms for the representatives of concerned groups)</li>
+<li><strong>data quality</strong> (ensuring the quality of public sector data, and establishment of participatory mechanisms for the representatives of concerned groups);</li>
 <li><strong>data acceptability</strong> (ensuring the flow of information between researchers and society, as well as ensuring protection against misuse of data analytics).</li>
 </ul>
 <p>During the project, I conducted a 3,5-month research stay at the <a href="https://id.univie.ac.at/en/team/visiting-researchers/szoszkiewicz-lukasz/">Department of Innovation and Digitalisation in Law (University of Vienna)</a>.</p>
