@@ -5,7 +5,6 @@ description: Providing a better understanding of the concept of promising practi
 img: assets/img/promisingpractices.png
 importance: 2
 category: work
-giscus_comments: true
 ---
 
 <p>Building on the experience from the <a href="https://www.ohchr.org/en/treaty-bodies/crc/united-nations-global-study-children-deprived-liberty">UN Global Study on Children Deprived of Liberty</a> and its follow-up initiatives, this project aims to provide a better understanding of the concept of promising/good/best practices in international human rights law, with particular focus on children’s rights. To this end, the project foresees:
