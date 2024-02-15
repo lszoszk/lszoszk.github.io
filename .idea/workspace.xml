@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Adding project">
-      <change beforePath="$PROJECT_DIR$/_bibliography/papers.bib" beforeDir="false" afterPath="$PROJECT_DIR$/_bibliography/papers.bib" afterDir="false" />
-    </list>
+    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Adding project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,23 +102,7 @@
       <workItem from="1707427795557" duration="270000" />
       <workItem from="1707726648353" duration="1196000" />
       <workItem from="1707750232789" duration="64000" />
-      <workItem from="1707920935640" duration="3830000" />
-    </task>
-    <task id="LOCAL-00019" summary="updating button">
-      <option name="closed" value="true" />
-      <created>1704640764289</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1704640764289</updated>
-    </task>
-    <task id="LOCAL-00020" summary="updating button">
-      <option name="closed" value="true" />
-      <created>1704648659068</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1704648659068</updated>
+      <workItem from="1707920935640" duration="4111000" />
     </task>
     <task id="LOCAL-00021" summary="updating button">
       <option name="closed" value="true" />
@@ -498,7 +480,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707925214560</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Adding project">
+      <option name="closed" value="true" />
+      <created>1707925392175</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1707925392177</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Adding project">
+      <option name="closed" value="true" />
+      <created>1707925468948</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1707925468948</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

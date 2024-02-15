@@ -4,6 +4,8 @@ title: UN Treaty Bodies Search
 description: Search and analyze General Comments/Recommendations adopted by the UN Treaty Bodies
 img: assets/img/project21.jpg
 importance: 1
+category: work
+giscus_comments: true
 ---
 
 <a href="https://zenodo.org/doi/10.5281/zenodo.10495719"><img src="https://zenodo.org/badge/741047917.svg" alt="DOI"></a>
