@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="News update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/teaching.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/teaching.md" afterDir="false" />
-    </list>
+    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Teaching update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,15 +106,7 @@
       <workItem from="1708002866744" duration="898000" />
       <workItem from="1711199548050" duration="852000" />
       <workItem from="1711537175574" duration="17000" />
-      <workItem from="1712236225301" duration="741000" />
-    </task>
-    <task id="LOCAL-00023" summary="updating button">
-      <option name="closed" value="true" />
-      <created>1704654822911</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1704654822911</updated>
+      <workItem from="1712236225301" duration="1524000" />
     </task>
     <task id="LOCAL-00024" summary="update of the project">
       <option name="closed" value="true" />
@@ -503,7 +492,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711199851943</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Teaching update">
+      <option name="closed" value="true" />
+      <created>1712238086681</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1712238086684</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,6 +582,7 @@
     <MESSAGE value="Adding project" />
     <MESSAGE value="CV update" />
     <MESSAGE value="News update" />
-    <option name="LAST_COMMIT_MESSAGE" value="News update" />
+    <MESSAGE value="Teaching update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Teaching update" />
   </component>
 </project>
