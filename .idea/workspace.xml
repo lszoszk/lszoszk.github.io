@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="CV update">
+    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="News update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/teaching.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/teaching.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;didalgo.chatgpt.ToolWindow.ACTIVE&quot;: &quot;ONLINE&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lszos/Documents/GitHub/lszoszk.github.io/_projects&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lszos/Documents/GitHub/lszoszk.github.io/_news&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -60,8 +61,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\lszos\Documents\GitHub\lszoszk.github.io\_projects" />
       <recent name="C:\Users\lszos\Documents\GitHub\lszoszk.github.io\_news" />
+      <recent name="C:\Users\lszos\Documents\GitHub\lszoszk.github.io\_projects" />
       <recent name="C:\Users\lszos\Documents\GitHub\lszoszk.github.io\assets\bibliography" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -106,14 +107,9 @@
       <workItem from="1707750232789" duration="64000" />
       <workItem from="1707920935640" duration="4111000" />
       <workItem from="1708002866744" duration="898000" />
-    </task>
-    <task id="LOCAL-00022" summary="updating button">
-      <option name="closed" value="true" />
-      <created>1704654438646</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1704654438646</updated>
+      <workItem from="1711199548050" duration="852000" />
+      <workItem from="1711537175574" duration="17000" />
+      <workItem from="1712236225301" duration="741000" />
     </task>
     <task id="LOCAL-00023" summary="updating button">
       <option name="closed" value="true" />
@@ -499,7 +495,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708003153654</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="News update">
+      <option name="closed" value="true" />
+      <created>1711199851943</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1711199851943</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -580,6 +584,7 @@
     <MESSAGE value="Adding links" />
     <MESSAGE value="Adding project" />
     <MESSAGE value="CV update" />
-    <option name="LAST_COMMIT_MESSAGE" value="CV update" />
+    <MESSAGE value="News update" />
+    <option name="LAST_COMMIT_MESSAGE" value="News update" />
   </component>
 </project>

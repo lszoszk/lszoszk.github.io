@@ -14,7 +14,7 @@ The course is divided into two modules, namely: 1) introduction to data science;
 
 The course includes three hand-on laboaratory classes:
 <ul>
-<li>Introduction to analyzing legal texts as data | <a href="https://colab.research.google.com/drive/1R6D8WYGCtRX_JUKWfaz69GhWHhwyFtil?usp=sharing">Google Colab</a></li>
+<li>Introduction to analyzing legal texts as data | Google Colab: <a href="https://colab.research.google.com/drive/1UldzcjlsbsyPsWq3QCveW-rr_u5-vLgd?usp=sharing">EN version</a> | <a href="https://colab.research.google.com/drive/1R6D8WYGCtRX_JUKWfaz69GhWHhwyFtil?usp=sharing">PL version</a></li>
 <li>Introduction to statistical modeling - predicting the outcomes of the ECtHR cases | <a href="https://colab.research.google.com/drive/19HVAq40ay3oBLLsxCEWjJG675UzyX5KV?usp=sharing">Google Colab</a></li>
 <li>Introduction to descriptive statistics - how to detect bias in data & Simpson's Paradox</li> | <a href="https://colab.research.google.com/drive/1BGyL1VMKHsEz4-bHVW9m0JMTKRV3937_?usp=sharing">Google Colab</a>
 </ul>
