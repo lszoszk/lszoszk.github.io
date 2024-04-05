@@ -15,9 +15,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a social scientist with legal background and self-trained data scientist.
+I am a social scientist with a legal background and a self-trained data scientist.
 
-My research focuses on the <strong>international human rights law</strong> and the challenges posed by new technologies - <strong>Artificial Intelligence and neurotechnologies</strong>. Considering how digital technologies erase geographical boundaries, it's vital to address new challenges from the global perspective. This is why my work concentrates on the <strong>UN framework</strong>, with a specific focus on social rights and the rights of the child. 
+My research focuses on <strong>international human rights law</strong> and the challenges posed by new technologies, such as <strong>Artificial Intelligence</strong> and <strong>neurotechnologies</strong>. Considering how digital technologies erase geographical boundaries, it’s vital to address new challenges from a global perspective. This is why my work concentrates on the UN framework, with a specific focus on social rights and the rights of the child.
 
 I employ a range of methodologies, including natural language processing (Python), statistics, corpus linguistics, and grounded theory.
 
