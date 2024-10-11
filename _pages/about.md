@@ -23,4 +23,4 @@ I employ a range of methodologies, including natural language processing (Python
 
 Currently, I am working on <a href="https://lszoszk.github.io/projects/neurorights/">neurorights</a> and develop a <a href="https://lszoszk.github.io/projects/generalcomments/">search engine for the UN Treaty Bodies' documents</a>.
 
-During the 2024-25 academic year, I’m on a Fulbright scholarship at Columbia University, focusing on mental privacy and neurotechnologies.
+During the 2024-25 academic year, I’m on a Fulbright scholarship at Columbia University, focusing on mental privacy and speech decoding.
