@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Assistant Professor @ <a href='https://prawo.amu.edu.pl/en/'>Adam Mickiewicz University</a> | European Affairs @ <a href="https://neurorightsfoundation.org/">The Neurorights Foundation</a> | Fulbright Scholar '24-'25 <a href="https://ntc.columbia.edu/">@Columbia University</a> | l.szoszkiewicz@amu.edu.pl
+subtitle: <a href='https://prawo.amu.edu.pl/en/'>Adam Mickiewicz University</a> | <a href="https://neurorightsfoundation.org/people">The Neurorights Foundation</a> | Fulbright @ <a href="https://ntc.columbia.edu/">@Columbia University</a> | l.szoszkiewicz@amu.edu.pl
 
 profile:
   align: right
