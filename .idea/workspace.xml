@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="News update">
-      <change afterPath="$PROJECT_DIR$/_news/announcement_7.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_news/announcement_8.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_news/announcement_9.md" afterDir="false" />
+    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Merge remote-tracking branch 'origin/master'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +25,8 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -119,23 +117,7 @@
       <workItem from="1713015619871" duration="16000" />
       <workItem from="1713513683542" duration="557000" />
       <workItem from="1714057539925" duration="19000" />
-      <workItem from="1728688385808" duration="945000" />
-    </task>
-    <task id="LOCAL-00031" summary="update of the website">
-      <option name="closed" value="true" />
-      <created>1704924521422</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1704924521422</updated>
-    </task>
-    <task id="LOCAL-00032" summary="update of the website">
-      <option name="closed" value="true" />
-      <created>1704924665385</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1704924665385</updated>
+      <workItem from="1728688385808" duration="1645000" />
     </task>
     <task id="LOCAL-00033" summary="update of the website">
       <option name="closed" value="true" />
@@ -513,7 +495,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713514225353</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="News update">
+      <option name="closed" value="true" />
+      <created>1728689525840</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1728689525843</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Merge remote-tracking branch 'origin/master'">
+      <option name="closed" value="true" />
+      <created>1728689550385</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1728689550385</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -596,6 +594,7 @@
     <MESSAGE value="CV update" />
     <MESSAGE value="Teaching update" />
     <MESSAGE value="News update" />
-    <option name="LAST_COMMIT_MESSAGE" value="News update" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'" />
   </component>
 </project>

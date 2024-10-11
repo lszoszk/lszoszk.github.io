@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://prawo.amu.edu.pl/en/'>Adam Mickiewicz University</a> | l.szoszkiewicz@amu.edu.pl
+subtitle: Assistant Professor @ <a href='https://prawo.amu.edu.pl/en/'>Adam Mickiewicz University</a> | European Affairs @ <a href="https://neurorightsfoundation.org/">The Neurorights Foundation</a> | Fulbright Scholar '24-'25 <a href="https://ntc.columbia.edu/">@Columbia University</a> | l.szoszkiewicz@amu.edu.pl
 
 profile:
   align: right
@@ -21,4 +21,6 @@ My research focuses on <strong>international human rights law</strong> and the c
 
 I employ a range of methodologies, including natural language processing (Python), statistics, corpus linguistics, and grounded theory.
 
-Currently, I am working on <a href="https://lszoszk.github.io/projects/neurorights/">neurorights</a>, the <a href="https://lszoszk.github.io/projects/goodpractices/">concept of 'good practice' in human rights</a>, and developing a <a href="https://lszoszk.github.io/projects/generalcomments/">search engine for the UN Treaty Bodies' documents</a>.
+Currently, I am working on <a href="https://lszoszk.github.io/projects/neurorights/">neurorights</a> and develop a <a href="https://lszoszk.github.io/projects/generalcomments/">search engine for the UN Treaty Bodies' documents</a>.
+
+During the 2024-25 academic year, I’m on a Fulbright scholarship at Columbia University, focusing on mental privacy and neurotechnologies.
