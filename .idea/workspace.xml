@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Teaching update">
-      <change afterPath="$PROJECT_DIR$/_news/announcement_6.md" afterDir="false" />
+    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="News update">
+      <change afterPath="$PROJECT_DIR$/_news/announcement_7.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_news/announcement_8.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_news/announcement_9.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_news/announcement_5.md" beforeDir="false" afterPath="$PROJECT_DIR$/_news/announcement_5.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,31 +117,9 @@
       <workItem from="1712692236439" duration="119000" />
       <workItem from="1712841155434" duration="685000" />
       <workItem from="1713015619871" duration="16000" />
-      <workItem from="1713513683542" duration="289000" />
-    </task>
-    <task id="LOCAL-00028" summary="update of the website">
-      <option name="closed" value="true" />
-      <created>1704918157345</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1704918157345</updated>
-    </task>
-    <task id="LOCAL-00029" summary="update of the website">
-      <option name="closed" value="true" />
-      <created>1704921477513</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1704921477513</updated>
-    </task>
-    <task id="LOCAL-00030" summary="update of the website">
-      <option name="closed" value="true" />
-      <created>1704924207603</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1704924207603</updated>
+      <workItem from="1713513683542" duration="557000" />
+      <workItem from="1714057539925" duration="19000" />
+      <workItem from="1728688385808" duration="945000" />
     </task>
     <task id="LOCAL-00031" summary="update of the website">
       <option name="closed" value="true" />
@@ -510,7 +489,31 @@
       <option name="project" value="LOCAL" />
       <updated>1712841247902</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Teaching update">
+      <option name="closed" value="true" />
+      <created>1713513988370</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1713513988371</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Teaching update">
+      <option name="closed" value="true" />
+      <created>1713514218794</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1713514218794</updated>
+    </task>
+    <task id="LOCAL-00079" summary="News update">
+      <option name="closed" value="true" />
+      <created>1713514225353</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1713514225353</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,8 +594,8 @@
     <MESSAGE value="Adding links" />
     <MESSAGE value="Adding project" />
     <MESSAGE value="CV update" />
-    <MESSAGE value="News update" />
     <MESSAGE value="Teaching update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Teaching update" />
+    <MESSAGE value="News update" />
+    <option name="LAST_COMMIT_MESSAGE" value="News update" />
   </component>
 </project>
