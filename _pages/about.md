@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://prawo.amu.edu.pl/en/'>Adam Mickiewicz University</a> | <a href="https://neurorightsfoundation.org/people">The Neurorights Foundation</a> | Fulbright @ <a href="https://ntc.columbia.edu/">@Columbia University</a> | l.szoszkiewicz@amu.edu.pl
+subtitle: <a href='https://prawo.amu.edu.pl/en/'>Adam Mickiewicz University</a> | <a href="https://neurorightsfoundation.org/people">The Neurorights Foundation</a> | l.szoszkiewicz@amu.edu.pl
 
 profile:
   align: right
@@ -23,4 +23,4 @@ I employ a range of methodologies, including natural language processing (Python
 
 Currently, I am working on <a href="https://lszoszk.github.io/projects/neurorights/">neurorights</a> and develop a <a href="https://lszoszk.github.io/projects/generalcomments/">search engine for the UN Treaty Bodies' documents</a>.
 
-During the 2024-25 academic year, I’m on a Fulbright scholarship at Columbia University, focusing on mental privacy and speech decoding.
+During the 2024-25 academic year, I’m on a Fulbright scholarship at the <a href="https://ntc.columbia.edu/">Columbia University (Neurotechnology Center)</a>, focusing on mental privacy and speech decoding.
