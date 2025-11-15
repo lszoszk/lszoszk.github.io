@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Adding vibecoding subpage">
-      <change beforePath="$PROJECT_DIR$/_pages/vibecoding.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/responsbile-vibe-coding.md" afterDir="false" />
-    </list>
+    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Adding vibecoding subpage" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -147,15 +145,7 @@
       <workItem from="1757933399525" duration="1720000" />
       <workItem from="1761056348180" duration="30000" />
       <workItem from="1762520460787" duration="1347000" />
-      <workItem from="1763235846016" duration="4487000" />
-    </task>
-    <task id="LOCAL-00053" summary="Update CV">
-      <option name="closed" value="true" />
-      <created>1705756220155</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1705756220155</updated>
+      <workItem from="1763235846016" duration="4876000" />
     </task>
     <task id="LOCAL-00054" summary="Update of publications">
       <option name="closed" value="true" />
@@ -541,7 +531,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763245506439</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="Adding vibecoding subpage">
+      <option name="closed" value="true" />
+      <created>1763245732708</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1763245732708</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
