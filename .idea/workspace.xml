@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Reloading previous ver">
-      <change afterPath="$PROJECT_DIR$/_news/announcement_20.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="News update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -148,15 +145,7 @@
       <workItem from="1757933399525" duration="1720000" />
       <workItem from="1761056348180" duration="30000" />
       <workItem from="1762520460787" duration="1347000" />
-      <workItem from="1763235846016" duration="6016000" />
-    </task>
-    <task id="LOCAL-00058" summary="Update of news">
-      <option name="closed" value="true" />
-      <created>1706876993812</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1706876993812</updated>
+      <workItem from="1763235846016" duration="6397000" />
     </task>
     <task id="LOCAL-00059" summary="Adding new project">
       <option name="closed" value="true" />
@@ -542,7 +531,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763246834879</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="News update">
+      <option name="closed" value="true" />
+      <created>1763247176324</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1763247176324</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -623,12 +620,12 @@
     <MESSAGE value="Adding project" />
     <MESSAGE value="CV update" />
     <MESSAGE value="Teaching update" />
-    <MESSAGE value="News update" />
     <MESSAGE value="Update" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="Adding vibecoding subpage" />
     <MESSAGE value="Reloading previous ver" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reloading previous ver" />
+    <MESSAGE value="News update" />
+    <option name="LAST_COMMIT_MESSAGE" value="News update" />
   </component>
 </project>
