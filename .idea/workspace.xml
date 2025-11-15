@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Adding vibecoding subpage" />
+    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Reloading previous ver">
+      <change afterPath="$PROJECT_DIR$/_news/announcement_20.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +65,7 @@
     "WebServerToolWindowFactoryState": "false",
     "didalgo.chatgpt.ToolWindow.ACTIVE": "ONLINE",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/lszoszk/PycharmProjects/lszoszk.github.io/_includes",
+    "last_opened_file_path": "/Users/lszoszk/PycharmProjects/lszoszk.github.io/_news",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -74,9 +77,9 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_news" />
       <recent name="$PROJECT_DIR$/_includes" />
       <recent name="$PROJECT_DIR$/_pages" />
-      <recent name="$PROJECT_DIR$/_news" />
       <recent name="C:\Users\lszos\Documents\GitHub\lszoszk.github.io\_news" />
       <recent name="C:\Users\lszos\Documents\GitHub\lszoszk.github.io\_projects" />
     </key>
@@ -145,23 +148,7 @@
       <workItem from="1757933399525" duration="1720000" />
       <workItem from="1761056348180" duration="30000" />
       <workItem from="1762520460787" duration="1347000" />
-      <workItem from="1763235846016" duration="5277000" />
-    </task>
-    <task id="LOCAL-00056" summary="Update of news">
-      <option name="closed" value="true" />
-      <created>1706876251039</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1706876251039</updated>
-    </task>
-    <task id="LOCAL-00057" summary="Update of news">
-      <option name="closed" value="true" />
-      <created>1706876567061</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1706876567061</updated>
+      <workItem from="1763235846016" duration="6016000" />
     </task>
     <task id="LOCAL-00058" summary="Update of news">
       <option name="closed" value="true" />
@@ -539,7 +526,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763246248610</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="Adding vibecoding subpage">
+      <option name="closed" value="true" />
+      <created>1763246566856</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1763246566856</updated>
+    </task>
+    <task id="LOCAL-00106" summary="Reloading previous ver">
+      <option name="closed" value="true" />
+      <created>1763246834879</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1763246834879</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -601,7 +604,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="update" />
     <MESSAGE value="update of pictures" />
     <MESSAGE value="adding button" />
     <MESSAGE value="updating button" />
@@ -626,6 +628,7 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="Adding vibecoding subpage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding vibecoding subpage" />
+    <MESSAGE value="Reloading previous ver" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reloading previous ver" />
   </component>
 </project>
