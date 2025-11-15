@@ -1,0 +1,9 @@
+---
+layout: page
+permalink: /vibecoding/
+title: Vibe-Coding for Human Rights
+description: Programming with Natural Language for Human Rights
+nav: true
+nav_order: 7
+---
+% include_relative ../assets/responsible-vibe-coding/responsible-vibe-coding.html %}
