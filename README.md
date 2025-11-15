@@ -282,7 +282,124 @@ $ pip install jupyter
 $ bundle exec jekyll serve --lsi
 ```
 
+> **Having trouble installing gems?**
+> Some environments (e.g., shared machines or CI runners) block writes to the
+> system RubyGems directory and show `Your user account isn't allowed to install
+> to the system RubyGems.`. In that case, run Bundler with a local path so the
+> gems install inside the repository:
+>
+> ```bash
+> $ bundle install --path vendor/bundle
+> ```
+>
+> You can double-check that Bundler is configured to reuse this folder with
+> `bundle config get path` (it should print `vendor/bundle`).
+
 To see the template running, open your browser and go to `http://localhost:4000`. You should see a copy of the theme's demo website. Now, feel free to customize the theme however you like. After you are done, remember to **commit** your final changes.
+
+##### Fixing `LoadError: cannot load such file -- google/protobuf_c`
+
+macOS users occasionally see this error when running `bundle exec jekyll serve` because the transitive `google-protobuf` gem did not compile its native extension inside `vendor/bundle`.
+
+**Fast fix:** run the helper script we added in `bin/fix-protobuf-macos.sh` (it removes the broken gem, forces Bundler to compile the replacement, and verifies the `google/protobuf_c` extension):
+
+```bash
+bin/fix-protobuf-macos.sh
+```
+
+**Where do I run that command? (plain-English version)**
+
+1. **Open the Terminal app on your Mac.** Press `⌘ + Space`, type “Terminal”, and hit Enter.
+2. **Move into your website folder.** Type `cd ` (with a trailing space), then drag the `lszoszk.github.io` folder from Finder into the Terminal window so macOS fills in the full path. Press Enter.
+3. **Check that you are in the right place.** Run `pwd`. The output should end with `/lszoszk.github.io`. If it doesn’t, repeat step 2.
+4. **Run the helper script.** Enter:
+
+   ```bash
+   ./bin/fix-protobuf-macos.sh
+   ```
+
+   (The leading `./` just means “run the file that lives inside this folder.”)
+5. **Wait for the script to finish.** It removes the broken gem, reinstalls everything with Bundler, and then suggests the final `bundle exec jekyll serve --lsi` command. Follow the prompt when it appears.
+
+> **Seeing `zsh: no such file or directory: ./bin/fix-protobuf-macos.sh`?**
+> You are either not inside the `lszoszk.github.io` folder yet or you are using an older copy of the repository that predates the helper script. Run `pwd` (the output must end with `/lszoszk.github.io`). Then list the helper with `ls bin/fix-protobuf-macos.sh`. If the file is missing, pull the latest code from GitHub (our default branch is `work`, so run `git pull origin work`) or download a fresh ZIP before trying again. If your fork uses a different default branch name, check it with `git remote show origin` (look for “HEAD branch”) or `git branch -r` and pull that branch instead of hardcoding `main`.
+
+#### “fatal: couldn't find remote ref main”
+
+If you see this error when running `git pull origin main`, it means your remote repository does **not** have a branch called `main`. This project’s canonical branch is `work`, so run:
+
+```bash
+git pull origin work
+```
+
+If you renamed the branch in your fork, replace `work` with the name reported by `git remote show origin` (look for the “HEAD branch” line) or by `git ls-remote --heads origin`.
+
+That’s it—no editing of the script is required, and you never need administrator permissions. Every time the protobuf error reappears, just repeat the steps above.
+
+Prefer to run the steps manually? Rebuild the gem with the commands below:
+
+```bash
+# Ensure Apple's command line tools (clang + make) are available — harmless if already installed
+xcode-select --install
+
+# Remove the broken gem from vendor/bundle so Bundler rebuilds it
+bundle exec gem uninstall google-protobuf -v 3.23.4
+
+# Reinstall all gems so google-protobuf is fetched again (uses vendor/bundle)
+bundle install --jobs "$(sysctl -n hw.ncpu 2>/dev/null || echo 4)" --retry 3
+
+# Retry the server
+bundle exec jekyll serve --lsi
+```
+
+After the reinstall succeeds the `google/protobuf_c` extension will be present inside `vendor/bundle`, allowing `sass-embedded` (and therefore `jekyll-sass-converter`) to load normally.
+
+If you see `Could not find google-protobuf-3.23.4 in any of the sources`, it means the reinstall step above did not run yet—rerun `bundle install` (with the local path still configured) so Bundler downloads the gem again.
+
+Still seeing the same stack trace? Remove the cached gems and force Bundler to rebuild everything from source (the helper script already applies these config settings, but it’s handy to know what it does under the hood):
+
+```bash
+rm -rf vendor/bundle .bundle/config
+
+# reinstall with a local path and skip platform-specific precompiled gems
+bundle config set --local path vendor/bundle
+bundle config set --local force_ruby_platform true
+bundle install
+
+# verify the extension exists
+bundle exec ruby -e "require 'google/protobuf_c'; puts 'google-protobuf OK'"
+
+# start Jekyll
+bundle exec jekyll serve --lsi
+```
+
+This sequence ensures there are no stale binary artifacts (especially from a different Ruby version) and forces Bundler to compile `google-protobuf`—and other native gems—directly for your macOS toolchain.
+
+---
+
+### One-line quickstart (copy/paste only)
+
+When you just want to preview the site, copy and paste these **entire** commands into Terminal from inside the `lszoszk.github.io` folder:
+
+```bash
+bundle install --path vendor/bundle
+bundle exec jekyll serve --lsi
+```
+
+> **If you see `command not found: b`, `m`, `install jekyll`, or similar:**
+> The shell is telling you that only part of a command was entered (for example, just the letter `b`). Make sure to paste the full line from above so the command starts with `bundle`, not `b`, `install`, or any flags by themselves.
+
+If the server stops with `LoadError: cannot load such file -- google/protobuf_c`, run the helper once and then retry the two commands above:
+
+```bash
+./bin/fix-protobuf-macos.sh
+```
+
+---
+
+### Responsible Vibe-Coding workshop snapshot
+
+If you need the long-form “Responsible Vibe-Coding” workshop site as a standalone HTML file (for example to upload elsewhere or share outside the Jekyll build), grab it from `assets/responsible-vibe-coding/responsible-vibe-coding.html`. The live page is rendered from `_includes/responsible-vibe-coding.html` (referenced by `_pages/responsible-vibe-coding.html`), so edit the include to update the site and copy it back to `assets/responsible-vibe-coding/responsible-vibe-coding.html` when you want a refreshed downloadable snapshot.
 
 ---
 
