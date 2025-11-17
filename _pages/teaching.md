@@ -48,7 +48,7 @@ Teaching non-programmers to build working applications through AI-assisted codin
 
 <h3>Workshop Materials</h3>
 <ul>
-<li><strong>Course Website:</strong> <a href="https://lszoszk.github.io/ideas/vibecoding-human-rights">Responsible Vibe-Coding for Human Rights | Venice 2025</a></li>
+<li><strong>Course Website:</strong> <a href="https://lszoszk.github.io/ideas/vibecoding-human-rights" target="_blank">Responsible Vibe-Coding for Human Rights | Venice 2025</a></li>
 <li><strong>Focus:</strong> Building real tools (document databases, search engines) in 2 days</li>
 <li><strong>Methods:</strong> Google Colab, Claude Code, natural language prompting</li>
 <li><strong>Philosophy:</strong> Learning through building, not theory</li>
