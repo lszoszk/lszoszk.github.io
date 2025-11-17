@@ -23,7 +23,7 @@ Teaching non-programmers to build working applications through AI-assisted codin
 <ul>
 <li>Transform collection of documents into searchable databases</li>
 <li>Find patterns invisible to human reading (trends across decades of reports)</li>
-<li>Quantify arguments with data (e.g., "Internet access" mentioned 27 times in 2024 reports - <a href="https://drive.google.com/file/d/11CGoXf4BWN9tX1eiQoLe_ppahvcuX4cc/view?usp=share_link">see example</a>)</li>
+<li>Quantify arguments with data (e.g., "Internet access" mentioned 27 times in 2024 reports - <a href="https://www.tandfonline.com/doi/abs/10.1080/13642987.2025.2552467">see example</a>)</li>
 <li>Build tools like <a href="https://lszoszk.pythonanywhere.com" target="_blank">General Comments Database</a></li>
 <li>Democratize access to legal information</li>
 </ul>
