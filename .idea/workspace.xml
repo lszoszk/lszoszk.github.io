@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Updating teaching.md">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/cv.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/cv.yml" afterDir="false" />
-    </list>
+    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Updating cv" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -153,15 +150,7 @@
       <workItem from="1763235846016" duration="8970000" />
       <workItem from="1763373037596" duration="2699000" />
       <workItem from="1763393659278" duration="2000" />
-      <workItem from="1763400269320" duration="2157000" />
-    </task>
-    <task id="LOCAL-00068" summary="Adding project">
-      <option name="closed" value="true" />
-      <created>1707925392175</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1707925392177</updated>
+      <workItem from="1763400269320" duration="3417000" />
     </task>
     <task id="LOCAL-00069" summary="Adding project">
       <option name="closed" value="true" />
@@ -547,7 +536,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763401745800</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="Updating cv">
+      <option name="closed" value="true" />
+      <created>1763403054445</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1763403054446</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,7 +606,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="update of the website" />
     <MESSAGE value="Add Google Search Console HTML file" />
     <MESSAGE value="Update p" />
     <MESSAGE value="Update projects" />
@@ -634,6 +630,7 @@
     <MESSAGE value="Amending vibecoding human rights" />
     <MESSAGE value="Adding news" />
     <MESSAGE value="Updating teaching.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating teaching.md" />
+    <MESSAGE value="Updating cv" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating cv" />
   </component>
 </project>
