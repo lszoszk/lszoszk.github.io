@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Adding vibecoding human rights">
+    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Amending vibecoding human rights">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ideas/vibecoding-human-rights.html" beforeDir="false" afterPath="$PROJECT_DIR$/ideas/vibecoding-human-rights.html" afterDir="false" />
     </list>
@@ -54,27 +54,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;didalgo.chatgpt.ToolWindow.ACTIVE&quot;: &quot;ONLINE&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/lszoszk/PycharmProjects/lszoszk.github.io/_news&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.didalgo.chatgpt.settings.OpenAISettings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "JavaScript Debug.vibecoding-human-rights.html.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "didalgo.chatgpt.ToolWindow.ACTIVE": "ONLINE",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/lszoszk/PycharmProjects/lszoszk.github.io/_news",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.didalgo.chatgpt.settings.OpenAISettings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_news" />
@@ -150,15 +151,7 @@
       <workItem from="1761056348180" duration="30000" />
       <workItem from="1762520460787" duration="1347000" />
       <workItem from="1763235846016" duration="8970000" />
-      <workItem from="1763373037596" duration="718000" />
-    </task>
-    <task id="LOCAL-00064" summary="Adding links">
-      <option name="closed" value="true" />
-      <created>1707727263650</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1707727263651</updated>
+      <workItem from="1763373037596" duration="2058000" />
     </task>
     <task id="LOCAL-00065" summary="Adding project">
       <option name="closed" value="true" />
@@ -544,7 +537,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763249505779</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="Amending vibecoding human rights">
+      <option name="closed" value="true" />
+      <created>1763374077861</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1763374077861</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -606,7 +607,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="adding button" />
     <MESSAGE value="updating button" />
     <MESSAGE value="update of the project" />
     <MESSAGE value="update of the website" />
@@ -631,6 +631,7 @@
     <MESSAGE value="Reloading previous ver" />
     <MESSAGE value="News update" />
     <MESSAGE value="Adding vibecoding human rights" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding vibecoding human rights" />
+    <MESSAGE value="Amending vibecoding human rights" />
+    <option name="LAST_COMMIT_MESSAGE" value="Amending vibecoding human rights" />
   </component>
 </project>
