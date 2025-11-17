@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Updating cv">
+    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Updating teaching.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/teaching.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/teaching.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_bibliography/papers.bib" beforeDir="false" afterPath="$PROJECT_DIR$/_bibliography/papers.bib" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,31 +153,7 @@
       <workItem from="1763235846016" duration="8970000" />
       <workItem from="1763373037596" duration="2699000" />
       <workItem from="1763393659278" duration="2000" />
-      <workItem from="1763400269320" duration="4383000" />
-    </task>
-    <task id="LOCAL-00072" summary="Teaching update">
-      <option name="closed" value="true" />
-      <created>1712238086681</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1712238086684</updated>
-    </task>
-    <task id="LOCAL-00073" summary="Teaching update">
-      <option name="closed" value="true" />
-      <created>1712238875566</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1712238875566</updated>
-    </task>
-    <task id="LOCAL-00074" summary="Teaching update">
-      <option name="closed" value="true" />
-      <created>1712239478020</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1712239478021</updated>
+      <workItem from="1763400269320" duration="5155000" />
     </task>
     <task id="LOCAL-00075" summary="Teaching update">
       <option name="closed" value="true" />
@@ -547,7 +523,31 @@
       <option name="project" value="LOCAL" />
       <updated>1763404493503</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="Updating cv">
+      <option name="closed" value="true" />
+      <created>1763410644649</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1763410644649</updated>
+    </task>
+    <task id="LOCAL-00122" summary="Updating teaching.md">
+      <option name="closed" value="true" />
+      <created>1763410836060</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1763410836060</updated>
+    </task>
+    <task id="LOCAL-00123" summary="Updating teaching.md">
+      <option name="closed" value="true" />
+      <created>1763410897994</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1763410897994</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -632,8 +632,8 @@
     <MESSAGE value="Adding vibecoding human rights" />
     <MESSAGE value="Amending vibecoding human rights" />
     <MESSAGE value="Adding news" />
-    <MESSAGE value="Updating teaching.md" />
     <MESSAGE value="Updating cv" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating cv" />
+    <MESSAGE value="Updating teaching.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating teaching.md" />
   </component>
 </project>
