@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Updating cv" />
+    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Updating cv">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/teaching.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/teaching.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -150,31 +153,7 @@
       <workItem from="1763235846016" duration="8970000" />
       <workItem from="1763373037596" duration="2699000" />
       <workItem from="1763393659278" duration="2000" />
-      <workItem from="1763400269320" duration="3417000" />
-    </task>
-    <task id="LOCAL-00069" summary="Adding project">
-      <option name="closed" value="true" />
-      <created>1707925468948</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1707925468948</updated>
-    </task>
-    <task id="LOCAL-00070" summary="CV update">
-      <option name="closed" value="true" />
-      <created>1708003153654</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1708003153654</updated>
-    </task>
-    <task id="LOCAL-00071" summary="News update">
-      <option name="closed" value="true" />
-      <created>1711199851943</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1711199851943</updated>
+      <workItem from="1763400269320" duration="4383000" />
     </task>
     <task id="LOCAL-00072" summary="Teaching update">
       <option name="closed" value="true" />
@@ -544,7 +523,31 @@
       <option name="project" value="LOCAL" />
       <updated>1763403054446</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="Updating cv">
+      <option name="closed" value="true" />
+      <created>1763404278661</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1763404278661</updated>
+    </task>
+    <task id="LOCAL-00119" summary="Updating cv">
+      <option name="closed" value="true" />
+      <created>1763404431632</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1763404431632</updated>
+    </task>
+    <task id="LOCAL-00120" summary="Updating cv">
+      <option name="closed" value="true" />
+      <created>1763404493503</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1763404493503</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
