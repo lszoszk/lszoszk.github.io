@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Updating repositories.yml">
+    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Updating papers.bib">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,23 +154,7 @@
       <workItem from="1763393659278" duration="2000" />
       <workItem from="1763400269320" duration="5591000" />
       <workItem from="1763731842558" duration="1919000" />
-      <workItem from="1763987830254" duration="1312000" />
-    </task>
-    <task id="LOCAL-00083" summary="Merge remote-tracking branch 'origin/master'">
-      <option name="closed" value="true" />
-      <created>1728690234757</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1728690234757</updated>
-    </task>
-    <task id="LOCAL-00084" summary="Merge remote-tracking branch 'origin/master'">
-      <option name="closed" value="true" />
-      <created>1728690348712</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1728690348712</updated>
+      <workItem from="1763987830254" duration="4156000" />
     </task>
     <task id="LOCAL-00085" summary="Merge remote-tracking branch 'origin/master'">
       <option name="closed" value="true" />
@@ -548,7 +532,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763988385797</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="Updating papers.bib">
+      <option name="closed" value="true" />
+      <created>1763989348200</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1763989348200</updated>
+    </task>
+    <task id="LOCAL-00133" summary="Updating papers.bib">
+      <option name="closed" value="true" />
+      <created>1763989968697</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1763989968697</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -633,8 +633,8 @@
     <MESSAGE value="Adding news" />
     <MESSAGE value="Updating cv" />
     <MESSAGE value="Updating teaching.md" />
-    <MESSAGE value="Updating papers.bib" />
     <MESSAGE value="Updating repositories.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating repositories.yml" />
+    <MESSAGE value="Updating papers.bib" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating papers.bib" />
   </component>
 </project>
