@@ -525,6 +525,89 @@
             }
         }
 
+        /* ========== TABLE OF CONTENTS / PAGE OUTLINE ========== */
+        .accessible-toc {
+            background: #C0C0C0;
+            border: 2px solid;
+            border-color: #FFFFFF #000000 #000000 #FFFFFF;
+            margin: 20px 0;
+            box-shadow: 2px 2px 0 #000000;
+        }
+
+        .toc-title {
+            background: linear-gradient(90deg, #000080 0%, #1084D0 100%);
+            color: #FFFFFF;
+            padding: 3px 5px;
+            font-weight: bold;
+            font-size: 13px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .toc-controls {
+            display: flex;
+            gap: 2px;
+        }
+
+        .toc-btn {
+            width: 16px;
+            height: 14px;
+            background: #C0C0C0;
+            border: 1px solid;
+            border-color: #FFFFFF #000000 #000000 #FFFFFF;
+            font-size: 10px;
+            line-height: 12px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .toc-content {
+            background: #FFFFFF;
+            color: #000000;
+            padding: 15px 20px;
+        }
+
+        .accessible-toc ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .accessible-toc li {
+            margin: 0;
+            padding: 0;
+        }
+
+        .accessible-toc a {
+            color: #0000FF;
+            text-decoration: underline;
+            display: block;
+            padding: 6px 8px;
+            font-size: 13px;
+            transition: all 0.1s;
+        }
+
+        .accessible-toc a:hover {
+            background: #0000FF;
+            color: #FFFFFF;
+        }
+
+        .accessible-toc a:active {
+            background: #000080;
+            color: #FFFFFF;
+        }
+
+        /* Optional: add arrow indicator on hover */
+        .accessible-toc a:hover::before {
+            content: "► ";
+            margin-right: 4px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
         @media (max-width: 600px) {
             .app-tile {
                 flex-basis: 100%;
@@ -544,6 +627,27 @@
 ╚══════════════════════════════════════════════════════════════╝
         </div>
 
+        <div class="accessible-toc" role="navigation" aria-label="Page outline">
+            <div class="toc-title" onclick="toggleTOC()" style="cursor: pointer;">
+                <span>📑 WORKSHOP OUTLINE</span>
+                <div class="toc-controls">
+                    <div class="toc-btn">_</div>
+                    <div class="toc-btn" onclick="event.stopPropagation(); toggleTOC();">−</div>
+                    <div class="toc-btn">X</div>
+                </div>
+            </div>
+            <div class="toc-content">
+                <ul>
+                    <li><a href="#paradigm-shift">Paradigm shift</a></li>
+                    <li><a href="#starter-prompt">Starter prompt</a></li>
+                    <li><a href="#five-apps">Five apps from one report</a></li>
+                    <li><a href="#ai-literacy">AI literacy</a></li>
+                    <li><a href="#venice-lessons">Lessons from Venice</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                </ul>
+            </div>
+        </div>
+
         <!-- 1. WHERE WE ARE -->
         <div class="window">
             <div class="window-title">
@@ -555,7 +659,7 @@
                 </div>
             </div>
             <div class="window-content">
-                <h2>Paradigm shift</h2>
+                <h2 id="paradigm-shift">Paradigm shift</h2>
 
                 <p>
                     In the 1980s, graphical interfaces meant almost anyone could <strong>use</strong> a computer.
@@ -593,7 +697,7 @@
                 </div>
             </div>
             <div class="window-content">
-                <h2>Copy This Prompt</h2>
+                <h2 id="starter-prompt">Copy This Prompt</h2>
 
                 <p>This prompt shows what it now means to "program" with natural language: you describe the tool; an AI system generates the code.</p>
 
@@ -654,24 +758,23 @@ Display in the output why and how did you select and defined categories.
                 <div class="code-block">
                     <div class="prompt">dir /workshop</div>
 
-[15 min] OPENING DEMO<br>
-         └── You build your first app<br><br>
+[20 min] OPENING DEMO<br>
+         └── You build your first app<br>
+         └── Taking it to next level with Claude Code<br><br>
 
-[15 min] AI & HUMAN RIGHTS WORK<br>
-         └── AI as a teammate<br>
+[10 min] WHAT YOU CAN BUILD?<br>
+         └── Five exemplary apps inspired by A/80/169<br><br>
+
+[10 min] AI-HUMAN COLLABORATION<br>
+         └── AI as a cybernetic teammate<br>
          └── The jagged technological frontier<br><br>
 
-[15 min] FROM PROTOTYPE TO SYSTEM<br>
+[10 min] AI LITERACY FOR HUMAN RIGHTS PROFESSIONALS<br>
          └── Where AI fits in your pipeline<br>
-         └── Verifiability and human control<br><br>
+         └── Core AI skills<br><br>
 
-[10 min] DEPLOYMENT OPTIONS<br>
-         └── Local vs online<br>
-         └── Security considerations<br><br>
-
-[5 min]  VENICE LESSONS<br>
+[10 min]  VENICE LESSONS<br>
          └── What worked, what did not<br>
-         └── Your path forward
                 </div>
 
                 <p style="margin-top: 15px;"><strong>Programming required:</strong> none</p>
@@ -690,7 +793,7 @@ Display in the output why and how did you select and defined categories.
                 </div>
             </div>
             <div class="window-content">
-                <h2>What You Can "Vibecode" from the UN report</h2>
+                <h2 id="five-apps">What You Can "Vibecode" from the UN report</h2>
 
                 <p>
                     Using the report of the UN Special Rapporteur on the independence of judges and lawyers <strong>A/80/169 – AI in judicial systems: promises and pitfalls</strong> as a
@@ -703,8 +806,7 @@ Display in the output why and how did you select and defined categories.
                     one detailed instruction asking an AI coding model to produce a complete prototype in one go.
                     Each prompt refers to
                     <a href="https://www.ohchr.org/en/documents/thematic-reports/a80169-ai-judicial-systems-promises-and-pitfalls-report-special" target="_blank">
-                        A/80/169
-                    </a>.<br><br>
+                        A/80/169</a>.<br><br>
                     These apps are <strong>demonstration tools only</strong>.
                 </div>
 
@@ -716,21 +818,6 @@ Display in the output why and how did you select and defined categories.
                 </ul>
 
                 <div class="app-grid">
-                    <div class="app-tile" onclick="showAppDetails('ai-landscape')">
-                        <div class="app-icon">🗺️</div>
-                        <div class="app-text">
-                            <div class="app-title-text">AI Use Landscape</div>
-                            <div class="app-subtitle">Where courts already use AI</div>
-                        </div>
-                    </div>
-
-                    <div class="app-tile" onclick="showAppDetails('risk-rights')">
-                        <div class="app-icon">⚖️</div>
-                        <div class="app-text">
-                            <div class="app-title-text">Risk & Rights Explorer</div>
-                            <div class="app-subtitle">Link AI uses to rights</div>
-                        </div>
-                    </div>
 
                     <div class="app-tile" onclick="showAppDetails('safeguards')">
                         <div class="app-icon">🛡️</div>
@@ -755,13 +842,26 @@ Display in the output why and how did you select and defined categories.
                             <div class="app-subtitle">What to automate (or not)</div>
                         </div>
                     </div>
+
+                    <div class="app-tile" onclick="showAppDetails('ai-landscape')">
+                        <div class="app-icon">🗺️</div>
+                        <div class="app-text">
+                            <div class="app-title-text">AI Use Landscape</div>
+                            <div class="app-subtitle">Where courts already use AI</div>
+                        </div>
+                    </div>
+
+                    <div class="app-tile" onclick="showAppDetails('risk-rights')">
+                        <div class="app-icon">⚖️</div>
+                        <div class="app-text">
+                            <div class="app-title-text">Risk & Rights Explorer</div>
+                            <div class="app-subtitle">Link AI uses to rights</div>
+                        </div>
+                    </div>
                 </div>
 
                 <div id="app-detail-placeholder" class="app-detail-placeholder">
                     Select a tile above to open a small window with the description, workshop prompt and (where available) a live demo.<br><br>
-                    <em>Vibecoding safety check:</em>
-                    <strong>"Can I easily verify whether this output is correct?"</strong>
-                    If yes, it is a better candidate for automation. If not, treat it as a sketch, not as evidence.
                 </div>
 
                 <!-- Detail windows for each app -->
@@ -1264,7 +1364,7 @@ Keep all examples generic and training-oriented. Do not turn this into a scoreca
                 </div>
             </div>
             <div class="window-content">
-                <h2>From "AI Does It" to "AI in the Pipeline"</h2>
+                <h2 id="ai-literacy">From "AI Does It" to "AI in the Pipeline"</h2>
 
                 <p>
                     AI rarely "does the whole job". It sits inside a larger process you design and supervise.
@@ -1335,7 +1435,7 @@ Keep all examples generic and training-oriented. Do not turn this into a scoreca
                 </div>
             </div>
             <div class="window-content">
-                <h2>What I Learned Teaching 16 Human Rights Professionals</h2>
+                <h2 id="venice-lessons">What I Learned Teaching 16 Human Rights Professionals</h2>
 
                 <p>
                     <strong>Setting:</strong> 2-day workshop at Global Campus of Human Rights, Venice.<br>
@@ -1375,7 +1475,6 @@ Keep all examples generic and training-oriented. Do not turn this into a scoreca
                 <div class="info-box">
                     <strong>Final thought:</strong> Teaching AI literacy to human rights professionals isn't about making them programmers.
                     It's about showing them what's possible and giving them the confidence to try.
-                    But we cannot assume "accessible" means the same thing to everyone.
                 </div>
             </div>
         </div>
@@ -1391,11 +1490,11 @@ Keep all examples generic and training-oriented. Do not turn this into a scoreca
                 </div>
             </div>
             <div class="window-content">
-                <h2>Your Toolkit</h2>
+                <h2 id="resources">Your Toolkit</h2>
 
                 <h3>Key Reading</h3>
                 <ul>
-                    <li><a href="https://karpathy.medium.com/software-2-0-a64152b37c35" target="_blank">Karpathy – Software 2.0</a></li>
+                    <li><a href="https://karpathy.medium.com/software-2-0-a64152b37c35" target="_blank">Karpathy – Software 3.0</a></li>
                     <li><a href="https://www.oneusefulthing.org/p/centaurs-and-cyborgs-on-the-jagged" target="_blank">Mollick – Centaurs and Cyborgs on the Jagged Frontier</a></li>
                     <li><a href="https://www.oneusefulthing.org/p/the-cybernetic-teammate" target="_blank">Mollick – The Cybernetic Teammate</a></li>
                     <li><a href="https://www.ohchr.org/en/documents/thematic-reports/a80169-ai-judicial-systems-promises-and-pitfalls-report-special" target="_blank">UN Report A/80/169 – AI in Judicial Systems</a></li>
@@ -1403,15 +1502,14 @@ Keep all examples generic and training-oriented. Do not turn this into a scoreca
 
                 <h3>Tools to Experiment With</h3>
                 <ul>
-                    <li><strong>For prototyping:</strong> <a href="https://lmarena.ai" target="_blank">LM Arena</a>, <a href="https://claude.ai" target="_blank">Claude</a>, Gemini</li>
-                    <li><strong>For data processing:</strong> <a href="https://colab.research.google.com" target="_blank">Google Colab</a></li>
-                    <li><strong>For collaboration & review:</strong> <a href="https://github.com" target="_blank">GitHub</a></li>
+                    <li><strong>For prototyping:</strong> <a href="https://lmarena.ai" target="_blank">LM Arena</a>, <a href="https://claude.ai" target="_blank">Claude Code</a></li>
+                    <li><strong>For pre-built resources & collaboration:</strong> <a href="https://huggingface.co" target="_blank">Hugging Face</a>, <a href="https://github.com" target="_blank">GitHub</a></li>
                 </ul>
 
                 <h3>Example Projects</h3>
                 <ul>
                     <li><a href="https://lszoszk.pythonanywhere.com" target="_blank">UN Treaty Body Database</a> – full implementation</li>
-                    <li><a href="https://lszoszk.pythonanywhere.com/oneshot" target="_blank">One‑Prompt Demo</a> – what a single prompt can produce</li>
+                    <li><a href="https://lszoszk.pythonanywhere.com/oneshot" target="_blank">One‑Shot Demo</a> – what a single prompt can produce</li>
                 </ul>
             </div>
         </div>
@@ -1646,6 +1744,14 @@ or analyse for our field?"
                 consoleEl.style.display = 'none';
             }
         }
+
+        // ========== COLLAPSIBLE TOC ==========
+function toggleTOC() {
+    const content = document.querySelector('.toc-content');
+    if (content) {
+        content.style.display = content.style.display === 'none' ? 'block' : 'none';
+    }
+}
 
         // ========== CONSOLE MESSAGE ==========
         console.log(`

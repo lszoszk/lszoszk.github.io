@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Updating papers.bib">
-      <change afterPath="$PROJECT_DIR$/ideas/ai-human-collaboration.html" afterDir="false" />
+    <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="Adding handouts for Geneva ITU 2025 Workshop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ideas/ai-human-collaboration.html" beforeDir="false" afterPath="$PROJECT_DIR$/ideas/ai-human-collaboration.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,15 +167,7 @@
       <workItem from="1763993133645" duration="7249000" />
       <workItem from="1764180390265" duration="3711000" />
       <workItem from="1764239426071" duration="25283000" />
-      <workItem from="1764660308980" duration="5555000" />
-    </task>
-    <task id="LOCAL-00086" summary="Merge remote-tracking branch 'origin/master'">
-      <option name="closed" value="true" />
-      <created>1728690553214</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1728690553214</updated>
+      <workItem from="1764660308980" duration="8862000" />
     </task>
     <task id="LOCAL-00087" summary="Merge remote-tracking branch 'origin/master'">
       <option name="closed" value="true" />
@@ -561,7 +553,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763993338499</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="Adding handouts for Geneva ITU 2025 Workshop">
+      <option name="closed" value="true" />
+      <created>1764674471246</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1764674471247</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -623,7 +623,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Update projects" />
     <MESSAGE value="Update publications" />
     <MESSAGE value="Update footer with social media icons" />
     <MESSAGE value="Update CV" />
@@ -648,6 +647,7 @@
     <MESSAGE value="Updating teaching.md" />
     <MESSAGE value="Updating repositories.yml" />
     <MESSAGE value="Updating papers.bib" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating papers.bib" />
+    <MESSAGE value="Adding handouts for Geneva ITU 2025 Workshop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding handouts for Geneva ITU 2025 Workshop" />
   </component>
 </project>
