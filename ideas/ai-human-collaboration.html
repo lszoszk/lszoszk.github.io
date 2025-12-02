@@ -1,0 +1,1666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Emprompted: AI Literacy and AI-Human Collaboration for Human Rights Professionals | Geneva 2025</title>
+    <script type="text/javascript" src="/static/js/cookies.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VFCDZ89GWR"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-VFCDZ89GWR', { 'cookie_domain': 'auto' });
+    </script>
+
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'IBM Plex Mono', 'Courier New', monospace;
+            background: linear-gradient(180deg, #000080 0%, #0000AA 100%);
+            color: #FFFFFF;
+            min-height: 100vh;
+            padding-bottom: 50px;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header ASCII */
+        .ascii-header {
+            background: linear-gradient(90deg, #000080 0%, #1084D0 100%);
+            border: 3px double #FFFFFF;
+            padding: 20px;
+            margin-bottom: 30px;
+            text-align: center;
+            white-space: pre;
+            font-size: 12px;
+            color: #E0F7FF;
+            font-family: 'Courier New', monospace;
+            line-height: 1.2;
+            box-shadow: 2px 2px 0 #000000;
+        }
+
+        /* Sections */
+        .window {
+            background: #C0C0C0;
+            border: 2px solid;
+            border-color: #FFFFFF #000000 #000000 #FFFFFF;
+            margin: 20px 0;
+            box-shadow: 2px 2px 0 #000000;
+        }
+
+        .window-title {
+            background: linear-gradient(90deg, #000080 0%, #1084D0 100%);
+            color: #FFFFFF;
+            padding: 3px 5px;
+            font-weight: bold;
+            font-size: 13px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .window-controls {
+            display: flex;
+            gap: 2px;
+        }
+
+        .window-btn {
+            width: 16px;
+            height: 14px;
+            background: #C0C0C0;
+            border: 1px solid;
+            border-color: #FFFFFF #000000 #000000 #FFFFFF;
+            font-size: 10px;
+            line-height: 12px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .window-content {
+            background: #FFFFFF;
+            color: #000000;
+            padding: 20px;
+        }
+
+        /* Text styles */
+        h2 {
+            color: #000080;
+            font-size: 16px;
+            margin: 0 0 15px 0;
+            text-transform: uppercase;
+            border-bottom: 2px solid #000080;
+            padding-bottom: 5px;
+        }
+
+        h3 {
+            color: #000080;
+            font-size: 14px;
+            margin: 15px 0 10px 0;
+        }
+
+        .code-block {
+            background: #000000;
+            color: #00FF00;
+            padding: 15px;
+            margin: 15px 0;
+            border: 1px solid #808080;
+            font-size: 13px;
+            position: relative;
+            overflow-x: auto;
+        }
+
+        .prompt::before {
+            content: "C:\\GENEVA\\> ";
+            color: #FFFF00;
+        }
+
+        /* Links */
+        a {
+            color: #0000FF;
+            text-decoration: underline;
+        }
+
+        a:hover {
+            background: #0000FF;
+            color: #FFFFFF;
+        }
+
+        /* Buttons */
+        .button {
+            display: inline-block;
+            background: #C0C0C0;
+            border: 2px solid;
+            border-color: #FFFFFF #000000 #000000 #FFFFFF;
+            padding: 5px 15px;
+            margin: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            color: #000000;
+            font-size: 13px;
+        }
+
+        .button:active {
+            border-color: #000000 #FFFFFF #FFFFFF #000000;
+        }
+
+        .button:hover {
+            background: #D0D0D0;
+        }
+
+        /* Info boxes */
+        .info-box {
+            background: #FFFFCC;
+            border-left: 4px solid #FFD700;
+            padding: 15px;
+            margin: 15px 0;
+            color: #000000;
+        }
+
+        .warning-box {
+            background: #FFCCCC;
+            border-left: 4px solid #FF0000;
+            padding: 15px;
+            margin: 15px 0;
+            color: #000000;
+        }
+
+        .success-box {
+            background: #CCFFCC;
+            border-left: 4px solid #00AA00;
+            padding: 15px;
+            margin: 15px 0;
+            color: #000000;
+        }
+
+        /* Lists */
+        ul, ol {
+            margin: 10px 0;
+            padding-left: 25px;
+        }
+
+        li {
+            margin: 5px 0;
+        }
+
+        /* Taskbar */
+        .taskbar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 35px;
+            background: #C0C0C0;
+            border-top: 2px solid #FFFFFF;
+            display: flex;
+            align-items: center;
+            padding: 0 5px;
+            gap: 5px;
+            box-shadow: 0 -1px 0 #DFDFDF inset;
+            z-index: 1000;
+        }
+
+        .start-btn {
+            background: #C0C0C0;
+            border: 2px solid;
+            border-color: #FFFFFF #000000 #000000 #FFFFFF;
+            padding: 3px 8px;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .start-btn:active {
+            border-color: #000000 #FFFFFF #FFFFFF #000000;
+        }
+
+        .un-logo {
+            display: inline-block;
+            border-radius: 50%;
+            border: 1px solid #000000;
+            padding: 1px 4px;
+            font-size: 9px;
+            background: #FFFFFF;
+            color: #000080;
+            font-weight: bold;
+        }
+
+        .taskbar-clock {
+            margin-left: auto;
+            border: 2px solid;
+            border-color: #808080 #FFFFFF #FFFFFF #808080;
+            padding: 3px 10px;
+            font-size: 11px;
+            background: #C0C0C0;
+        }
+
+        /* Blink animation */
+        .blink {
+            animation: blink 1s step-end infinite;
+        }
+
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0; }
+        }
+
+        /* Copy button */
+        .copy-btn {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            background: #00FF00;
+            color: #000000;
+            border: 1px solid #000000;
+            padding: 2px 8px;
+            cursor: pointer;
+            font-size: 11px;
+        }
+
+        .copy-btn:hover {
+            background: #00FF88;
+        }
+
+        /* Accordions */
+        .accordion {
+            margin: 10px 0;
+            border: 1px solid #C0C0C0;
+            padding: 8px 10px;
+            background: #F5F5F5;
+        }
+
+        .accordion summary {
+            cursor: pointer;
+            font-weight: bold;
+            color: #000080;
+            list-style: none;
+        }
+
+        .accordion summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .accordion summary::before {
+            content: "+ ";
+            font-weight: bold;
+        }
+
+        .accordion[open] summary::before {
+            content: "– ";
+        }
+
+        .accordion p, .accordion ul {
+            margin: 8px 0 0 0;
+            font-weight: normal;
+        }
+
+        /* Secret console */
+        #secretConsole {
+            position: fixed;
+            bottom: 40px;
+            right: 20px;
+            width: 320px;
+            background: #000000;
+            color: #00FF00;
+            border: 2px solid #00FF00;
+            padding: 10px;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            display: none;
+            z-index: 2000;
+        }
+
+        .secret-console-title {
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .secret-console-body {
+            margin-bottom: 10px;
+            white-space: pre-wrap;
+        }
+
+        /* App tiles (Windows 95 style) */
+        .app-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 15px 0;
+        }
+
+        .app-tile {
+            flex: 1 1 calc(50% - 10px);
+            min-width: 160px;
+            background: #C0C0C0;
+            border: 2px solid;
+            border-color: #FFFFFF #000000 #000000 #FFFFFF;
+            padding: 8px 10px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            box-shadow: 2px 2px 0 #000000;
+        }
+
+        .app-tile:hover {
+            background: #D8D8D8;
+        }
+
+        .app-icon {
+            width: 32px;
+            height: 32px;
+            margin-right: 10px;
+            border: 1px solid #000000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #000080;
+            color: #FFFFFF;
+            font-size: 18px;
+        }
+
+        .app-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .app-title-text {
+            font-weight: bold;
+            font-size: 13px;
+            color: #000000;
+        }
+
+        .app-subtitle {
+            font-size: 11px;
+            color: #333333;
+        }
+
+        .app-detail-placeholder {
+            margin-top: 15px;
+            font-size: 13px;
+            font-style: italic;
+            color: #333333;
+        }
+
+        .app-detail-window {
+            margin-top: 15px;
+            background: #C0C0C0;
+            border: 2px solid;
+            border-color: #FFFFFF #000000 #000000 #FFFFFF;
+            box-shadow: 2px 2px 0 #000000;
+            display: none;
+        }
+
+        .app-detail-header {
+            background: linear-gradient(90deg, #000080 0%, #1084D0 100%);
+            color: #FFFFFF;
+            padding: 3px 5px;
+            font-weight: bold;
+            font-size: 13px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .app-detail-body {
+            background: #FFFFFF;
+            color: #000000;
+            padding: 15px 20px;
+        }
+
+        .app-detail-close {
+            background: #C0C0C0;
+            border: 1px solid;
+            border-color: #FFFFFF #000000 #000000 #FFFFFF;
+            font-size: 10px;
+            width: 18px;
+            height: 16px;
+            cursor: pointer;
+        }
+
+        .app-detail-close:active {
+            border-color: #000000 #FFFFFF #FFFFFF #000000;
+        }
+
+        .app-actions {
+            margin-top: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .button.primary-button {
+            background: #008000;
+            color: #FFFFFF;
+            border-color: #FFFFFF #004000 #004000 #FFFFFF;
+            font-weight: bold;
+        }
+
+        .button.primary-button:hover {
+            background: #00A000;
+        }
+
+        .button.app-demo-button {
+            background: #000080;
+            color: #FFFFFF;
+            border-color: #FFFFFF #000040 #000040 #FFFFFF;
+        }
+
+        .button.app-demo-button:hover {
+            background: #0010A0;
+        }
+
+        .app-note {
+            margin-top: 8px;
+            font-size: 11px;
+            color: #555555;
+        }
+
+        /* Toast (copy feedback) */
+        .toast {
+            position: fixed;
+            bottom: 60px;
+            right: 20px;
+            background: #000000;
+            color: #00FF00;
+            padding: 8px 12px;
+            border: 1px solid #00FF00;
+            font-size: 12px;
+            font-family: 'Courier New', monospace;
+            box-shadow: 2px 2px 0 #00FF00;
+            z-index: 3000;
+            display: none;
+            max-width: 260px;
+            white-space: pre-wrap;
+        }
+
+        /* Skill cards for AI Literacy */
+        .skill-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin: 15px 0;
+        }
+
+        .skill-card {
+            background: #F0F0F0;
+            border: 1px solid #C0C0C0;
+            padding: 10px;
+        }
+
+        .skill-card strong {
+            color: #000080;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .skill-card p {
+            margin: 0;
+            font-size: 12px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+
+            .ascii-header {
+                font-size: 8px;
+                padding: 10px;
+            }
+
+            .skill-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .app-tile {
+                flex-basis: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- ASCII Header -->
+        <div class="ascii-header">
+╔══════════════════════════════════════════════════════════════╗
+║                    THE EMPROMPTED                            ║
+║  AI-HUMAN COLLABORATION FOR HUMAN RIGHTS PROFESSIONALS       ║
+║                                                              ║
+║              ITU, GENEVA • DECEMBER 2025                     ║
+╚══════════════════════════════════════════════════════════════╝
+        </div>
+
+        <!-- 1. WHERE WE ARE -->
+        <div class="window">
+            <div class="window-title">
+                <span>📁 WORKSHOP.EXE</span>
+                <div class="window-controls">
+                    <div class="window-btn">_</div>
+                    <div class="window-btn">□</div>
+                    <div class="window-btn">X</div>
+                </div>
+            </div>
+            <div class="window-content">
+                <h2>Paradigm shift</h2>
+
+                <p>
+                    In the 1980s, graphical interfaces meant almost anyone could <strong>use</strong> a computer.
+                </p>
+
+                <p>
+                   Today, large language models mean almost anyone can <strong>ask</strong> a computer to help build tools,
+                   analyse documents or produce visualisations in plain English.
+                </p>
+
+                <p>
+                   <strong>Vibecoding</strong> was named <a href="https://www.bbc.com/news/articles/cpd2y053nleo">Collins Dictionary's Word of the Year 2025</a>. The term, used by Andrej Karpathy, describes a style of programming where you explain what you want in ordinary language and an AI system writes the code.
+                </p>
+
+                <div class="info-box">
+                    <strong>Why It Matters for Human Rights Professionals</strong><br><br>
+                    • You can <strong>sketch and test tools yourself</strong>, without waiting for a full IT project.<br>
+                    • You can turn your expertise and questions into <strong>small, concrete applications</strong> for (almost) free.<br>
+                    • If you would like to scale up, you can have more <strong>informed conversations with technical teams</strong> - you arrive with a prototype, not only an idea.<br>
+                    • You ensure <strong>human rights by design from the start</strong>, not as an afterthought.<br>
+                    • Join the open source AI movement by exploring and contributing to the vast collection of models, datasets, and code on platforms like <a href="https://huggingface.co" target="_blank">Hugging Face</a> and <a href="https://github.com" target="_blank">GitHub</a>.<br>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- 1. START: The Magic Prompt -->
+        <div class="window">
+            <div class="window-title">
+                <span>🚀 YOUR STARTER PROMPT</span>
+                <div class="window-controls">
+                    <div class="window-btn">_</div>
+                    <div class="window-btn">□</div>
+                    <div class="window-btn">X</div>
+                </div>
+            </div>
+            <div class="window-content">
+                <h2>Copy This Prompt</h2>
+
+                <p>This prompt shows what it now means to "program" with natural language: you describe the tool; an AI system generates the code.</p>
+
+                <div class="code-block" style="position: relative;">
+                    <button onclick="copyPrompt()" class="copy-btn">COPY</button>
+                    <pre id="starterPrompt">"Create a complete web application for searching
+UN treaty body documents with the following functions:
+1. Paragraph-Level Extraction
+- Extract the first 20 paragraphs from the UN report A/80/169 on AI in judicial systems
+- Each paragraph maintains its original numbering (1-20)
+- Full text preservation with proper formatting
+
+2. Thematic Labeling System
+- Each paragraph has been categorized with relevant UN human rights framework themes - come up with 6 most relevant.
+Display in the output why and how did you select and defined categories.
+
+3. Advanced Search Functionality
+- Keyword Search: Find individual terms (e.g., "information," "speech")
+- Thematic Filtering: Filter by specific human rights themes
+- Highlight Results: Search terms highlighted in yellow
+- Real-time Search: Instant results as you type
+
+4. User Interface
+- Modern, responsive design similar to OHCHR style
+- Live dashboard with stats about filtered documents - theme distribution, term frequency, and bigrams
+- Glass morphism effects and professional appearance
+- Color-coded theme tags for easy identification
+- Paragraph numbering system for reference
+- Intuitive copy text and citation function
+- Mobile-friendly responsive layout"
+</pre>
+                </div>
+
+                <h3>Where to Use This</h3>
+                <ul>
+                    <li><a href="https://lmarena.ai" target="_blank">LM Arena</a> – free access to several cutting-edge models</li>
+                    <li><a href="https://claude.ai" target="_blank">Claude Code</a> – very strong for coding tasks</li>
+                </ul>
+
+                <p><strong>Instant result:</strong> a working prototype web app, built by you and an AI model together.</p>
+                <p><strong>Few iterations later:</strong> <a href="https://lszoszk.pythonanywhere.com">UN General Comments database</a> | <a href="https://poznanlegallab.pythonanywhere.com">Polish Constitutional Court Explorer</a></p>
+            </div>
+        </div>
+
+        <!-- 3. Workshop Agenda -->
+        <div class="window">
+            <div class="window-title">
+                <span>⏰ TODAY'S 60-MINUTE WORKSHOP</span>
+                <div class="window-controls">
+                    <div class="window-btn">_</div>
+                    <div class="window-btn">□</div>
+                    <div class="window-btn">X</div>
+                </div>
+            </div>
+            <div class="window-content">
+                <h2>Session Structure</h2>
+
+                <div class="code-block">
+                    <div class="prompt">dir /workshop</div>
+
+[15 min] OPENING DEMO<br>
+         └── You build your first app<br><br>
+
+[15 min] AI & HUMAN RIGHTS WORK<br>
+         └── AI as a teammate<br>
+         └── The jagged technological frontier<br><br>
+
+[15 min] FROM PROTOTYPE TO SYSTEM<br>
+         └── Where AI fits in your pipeline<br>
+         └── Verifiability and human control<br><br>
+
+[10 min] DEPLOYMENT OPTIONS<br>
+         └── Local vs online<br>
+         └── Security considerations<br><br>
+
+[5 min]  VENICE LESSONS<br>
+         └── What worked, what did not<br>
+         └── Your path forward
+                </div>
+
+                <p style="margin-top: 15px;"><strong>Programming required:</strong> none</p>
+                <p><strong>What matters:</strong> your human rights expertise and curiosity.</p>
+            </div>
+        </div>
+
+        <!-- 4. Five Apps from One Report -->
+        <div class="window">
+            <div class="window-title">
+                <span>🧪 FIVE APPS FROM ONE REPORT</span>
+                <div class="window-controls">
+                    <div class="window-btn">_</div>
+                    <div class="window-btn">□</div>
+                    <div class="window-btn">X</div>
+                </div>
+            </div>
+            <div class="window-content">
+                <h2>What You Can "Vibecode" from the UN report</h2>
+
+                <p>
+                    Using the report of the UN Special Rapporteur on the independence of judges and lawyers <strong>A/80/169 – AI in judicial systems: promises and pitfalls</strong> as a
+                    reference point, you can describe practical monitoring tools in natural language and ask an AI model to generate prototypes.
+                </p>
+
+                <div class="info-box">
+                    <strong>Disclaimer – one-shot prototypes</strong><br><br>
+                    Each app below was generated with a single, long <em>one‑shot prompt</em>:
+                    one detailed instruction asking an AI coding model to produce a complete prototype in one go.
+                    Each prompt refers to
+                    <a href="https://www.ohchr.org/en/documents/thematic-reports/a80169-ai-judicial-systems-promises-and-pitfalls-report-special" target="_blank">
+                        A/80/169
+                    </a>.<br><br>
+                    These apps are <strong>demonstration tools only</strong>.
+                </div>
+
+                <h3>How to Use This Section</h3>
+                <ul>
+                    <li>Choose an app that matches your work (e.g. safeguards, language, legal aid).</li>
+                    <li>Click its tile to open a short description and the one‑shot prompt.</li>
+                    <li>Enjoy Live Demo or code yourself by copying the prompt into LM Arena. Treat the result as a prototype to critique and improve.</li>
+                </ul>
+
+                <div class="app-grid">
+                    <div class="app-tile" onclick="showAppDetails('ai-landscape')">
+                        <div class="app-icon">🗺️</div>
+                        <div class="app-text">
+                            <div class="app-title-text">AI Use Landscape</div>
+                            <div class="app-subtitle">Where courts already use AI</div>
+                        </div>
+                    </div>
+
+                    <div class="app-tile" onclick="showAppDetails('risk-rights')">
+                        <div class="app-icon">⚖️</div>
+                        <div class="app-text">
+                            <div class="app-title-text">Risk & Rights Explorer</div>
+                            <div class="app-subtitle">Link AI uses to rights</div>
+                        </div>
+                    </div>
+
+                    <div class="app-tile" onclick="showAppDetails('safeguards')">
+                        <div class="app-icon">🛡️</div>
+                        <div class="app-text">
+                            <div class="app-title-text">Safeguards Checklist</div>
+                            <div class="app-subtitle">Governance and oversight</div>
+                        </div>
+                    </div>
+
+                    <div class="app-tile" onclick="showAppDetails('language-lens')">
+                        <div class="app-icon">🗣️</div>
+                        <div class="app-text">
+                            <div class="app-title-text">Language & Accessibility</div>
+                            <div class="app-subtitle">Plain language & digital divide</div>
+                        </div>
+                    </div>
+
+                    <div class="app-tile" onclick="showAppDetails('legal-aid')">
+                        <div class="app-icon">🤝</div>
+                        <div class="app-text">
+                            <div class="app-title-text">Legal Aid & Workload</div>
+                            <div class="app-subtitle">What to automate (or not)</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="app-detail-placeholder" class="app-detail-placeholder">
+                    Select a tile above to open a small window with the description, workshop prompt and (where available) a live demo.<br><br>
+                    <em>Vibecoding safety check:</em>
+                    <strong>"Can I easily verify whether this output is correct?"</strong>
+                    If yes, it is a better candidate for automation. If not, treat it as a sketch, not as evidence.
+                </div>
+
+                <!-- Detail windows for each app -->
+
+                <div id="app-detail-ai-landscape" class="app-detail-window">
+                    <div class="app-detail-header">
+                        <span>🗺️ AI Use Landscape in Judicial Systems</span>
+                        <button class="app-detail-close" onclick="closeAppDetails()">X</button>
+                    </div>
+                    <div class="app-detail-body">
+                        <p>
+                            Map where and how AI is used in courts and justice systems, with each example linked to a country
+                            (e.g. Brazil's VICTOR, Mexico's Sor Juana, Nigerian access‑to‑justice tools).
+                        </p>
+                        <div class="app-actions">
+                            <button class="button primary-button"
+                                    onclick="copyAppPrompt('prompt-ai-landscape','AI Use Landscape in Judicial Systems')">
+                                📋 Copy workshop prompt
+                            </button>
+                            <a href="https://claude.ai/public/artifacts/316c198d-e352-4181-9ba2-d0896a934505"
+                               class="button app-demo-button"
+                               target="_blank">
+                                🖥️ Open live demo
+                            </a>
+                        </div>
+                        <div class="app-note">
+                            Use this to identify patterns and gaps in how AI is entering judicial systems.
+                        </div>
+                    </div>
+                </div>
+
+                <div id="app-detail-risk-rights" class="app-detail-window">
+                    <div class="app-detail-header">
+                        <span>⚖️ Risk & Rights Explorer</span>
+                        <button class="app-detail-close" onclick="closeAppDetails()">X</button>
+                    </div>
+                    <div class="app-detail-body">
+                        <p>
+                            Explore how different AI tools in specific countries may affect fair trial, non‑discrimination,
+                            privacy and access to justice, based on situations inspired by A/80/169 and related reporting.
+                        </p>
+                        <div class="app-actions">
+                            <button class="button primary-button"
+                                    onclick="copyAppPrompt('prompt-risk-rights','Risk & Rights Explorer')">
+                                📋 Copy workshop prompt
+                            </button>
+                            <a href="https://claude.ai/public/artifacts/b7d50b74-6693-47bb-aa37-cda81c33dcda"
+                               class="button app-demo-button"
+                               target="_blank">
+                                🖥️ Open live demo
+                            </a>
+                        </div>
+                        <div class="app-note">
+                            Treat this as a way to structure human‑rights questions, not as an automated assessment.
+                        </div>
+                    </div>
+                </div>
+
+                <div id="app-detail-safeguards" class="app-detail-window">
+                    <div class="app-detail-header">
+                        <span>🛡️ Safeguards & Governance Checklist Builder</span>
+                        <button class="app-detail-close" onclick="closeAppDetails()">X</button>
+                    </div>
+                    <div class="app-detail-body">
+                        <p>
+                            Turn recommendations from A/80/169 and regional instruments into checklists for different AI uses
+                            (administrative tools, decision support, public‑facing tools, legal aid).
+                        </p>
+                        <div class="app-actions">
+                            <button class="button primary-button"
+                                    onclick="copyAppPrompt('prompt-safeguards','Safeguards & Governance Checklist Builder')">
+                                📋 Copy workshop prompt
+                            </button>
+                            <a href="https://claude.ai/public/artifacts/8ae70f4f-e15e-4248-8678-d6b74287b018"
+                               class="button app-demo-button"
+                               target="_blank">
+                                🖥️ Open live demo
+                            </a>
+                        </div>
+                        <div class="app-note">
+                            Use the generated checklist to support dialogue with ministries, courts and oversight bodies.
+                        </div>
+                    </div>
+                </div>
+
+                <div id="app-detail-language-lens" class="app-detail-window">
+                    <div class="app-detail-header">
+                        <span>🗣️ Language & Accessibility Lens</span>
+                        <button class="app-detail-close" onclick="closeAppDetails()">X</button>
+                    </div>
+                    <div class="app-detail-body">
+                        <p>
+                            Focus on language and access: AI‑supported translation, plain‑language rulings,
+                            chat‑based legal first aid and who is excluded when tools assume connectivity, literacy or one language.
+                        </p>
+                        <div class="app-actions">
+                            <button class="button primary-button"
+                                    onclick="copyAppPrompt('prompt-language-lens','Language & Accessibility Lens')">
+                                📋 Copy workshop prompt
+                            </button>
+                            <a href="https://claude.ai/public/artifacts/8b09e24a-abe0-4b05-a72d-6ef657809185"
+                               class="button app-demo-button"
+                               target="_blank">
+                                🖥️ Open live demo
+                            </a>
+                        </div>
+                        <div class="app-note">
+                            Use this to keep the linguistic accessibility on the table in AI discussions.
+                        </div>
+                    </div>
+                </div>
+
+                <div id="app-detail-legal-aid" class="app-detail-window">
+                    <div class="app-detail-header">
+                        <span>🤝 Legal Aid & Workload Explorer</span>
+                        <button class="app-detail-close" onclick="closeAppDetails()">X</button>
+                    </div>
+                    <div class="app-detail-body">
+                        <p>
+                            Look at AI‑related initiatives in legal aid and court administration and classify tasks
+                            as good candidates for automation, "assistive only", or clearly human‑only.
+                        </p>
+                        <div class="app-actions">
+                            <button class="button primary-button"
+                                    onclick="copyAppPrompt('prompt-legal-aid','Legal Aid & Workload Explorer')">
+                                📋 Copy workshop prompt
+                            </button>
+                            <a href="https://claude.ai/public/artifacts/6e70146e-656e-440b-8bb8-11df02951f02"
+                               class="button app-demo-button"
+                               target="_blank">
+                                🖥️ Open live demo
+                            </a>
+                        </div>
+                        <div class="app-note">
+                            Use this to argue for more human lawyers where risk is highest, not fewer.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hidden prompts for the five example apps -->
+        <pre id="prompt-ai-landscape" style="display:none;">
+You are assisting human rights and justice policy experts.
+
+Using your training data and any public sources you can access, including if possible the UN General Assembly report A/80/169 "AI in judicial systems: promises and pitfalls" and related UN documentation, build a complete single-page web application called "AI Use Landscape in Judicial Systems" with the following features:
+
+1. Data model
+- Create a small internal dataset of concrete examples of AI use in justice systems that are publicly documented in A/80/169 and similar UN reporting.
+- For each example, store at least:
+  - an ID (e.g. A001, A002…)
+  - a short, 1–2 sentence description of the use of AI in a justice context
+  - the country where the tool is implemented (for example: Mexico for the "Sor Juana" system, Spain for "Carpeta justicia", India for "Haqdarshak", Latvia for the legal information wizard, Malaysia for the sharia procedures chatbot, Saudi Arabia for the court digital assistant, Nigeria for tools such as Podus, OpenLawsNig and Citizens' Gavel, Colombia for justice data initiatives, Brazil for the VICTOR system, the United States for tools like ShotSpotter, etc.)
+  - region (e.g. "Latin America", "Africa", "Europe", "global")
+  - type of AI use (e.g. case allocation, legal research, translation/transcription, predictive analytics, legal information/chatbots, case management, risk assessment, remote hearings, access-to-justice assistants)
+  - stage of proceedings (pre-hearing, hearing, post-hearing, cross-cutting)
+  - main justice problem addressed (e.g. backlog, access to justice, cost, consistency, transparency).
+
+2. User interface
+- Top statistics panel showing:
+  - number of examples per type of AI use (simple bar chart or counters),
+  - number of examples per region,
+  - number of examples per country.
+- Left-side filters for:
+  - region / country,
+  - type of AI use,
+  - stage of proceedings.
+- Main table where each row is one example with:
+  - ID,
+  - short description,
+  - country,
+  - region,
+  - AI use type,
+  - stage,
+  - justice problem (as small tags).
+- When a row is clicked, open a detail view showing:
+  - full description,
+  - all tags,
+  - a small "Monitoring notes" box where you generate 3–5 questions a human rights monitor could ask (e.g. about impact on fair trial, non-discrimination, access to remedy, digital divide) in that specific country context.
+
+3. UX requirements
+- Modern, responsive design suitable for laptops and projectors.
+- Use colour-coded tags for AI use types and justice problems.
+- Make filters work instantly (client-side filtering on the dataset).
+- The app must be self-contained: a single HTML file with inline CSS and JavaScript, easy to host as a static page.
+
+If you are unsure about specific details of A/80/169, keep examples generic, rely on well-documented tools, and do not attribute controversial practices to named countries unless you are confident they are publicly documented.
+        </pre>
+
+        <pre id="prompt-risk-rights" style="display:none;">
+You are assisting human rights officers who monitor the impact of AI in judicial systems.
+
+Using your knowledge of the UN report A/80/169 "AI in judicial systems: promises and pitfalls" and related UN human rights standards, create a single-page web application called "Risk & Rights Explorer" with these features:
+
+1. Synthetic paragraph set and categorisation
+- Construct a manageable set of synthetic "paragraph-like" entries (for example 40–80 entries) that reflect:
+  - the kinds of situations and country examples described in A/80/169 (such as Brazil's VICTOR, Nigeria's Citizens' Gavel pretrial tools, India's, Colombia's and Austria's justice data initiatives, court chatbots in Latvia, Malaysia and Saudi Arabia, tools like ShotSpotter and COMPAS in the United States, SLPS in Poland, AI integration in Chinese courts, sandboxes in Azerbaijan, etc.),
+  - and similar UN reports on AI and justice.
+- For each entry, store:
+  - an ID,
+  - a short description of the situation,
+  - the country or countries involved,
+  - the type of AI use (translation, triage, evidence analysis, case allocation, decision support, legal information, etc.),
+  - zero or more human rights impact categories, for example:
+    - judicial independence and impartiality
+    - fair trial / due process / equality of arms
+    - non-discrimination and equality
+    - privacy and data protection
+    - access to justice and effective remedy
+    - language, translation and digital divide
+    - economic and social barriers (costs, legal aid, infrastructure)
+    - transparency, explainability and accountability.
+- For every assigned category, generate a one-sentence explanation in clear language:
+  "This situation affects [RIGHT] because…".
+
+2. User interface
+- Left filter panel: list all categories with checkboxes and counters (how many entries mention each).
+- Additional filter for country so users can focus on one State or region.
+- Main panel: scrollable list of entries where each item shows:
+  - the ID,
+  - country name(s),
+  - short snippet of the entry text,
+  - small colour-coded chips for the categories attached to that entry.
+- When a user clicks on an entry, open a detail view showing:
+  - full text,
+  - list of categories,
+  - short explanations,
+  - a dynamic "questions for monitors" box with 3–5 follow-up questions they could ask States or courts in that particular country (for UPR, treaty bodies, special procedures, bilateral dialogue, etc.).
+
+3. Monitoring export
+- Allow the user to select one or more categories and/or a country and export:
+  - a CSV or JSON file with all matching entries and their metadata, and
+  - a short narrative summary highlighting main patterns and gaps found for the selected rights and country.
+
+4. UX
+- Use a clean, accessible layout with large fonts and clear contrasts.
+- All logic should run in the browser on a static HTML page (no server required).
+
+Keep the examples realistic but generic enough for training. Do not fabricate specific accusations about named States or individuals; frame them as "illustrative cases inspired by UN reporting".
+        </pre>
+
+        <pre id="prompt-safeguards" style="display:none;">
+You are helping justice ministries, courts and oversight bodies turn the UN report A/80/169 "AI in judicial systems: promises and pitfalls" into a practical governance tool.
+
+Using your knowledge of A/80/169 and related UN human rights guidance and regional instruments (such as the Council of Europe AI convention and the EU AI Act), create a single-page web application called "Safeguards & Governance Checklist Builder" with the following functionality:
+
+1. Safeguard library
+- Create a structured library of safeguards and governance measures inspired by A/80/169, including:
+  - governance structures and oversight mechanisms for AI in judicial systems,
+  - human rights–based impact assessments and audits,
+  - transparency, documentation and explainability requirements,
+  - participation of judges, lawyers and affected communities,
+  - safeguards for judicial independence,
+  - limits on automation and requirements for human control,
+  - safeguards around procurement and public–private partnerships.
+- For each safeguard, store:
+  - a short, plain-language checklist item,
+  - a more detailed explanation,
+  - an indication of which actors it is most relevant for (judges, ministries, court administrations, oversight bodies),
+  - an optional "illustrative countries" field listing countries where similar issues appear in UN reporting (for example Brazil, Nigeria, Pakistan, the United States, China, Poland, France, Azerbaijan, etc.).
+
+2. Checklist builder
+- Let the user choose a context from a dropdown:
+  - "Administrative support tools for courts",
+  - "Decision-support tools for judges",
+  - "Public-facing legal information tools",
+  - "Tools used by legal aid providers or public defenders".
+- Let the user optionally select one or more countries they are monitoring.
+- For each context, show:
+  - a tailored subset of safeguards most relevant to that context,
+  - grouped under headings like "Design", "Procurement", "Deployment", "Oversight".
+- For each checklist item, allow users to mark:
+  - "Planned", "In place", or "Not applicable".
+- Generate, on demand, a short narrative summary that:
+  - highlights key gaps,
+  - suggests priority actions,
+  - can be copied into a briefing note or mission report,
+  - optionally mentioning the country or countries the user selected.
+
+3. UX
+- Make the app easy to print or export as a PDF (printer-friendly styling).
+- Use simple controls and labels – suitable for non-technical diplomats and justice officials.
+- All data can live in JavaScript structures in the page; no external database is required.
+
+Base all safeguards on the spirit of A/80/169 and UN human rights law. Keep the language cautious and avoid concrete allegations against specific States; frame examples as "inspired by practices described in UN reports".
+        </pre>
+
+        <pre id="prompt-language-lens" style="display:none;">
+You are supporting organisations and public officials who want to make legal and policy texts more accessible.
+
+Create a single-page web app called "Language & Accessibility Lens" that focuses on transforming legal text into clearer versions, using examples inspired by the UN report A/80/169 "AI in judicial systems: promises and pitfalls".
+
+IMPORTANT CONSTRAINTS FOR THIS DEMO
+- Assume this app will be hosted as a static page on a free service with no backend.
+- That means: in this workshop demo, users CANNOT paste their own text.
+- Instead, you must:
+  - embed a small set of sample legal-style texts directly in the JavaScript,
+  - and provide a clear notice in the interface that explains:
+    "This demo works on built-in examples only. In a real deployment, you would paste your own legal text and the app would apply the same transformations."
+
+1. Sample texts (internal dataset)
+- Inside the code, create 5 short sample legal or policy fragments (3–8 sentences each), written in your own words, NOT as direct quotations, but inspired by the themes of A/80/169:
+  - Example themes could include:
+    - AI-supported translation and transcription in courts (e.g. India, Spain),
+    - plain-language rulings systems (e.g. "Sor Juana" in Mexico),
+    - WhatsApp-based legal first aid tools (e.g. Podus in Nigeria),
+    - online legal information wizards in Latvia or Malaysia,
+    - access-to-justice platforms supporting asylum seekers or low-income users.
+- Each sample text object should contain:
+  - an ID (e.g. "EX1", "EX2"…),
+  - a short title,
+  - a short description of context (country, tool, justice issue),
+  - the "original" legal-style text (your own drafting, not copied from any real document).
+- In the UI, expose at least 3 of these as options in a dropdown labelled e.g.:
+  - "Example 1 – AI translation for court hearings (India)"
+  - "Example 2 – Plain-language rulings (Mexico)"
+  - "Example 3 – WhatsApp legal helper (Nigeria)"
+- The remaining examples can be accessible via additional options or buttons, but at minimum there should be 3 clearly visible examples in the dropdown.
+
+2. Transformation modes (versions of the same text)
+For whichever example is selected, the app should show several versions of the same content:
+
+- Original version:
+  - Show the legal-style text exactly as defined in your internal dataset.
+
+- Plain-language version:
+  - Rewrite the content in clear, everyday language for adults with no legal training.
+  - Keep all key rights, obligations, deadlines and conditions.
+  - Avoid jargon, Latin phrases and references to article numbers unless necessary.
+  - Prefer short sentences and active voice.
+
+- Child-friendly version:
+  - Rewrite the text as if explaining the situation to a teenager (around 12–15 years old) who might be affected by the decision.
+  - Use simple words, concrete examples and clear statements about rights and where to ask for help.
+  - Avoid fear-based language while still mentioning important risks.
+  - Make it explicit that this is an explanation, not a full legal text.
+
+- Local / Indigenous language / translation mode:
+  - Instead of automatically generating real Indigenous-language text (which could be inaccurate or culturally insensitive), create a special "local / Indigenous language" panel that:
+    - shows a short, simplified English version with labels like "Local language version – to be co-created with community translators",
+    - explains HOW a local team could translate or adapt the plain-language version into a local or Indigenous language,
+    - emphasises that this step must be done with native speakers and community experts, not only by AI.
+  - You may also include a simple example using a widely spoken language (for instance a short Spanish paraphrase for one example), but make clear that it is illustrative only.
+
+3. Interface layout and interaction
+- Layout:
+  - At the top, include:
+    - a short explanation of the tool ("Transform a legal-style text into plain language, child-friendly explanations and a local-language friendly template."),
+    - a **highlighted notice** that says something like:
+      "Demo limitation: in this workshop version you cannot paste your own text. Instead, choose one of the built-in examples. In a real version, you would paste your own document here and the app would apply the same transformations."
+  - Below that, add:
+    - a dropdown to choose between the 3+ built-in examples (showing short titles and country).
+  - Main area:
+    - Display the selected example in a multi-column or stacked layout:
+      - Column / card for Original text
+      - Column / card for Plain-language version
+      - Column / card for Child-friendly version
+      - Column / card for Local / Indigenous language guidance
+    - Provide toggles or checkboxes so the user can show/hide each version, allowing:
+      - side-by-side comparison (e.g. Original vs Plain-language),
+      - overlay-like behaviour (the same text displayed in several versions on the same screen).
+
+4. Guidance and human review checklist
+- Add a right-hand panel or a section below the text called "Human review checklist".
+- This panel should:
+  - list 6–10 practical tips on how to write and verify plain-language and child-friendly legal texts, for example:
+    - "Check that no deadlines or appeal rights were removed."
+    - "Make sure names of institutions and contact points are still present."
+    - "Avoid promising rights that do not exist in law."
+    - "If you simplify, keep the structure of the original decision visible."
+    - "Have a lawyer and a non-lawyer both review the plain-language version."
+  - include a short note on risks:
+    - explain that AI-generated plain language is a starting point, not an official version,
+    - encourage users to adapt the text to local legal terms and cultural context.
+- Optionally, include a small "Copy for review" button that copies the plain-language version together with the checklist to the clipboard so a human can paste it into their own document.
+
+5. UX and technical requirements
+- The app must be a self-contained single HTML file with inline CSS and JavaScript.
+- All sample texts and transformed versions should be generated on the client side; no external API calls.
+- Design the interface to be:
+  - readable on a laptop and projector,
+  - friendly for non-technical public officials, NGOs and diplomats (clear headings, large fonts, good contrast).
+- Use simple, neutral styling; this is an educational and monitoring tool, not a marketing page.
+
+Overall goal:
+- Make this a practical workshop demo of how natural-language programming can help officials and NGOs:
+  - see the difference between legal language and plain language,
+  - think critically about what MUST NOT be lost in simplification,
+  - and imagine how they could adapt the tool to their own texts once they control the code.
+        </pre>
+
+        <pre id="prompt-legal-aid" style="display:none;">
+You are assisting NGOs and legal aid organisations to think critically about AI in legal aid and workloads in justice systems.
+
+Using your knowledge of A/80/169 "AI in judicial systems: promises and pitfalls" and broader UN guidance on access to justice, create a single-page web application called "Legal Aid & Workload Explorer" with the following features:
+
+1. Task and context library
+- Construct a list of concrete tasks in legal aid and justice administration that AI is already used for or is often proposed for, inspired by country examples in the UN report, such as:
+  - AsyLex's "Rights in exile" platform supporting asylum cases (Switzerland/global),
+  - Haqdarshak's extraction of welfare entitlements in India,
+  - OpenLawsNig and Podus helping low-income communities in Nigeria,
+  - Hear Me Out in Australia assisting with complaints,
+  - MiFILE and similar tools for self-represented litigants in jurisdictions like the United States,
+  - justice data analysis pilots in Colombia and Brazil.
+- For each task, store:
+  - a short description,
+  - the country/countries where similar tools are deployed,
+  - typical context (e.g. high-volume administrative courts, asylum cases, rural legal aid),
+  - an illustrative, generic example inspired by situations discussed in A/80/169 and similar reports.
+
+2. Assessment dimensions
+- For each task, infer and store:
+  - potential benefits (time saved, cost, reach, better information, etc.),
+  - key human rights risks (e.g. impact on fair trial, confidentiality, non-discrimination, access to a human lawyer),
+  - a recommended oversight level:
+    - "Good candidate for carefully supervised automation",
+    - "Assistive only – human in the loop required",
+    - "Do not automate – should remain a human task".
+
+3. Web interface
+- Present tasks in a matrix or card view with:
+  - task name,
+  - country,
+  - short description,
+  - benefits tags,
+  - risk tags,
+  - oversight level (with colour coding).
+- Filters to:
+  - show only low-risk candidates for automation,
+  - show tasks most relevant to high-volume, low-resource contexts,
+  - filter by country.
+
+- Add a "Generate briefing" button that creates a short, structured summary:
+  - top 5 low-risk opportunities where AI could reduce workload,
+  - top 5 high-risk areas that should remain human-centred,
+  - mentioning the countries and contexts selected by the user.
+
+4. UX
+- Design for non-technical lawyers and NGO staff.
+- Single HTML file with inline CSS and JavaScript, no external dependencies.
+
+Keep all examples generic and training-oriented. Do not turn this into a scorecard of good or bad States; instead, frame it as a tool for asking better questions about AI in legal aid in each country.
+        </pre>
+
+        <!-- 5. AI-HUMAN COLLABORATION -->
+        <div class="window">
+            <div class="window-title">
+                <span>🤝 AI-HUMAN COLLABORATION</span>
+                <div class="window-controls">
+                    <div class="window-btn">_</div>
+                    <div class="window-btn">□</div>
+                    <div class="window-btn">X</div>
+                </div>
+            </div>
+            <div class="window-content">
+                <h2>AI as Teammate on a Jagged Frontier</h2>
+
+                <p>
+                    In <a href="https://www.oneusefulthing.org/p/the-cybernetic-teammate" target="_blank">"The Cybernetic Teammate"</a>,
+                    Ethan Mollick et al. reports experiments where people working with AI produced better work than people or AI alone.
+                    The system behaves less like a calculator and more like an extra colleague.
+                </p>
+
+                <p>
+                    In this workshop, AI plays the role of a junior teammate:
+                    it drafts code and first versions; you bring human assessment, human rights context and responsibility.
+                </p>
+
+                <div class="success-box">
+                    <strong>Rule of thumb:</strong>
+                    <ul style="margin: 5px 0 0 0;">
+                        <li>Use AI for first drafts, prototypes and exploring options.</li>
+                        <li>Decide which steps must later become deterministic scripts.</li>
+                        <li>Decide where human review is mandatory and who signs off.</li>
+                    </ul>
+                </div>
+
+                <h3>The "Jagged Technological Frontier"</h3>
+                <p>
+                    Mollick also describes a <strong><a href="https://www.oneusefulthing.org/p/centaurs-and-cyborgs-on-the-jagged" target="_blank">jagged technological frontier</a></strong>:
+                    AI is excellent at some tasks and unreliable at others, even when they look similar. There is no single line where AI is simply "good enough".<br><br>
+                    Only domain experts in each field can map what is safe and useful in their own workflows.
+                </p>
+
+                <div class="info-box">
+                    <strong>Takeaway:</strong> AI literacy is about knowing when AI helps and when it must be constrained.
+                    As human rights experts, we must experiment to discover where and how LLMs can be responsibly integrated into our work. No one will do it for us.
+                </div>
+            </div>
+        </div>
+
+        <!-- 7. AI Literacy Section - STREAMLINED -->
+        <div class="window">
+            <div class="window-title">
+                <span>🎓 AI LITERACY FOR HUMAN RIGHTS WORK</span>
+                <div class="window-controls">
+                    <div class="window-btn">_</div>
+                    <div class="window-btn">□</div>
+                    <div class="window-btn">X</div>
+                </div>
+            </div>
+            <div class="window-content">
+                <h2>From "AI Does It" to "AI in the Pipeline"</h2>
+
+                <p>
+                    AI rarely "does the whole job". It sits inside a larger process you design and supervise.
+                    Before using AI, ask yourself three questions:
+                </p>
+
+                <div class="success-box">
+                    <strong>Three questions before you start:</strong>
+                    <ol style="margin: 5px 0 0 0;">
+                        <li><strong>What is the goal?</strong> (e.g. create a database of human rights documents)</li>
+                        <li><strong>What steps need full human control?</strong> (definitions, final decisions, sensitive judgements)</li>
+                        <li><strong>Can a human verify the output?</strong> If yes, you can delegate more of that step to AI. If not, treat the output cautiously. Writing a script (even with LLMs) ensure deterministic, verifiable process and results.</strong></li>
+                    </ol>
+                </div>
+
+                <h3>How AI Can Behave in Your Pipeline</h3>
+
+                <details class="accordion">
+                    <summary>Scripts (deterministic)</summary>
+                    <p>Classic code. Same input → same output. Best for well-structured data and anything that must be auditable. You can write scripts with LLMs and leverage existing open source community resources — including pre-built scripts, datasets, and models — to accelerate development.</p>
+                </details>
+
+                <details class="accordion">
+                    <summary>LLM prompting (probabilistic)</summary>
+                    <p>Very flexible content generation; more unpredictable (<a href="https://poloclub.github.io/transformer-explainer/">see how LLMs work</a>). Good for drafts, prototypes, and brainstorming – not for authoritative outputs or final decisions.</p>
+                </details>
+
+                <h3>AI Literacy</h3>
+
+                <div class="skill-grid">
+                    <div class="skill-card">
+                        <strong>Task Design & Prompting</strong>
+                        <p>Clearly describe the task, the sources AI may use, and any red lines (what must not happen).</p>
+                    </div>
+                    <div class="skill-card">
+                        <strong>Data Foundations & Structuring</strong>
+                        <p>Where and how get the data; extract information from PDFs into simple, reusable formats (spreadsheets, databases).</p>
+                    </div>
+                    <div class="skill-card">
+                        <strong>Validation & Verifiability</strong>
+                        <p>Test AI tools on cases you already know; design simple checks and flags so you can see when something looks wrong.</p>
+                    </div>
+                    <div class="skill-card">
+                        <strong>Ethical & Human Rights Safeguards</strong>
+                        <p>Privacy, non-discrimination, transparency, meaningful human control.</p>
+                    </div>
+                    <div class="skill-card">
+                        <strong>Workflow & Governance</strong>
+                        <p>Decide where AI sits in your process, who signs off, and how decisions are documented.</p>
+                    </div>
+                </div>
+
+                <div class="info-box">
+                    <strong>Key point:</strong> These are learnable skills. You do not need to become a software engineer –
+                    but you do need enough AI literacy to decide where AI fits safely into your human rights workflows.
+                </div>
+            </div>
+        </div>
+
+        <!-- 8. Venice Lessons – STYLED WITH ACCORDIONS -->
+        <div class="window">
+            <div class="window-title">
+                <span>🇮🇹 LESSONS FROM VENICE</span>
+                <div class="window-controls">
+                    <div class="window-btn">_</div>
+                    <div class="window-btn">□</div>
+                    <div class="window-btn">X</div>
+                </div>
+            </div>
+            <div class="window-content">
+                <h2>What I Learned Teaching 16 Human Rights Professionals</h2>
+
+                <p>
+                    <strong>Setting:</strong> 2-day workshop at Global Campus of Human Rights, Venice.<br>
+                    <strong>Participants:</strong> 16 human rights professionals, most with legal backgrounds.
+                </p>
+
+                <details class="accordion">
+                    <summary>1. The AI Exposure Gap Is Massive</summary>
+                    <p>Only 1 of 16 participants (6%) had used paid LLMs. Most were on free tiers, which creates a misleading impression of what AI can (or cannot) do.</p>
+                </details>
+
+                <details class="accordion">
+                    <summary>2. Purpose Must Precede Process</summary>
+                    <p>Top feedback: "I didn't understand WHY we were building this." Teaching "how to build a search engine" without explaining "why this beats Ctrl+F" creates cognitive resistance. Start with the problem, not the solution.</p>
+                </details>
+
+                <details class="accordion">
+                    <summary>3. The "Seeing It Work" Moment Is Critical</summary>
+                    <p>Multiple participants cited watching the app run as their breakthrough. For non-technical learners: working demos before explanations. Abstract concepts (APIs, servers) mean nothing until they see concrete output.</p>
+                </details>
+
+                <details class="accordion">
+                    <summary>4. Bimodal Learning Outcomes</summary>
+                    <p>AI-assisted programming creates two groups: those who "get it" immediately (38%) and those who remain lost (25%). Little middle ground. AI tools don't reduce learning curves – they change their shape entirely.</p>
+                </details>
+
+                <details class="accordion">
+                    <summary>5. Application Overwhelm > Concept Overwhelm</summary>
+                    <p>Participants weren't confused by programming – they were overwhelmed by tool-switching (Cursor → Colab, etc.). Each app switch = cognitive load. Lesson: friction reduction matters more than technical purity.</p>
+                </details>
+
+                <details class="accordion">
+                    <summary>6. "Natural Language" Isn't Natural to Everyone</summary>
+                    <p>Prompting in English ≠ accessible. Programming is structured thinking. Natural language is ambiguous; code is precise. Students can struggle with computational logic, whether in Python or prompts.</p>
+                </details>
+
+                <div class="info-box">
+                    <strong>Final thought:</strong> Teaching AI literacy to human rights professionals isn't about making them programmers.
+                    It's about showing them what's possible and giving them the confidence to try.
+                    But we cannot assume "accessible" means the same thing to everyone.
+                </div>
+            </div>
+        </div>
+
+        <!-- 9. Resources -->
+        <div class="window">
+            <div class="window-title">
+                <span>📚 ESSENTIAL RESOURCES</span>
+                <div class="window-controls">
+                    <div class="window-btn">_</div>
+                    <div class="window-btn">□</div>
+                    <div class="window-btn">X</div>
+                </div>
+            </div>
+            <div class="window-content">
+                <h2>Your Toolkit</h2>
+
+                <h3>Key Reading</h3>
+                <ul>
+                    <li><a href="https://karpathy.medium.com/software-2-0-a64152b37c35" target="_blank">Karpathy – Software 2.0</a></li>
+                    <li><a href="https://www.oneusefulthing.org/p/centaurs-and-cyborgs-on-the-jagged" target="_blank">Mollick – Centaurs and Cyborgs on the Jagged Frontier</a></li>
+                    <li><a href="https://www.oneusefulthing.org/p/the-cybernetic-teammate" target="_blank">Mollick – The Cybernetic Teammate</a></li>
+                    <li><a href="https://www.ohchr.org/en/documents/thematic-reports/a80169-ai-judicial-systems-promises-and-pitfalls-report-special" target="_blank">UN Report A/80/169 – AI in Judicial Systems</a></li>
+                </ul>
+
+                <h3>Tools to Experiment With</h3>
+                <ul>
+                    <li><strong>For prototyping:</strong> <a href="https://lmarena.ai" target="_blank">LM Arena</a>, <a href="https://claude.ai" target="_blank">Claude</a>, Gemini</li>
+                    <li><strong>For data processing:</strong> <a href="https://colab.research.google.com" target="_blank">Google Colab</a></li>
+                    <li><strong>For collaboration & review:</strong> <a href="https://github.com" target="_blank">GitHub</a></li>
+                </ul>
+
+                <h3>Example Projects</h3>
+                <ul>
+                    <li><a href="https://lszoszk.pythonanywhere.com" target="_blank">UN Treaty Body Database</a> – full implementation</li>
+                    <li><a href="https://lszoszk.pythonanywhere.com/oneshot" target="_blank">One‑Prompt Demo</a> – what a single prompt can produce</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div style="text-align: center; margin: 40px 0; color: #FFFFFF;">
+            <p>═══════════════════════════════════════════</p>
+            <p style="margin-top: 20px;">
+                Workshop by <a href="https://lszoszk.github.io" target="_blank" style="color: #00FFFF;">Łukasz Szoszkiewicz</a><br>
+                Adam Mickiewicz University, Poznań<br>
+                December 2025 • ITU Geneva • FNF Human Rights Hub
+            </p>
+            <p style="margin-top: 20px;">
+                <span class="blink">_</span> READY TO BUILD?
+            </p>
+        </div>
+    </div>
+
+    <!-- Secret Console -->
+    <div id="secretConsole">
+        <div class="secret-console-title">C:\GENEVA\SECRET_CONSOLE.EXE</div>
+        <div class="secret-console-body">
+You unlocked a hidden console.
+
+That curiosity is exactly what you need
+for working with AI and building tools
+for human rights.
+
+Try asking yourself:
+"What else could we automate, visualize,
+or analyse for our field?"
+        </div>
+        <button class="button" onclick="closeSecretConsole()">Close</button>
+    </div>
+
+    <!-- Windows-style Taskbar -->
+    <div class="taskbar">
+        <button class="start-btn" onclick="showAbout()">
+            <span class="un-logo">UN</span>
+            <span style="color: #FF0000;">▓</span><span style="color: #00FF00;">▓</span><span style="color: #0000FF;">▓</span>
+            <span>Start</span>
+        </button>
+
+        <button class="button" onclick="alert('📍 ITU Geneva\n\n🚊 Tram 15 → Nations\n☕ Coffee around 3.50 CHF\n⛲ Jet d\'Eau: 140m high\n\nYou are a tram ride away from where many human rights decisions are shaped.')">
+            📍 Geneva
+        </button>
+
+        <button class="button" onclick="alert('🛠️ Software 3.0 Resources\n\n• LM Arena – Try multiple models\n• Claude – Build complete apps\n• Google Colab – Process data reproducibly\n• GitHub – Share and audit your code\n\nAll of this is accessible with natural-language prompts.')">
+            🛠️ Tools
+        </button>
+
+        <button class="button" onclick="showHistory()">
+            📜 History
+        </button>
+
+        <div class="taskbar-clock" id="clock">14:30</div>
+    </div>
+
+    <!-- ==================== JAVASCRIPT ==================== -->
+    <script>
+        // ========== CLOCK ==========
+        function updateClock() {
+            const now = new Date();
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            document.getElementById('clock').textContent = hours + ':' + minutes;
+        }
+        setInterval(updateClock, 1000);
+        updateClock();
+
+        // ========== TOAST HELPER ==========
+        let toastTimeout;
+
+        function showToast(message) {
+            let toast = document.getElementById('toast');
+            if (!toast) {
+                toast = document.createElement('div');
+                toast.id = 'toast';
+                toast.className = 'toast';
+                document.body.appendChild(toast);
+            }
+            toast.textContent = message;
+            toast.style.display = 'block';
+
+            clearTimeout(toastTimeout);
+            toastTimeout = setTimeout(function() {
+                toast.style.display = 'none';
+            }, 4000);
+        }
+
+        // ========== FALLBACK COPY ==========
+        function fallbackCopyText(text, successMessage) {
+            const textarea = document.createElement('textarea');
+            textarea.value = text;
+            textarea.style.position = 'fixed';
+            textarea.style.top = '-1000px';
+            document.body.appendChild(textarea);
+            textarea.focus();
+            textarea.select();
+            try {
+                const ok = document.execCommand('copy');
+                if (ok) {
+                    showToast(successMessage);
+                } else {
+                    showToast('Could not copy automatically. Please select and copy the text manually.');
+                }
+            } catch (err) {
+                showToast('Could not copy automatically. Please select and copy the text manually.');
+            }
+            document.body.removeChild(textarea);
+        }
+
+        // ========== COPY STARTER PROMPT ==========
+        function copyPrompt() {
+            const prompt = document.getElementById('starterPrompt').innerText;
+            const successMessage = 'Prompt copied.\nOpen LM Arena or Claude and paste it into a new chat.';
+            if (navigator.clipboard && window.isSecureContext) {
+                navigator.clipboard.writeText(prompt).then(
+                    function() { showToast(successMessage); },
+                    function() { fallbackCopyText(prompt, successMessage); }
+                );
+            } else {
+                fallbackCopyText(prompt, successMessage);
+            }
+        }
+
+        // ========== COPY APP PROMPT ==========
+        function copyAppPrompt(elementId, label) {
+            const el = document.getElementById(elementId);
+            if (!el) {
+                showToast('Prompt not found on this page.');
+                return;
+            }
+
+            const text = el.textContent || el.innerText || '';
+            const successMessage = 'Prompt for "' + label + '" copied.\nPaste it into LM Arena or Claude and run it.';
+
+            if (navigator.clipboard && window.isSecureContext) {
+                navigator.clipboard.writeText(text).then(
+                    function() { showToast(successMessage); },
+                    function() { fallbackCopyText(text, successMessage); }
+                );
+            } else {
+                fallbackCopyText(text, successMessage);
+            }
+        }
+
+        // ========== APP TILES: SHOW/HIDE DETAIL WINDOWS ==========
+        function showAppDetails(id) {
+            const windows = document.querySelectorAll('.app-detail-window');
+            windows.forEach(function(w) {
+                w.style.display = 'none';
+            });
+
+            const target = document.getElementById('app-detail-' + id);
+            if (target) {
+                target.style.display = 'block';
+            }
+
+            const placeholder = document.getElementById('app-detail-placeholder');
+            if (placeholder) {
+                placeholder.style.display = 'none';
+            }
+        }
+
+        function closeAppDetails() {
+            const windows = document.querySelectorAll('.app-detail-window');
+            windows.forEach(function(w) {
+                w.style.display = 'none';
+            });
+
+            const placeholder = document.getElementById('app-detail-placeholder');
+            if (placeholder) {
+                placeholder.style.display = 'block';
+            }
+        }
+
+        // ========== ABOUT DIALOG ==========
+        function showAbout() {
+            alert('SOFTWARE 3.0 WORKSHOP\n' +
+                  '══════════════════════\n\n' +
+                  'Welcome to the era where:\n' +
+                  '• LLMs are a new operating layer\n' +
+                  '• English is a programming interface\n' +
+                  '• Domain experts can build their own tools\n\n' +
+                  'This is already happening.\n' +
+                  'You are part of it.\n\n' +
+                  '© 2025');
+        }
+
+        // ========== HISTORY EASTER EGGS ==========
+        const historyMessages = [
+            '🇺🇳 Geneva & Human Rights\n\nThe UN Human Rights Council meets in Geneva, overseeing the Universal Periodic Review of every UN member state. Your work today connects directly to the systems discussed there.',
+            '📜 Universal Declaration Roots\n\nThe Commission on Human Rights that drafted the Universal Declaration of Human Rights held key meetings in Geneva after 1947.\n\nYour AI tools are part of the same long conversation about dignity and rights.',
+            '⚖️ Treaties & Monitoring\n\nMany UN treaty bodies and special procedures hold sessions in Geneva every year.\n\nImagine dashboards that help them see patterns across thousands of paragraphs at once.',
+            '🪑 Broken Chair\n\nThe "Broken Chair" sculpture near Place des Nations reminds visitors of victims of landmines and cluster munitions.\n\nData and visualizations can make such stories visible in new ways.',
+            '🌍 Dense Human Rights Ecosystem\n\nHundreds of NGOs in Geneva work on human rights, humanitarian law, migration and digital rights.\n\nAI literacy can help them navigate overwhelming information without losing nuance.'
+        ];
+
+        function showHistory() {
+            const index = Math.floor(Math.random() * historyMessages.length);
+            alert(historyMessages[index]);
+        }
+
+        // ========== SECRET CONSOLE UNLOCK: TYPE "GENEVA" ==========
+        const secretSequence = "GENEVA";
+        let secretBuffer = "";
+
+        document.addEventListener('keydown', function(event) {
+            const key = event.key.toUpperCase();
+            if (key.length === 1 && key >= 'A' && key <= 'Z') {
+                secretBuffer += key;
+                if (secretBuffer.length > secretSequence.length) {
+                    secretBuffer = secretBuffer.slice(-secretSequence.length);
+                }
+                if (secretBuffer === secretSequence) {
+                    openSecretConsole();
+                }
+            }
+        });
+
+        function openSecretConsole() {
+            const consoleEl = document.getElementById('secretConsole');
+            if (consoleEl) {
+                consoleEl.style.display = 'block';
+            }
+        }
+
+        function closeSecretConsole() {
+            const consoleEl = document.getElementById('secretConsole');
+            if (consoleEl) {
+                consoleEl.style.display = 'none';
+            }
+        }
+
+        // ========== CONSOLE MESSAGE ==========
+        console.log(`
+╔════════════════════════════════════════════════════════════╗
+║                                                            ║
+║  SOFTWARE 3.0 - Developer console opened.                  ║
+║                                                            ║
+║  That curiosity is exactly what helps with AI literacy.    ║
+║                                                            ║
+║  "LLMs are not just tools. They are a new kind of          ║
+║   operating system. And we're just learning how to         ║
+║   program them."                                           ║
+║                                                            ║
+╚════════════════════════════════════════════════════════════╝
+        `);
+    </script>
+</body>
+</html>
