@@ -608,6 +608,27 @@
             scroll-behavior: smooth;
         }
 
+                .figure {
+        margin: 0.75rem 0 0;
+        text-align: center;
+        }
+
+        .figure img.inline-gif {
+        max-width: 320px;
+        width: 100%;
+        display: block;
+        margin: 0.5rem auto 0;
+        border: 1px solid var(--terminal-dim);
+        border-radius: 6px;
+        box-shadow: 0 0 10px rgba(0,255,0,0.15);
+        }
+
+        .figure figcaption {
+        color: var(--terminal-dim);
+        font-size: 0.85rem;
+        margin-top: 0.35rem;
+        }
+
         @media (max-width: 600px) {
             .app-tile {
                 flex-basis: 100%;
@@ -744,7 +765,7 @@ Display in the output why and how did you select and defined categories.
         </div>
 
         <div id="anti-hype" class="warning-box info-box">
-            <strong>🧯 ANTI-HYPE: start simple</strong>
+            <strong>🧯 ANTI-HYPE: Low-hanging fruits first</strong>
             <p style="margin-top:0.5rem;">
               Vibe-coding shines for <strong>simple, useful tools</strong>: a document search engine,
               a lightweight <strong>analytics dashboard</strong>, or a <strong>short report generator</strong>.
@@ -1532,7 +1553,7 @@ or analyse for our field?"
             📍 Geneva
         </button>
 
-        <button class="button" onclick="alert('🛠️ Software 3.0 Resources\n\n• LM Arena – Try multiple models\n• Claude – Build complete apps\n• Google Colab – Process data reproducibly\n• GitHub – Share and audit your code\n\nAll of this is accessible with natural-language prompts.')">
+        <button class="button" onclick="alert('🛠️ Software 3.0 Resources\n\n• LM Arena – Try cutting-edge models\n• Claude Code – Build complete apps\n• Google Colab – Write & run scripts\n• GitHub – Share your code\n• Hugging Face – Share your models and datasets\n\nAll of this is accessible with natural-language prompts.')">
             🛠️ Tools
         </button>
 
@@ -1667,8 +1688,8 @@ or analyse for our field?"
             alert('SOFTWARE 3.0 WORKSHOP\n' +
                   '══════════════════════\n\n' +
                   'Welcome to the era where:\n' +
-                  '• LLMs are a new operating layer\n' +
-                  '• English is a programming interface\n' +
+                  '• LLMs are a new operating system\n' +
+                  '• English is a programming language\n' +
                   '• Domain experts can build their own tools\n\n' +
                   'This is already happening.\n' +
                   'You are part of it.\n\n' +
@@ -1677,7 +1698,7 @@ or analyse for our field?"
 
         // ========== HISTORY EASTER EGGS ==========
         const historyMessages = [
-            '🇺🇳 Geneva & Human Rights\n\nThe UN Human Rights Council meets in Geneva, overseeing the Universal Periodic Review of every UN member state. Your work today connects directly to the systems discussed there.',
+            '🇺🇳 Geneva & Human Rights\n\nThe UN Human Rights Council, which meets in Geneva, is responsible for the Universal Periodic Review mechanism, under which the human rights records of all UN Member States are periodically reviewed.',
             '📜 Universal Declaration Roots\n\nThe Commission on Human Rights that drafted the Universal Declaration of Human Rights held key meetings in Geneva after 1947.\n\nYour AI tools are part of the same long conversation about dignity and rights.',
             '⚖️ Treaties & Monitoring\n\nMany UN treaty bodies and special procedures hold sessions in Geneva every year.\n\nImagine dashboards that help them see patterns across thousands of paragraphs at once.',
             '🪑 Broken Chair\n\nThe "Broken Chair" sculpture near Place des Nations reminds visitors of victims of landmines and cluster munitions.\n\nData and visualizations can make such stories visible in new ways.',
