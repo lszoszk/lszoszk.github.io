@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa9c05a4-1f05-4fcd-95e9-9fcd56302163" name="Changes" comment="UPDATING handouts for Geneva ITU 2025 Workshop">
-      <change beforePath="$PROJECT_DIR$/ideas/ai-human-collaboration.html" beforeDir="false" afterPath="$PROJECT_DIR$/ideas/ai-human-collaboration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,15 +166,7 @@
       <workItem from="1763993133645" duration="7249000" />
       <workItem from="1764180390265" duration="3711000" />
       <workItem from="1764239426071" duration="25283000" />
-      <workItem from="1764660308980" duration="13542000" />
-    </task>
-    <task id="LOCAL-00092" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <option name="closed" value="true" />
-      <created>1746555541496</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1746555541496</updated>
+      <workItem from="1764660308980" duration="16259000" />
     </task>
     <task id="LOCAL-00093" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <option name="closed" value="true" />
@@ -560,7 +552,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764753117602</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="UPDATING handouts for Geneva ITU 2025 Workshop">
+      <option name="closed" value="true" />
+      <created>1764754727542</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1764754727542</updated>
+    </task>
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
