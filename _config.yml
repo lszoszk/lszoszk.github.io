@@ -406,7 +406,18 @@ medium_zoom:
 
 jekyll_get_json:
   - data: resume
-    json: assets/json/resume.json # it can also be an url
+    json: assets/json/resume.json
+  # GitHub API data for repository cards
+  - data: github_user_lszoszk
+    json: https://api.github.com/users/lszoszk
+  - data: github_repo_echr_dashboard
+    json: https://api.github.com/repos/lszoszk/ECHR-Dashboard
+  - data: github_repo_un_treatybodies
+    json: https://api.github.com/repos/lszoszk/UN-TreatyBodiesDocSearch
+  - data: github_repo_personal_site
+    json: https://api.github.com/repos/lszoszk/lszoszk.github.io
+  - data: github_repo_un_recommendations
+    json: https://api.github.com/repos/lszoszk/UnitedNations_recommendations
 jsonresume:
   - basics
   - work
