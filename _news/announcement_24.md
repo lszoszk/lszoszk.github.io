@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-📚 Published a new GitHub repository with the database of the Polish Constitutional Court: <a href="https://github.com/lszoszk/trybunalkonstytucyjny">trybunalkonstytucyjny</a>.
+📚 Published a new app with the database of the Polish Constitutional Court: <a href="https://lszoszk.github.io/trybunalkonstytucyjny/docs/dashboard-expert.html">Orzecznictwo TK - Dashboard Ekspert</a>. The dashboard supports paragraph-level legal search with advanced filters (section, year, decision type, judge, and signature) across 3,288 cases and 265,870 paragraphs from 1997 to 2026.
