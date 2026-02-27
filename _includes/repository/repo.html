@@ -4,14 +4,18 @@
 
 {% comment %} Map repository to data key {% endcomment %}
 {% case include.repository %}
+  {% when 'lszoszk/trybunalkonstytucyjny' %}
+    {% assign repo_data = site.data.github_repo_trybunalkonstytucyjny %}
   {% when 'lszoszk/ECHR-Dashboard' %}
     {% assign repo_data = site.data.github_repo_echr_dashboard %}
   {% when 'lszoszk/UN-TreatyBodiesDocSearch' %}
     {% assign repo_data = site.data.github_repo_un_treatybodies %}
-  {% when 'lszoszk/lszoszk.github.io' %}
-    {% assign repo_data = site.data.github_repo_personal_site %}
   {% when 'lszoszk/UnitedNations_recommendations' %}
     {% assign repo_data = site.data.github_repo_un_recommendations %}
+  {% when 'lszoszk/AI_workshop' %}
+    {% assign repo_data = site.data.github_repo_ai_workshop %}
+  {% when 'lszoszk/lszoszk.github.io' %}
+    {% assign repo_data = site.data.github_repo_personal_site %}
 {% endcase %}
 
 {% if site.data.repositories.github_users contains owner %}

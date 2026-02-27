@@ -13,7 +13,9 @@ giscus_comments: true
 <p>This project showcases a dynamic web application designed to facilitate the exploration and analysis of the General Comments/Recommendations adopted by the UN Treaty Bodies. Built with Flask, a Python web framework, the application provides a user-friendly interface for browsing, analyzing and exporting relevant paragraphs of the UN documents.</p>
 
 <p align="center">
-<a href="https://lszoszk.pythonanywhere.com/"><button class="button-57" role="button">visit website</button></a>
+<a href="https://lszoszk.pythonanywhere.com/"><button class="button-57" role="button">visit website (Flask app)</button></a>
+&nbsp;
+<a href="https://lszoszk.github.io/UnitedNations_recommendations/"><button class="button-57" role="button">visit static dashboard</button></a>
 </p>
 <br>
 <p><strong>Why general Comments/Recommendations?</strong> UN Treaty Bodies adopted over 150 General Comments/Recommendations. They provide an authoritative interpretation of international human rights treaties. Hitherto, there was no database allowing for a search within documents. This platform allows for intuitive searches within these documents.</p>

@@ -2,7 +2,9 @@ github_users:
   - lszoszk
 
 github_repos:
+  - lszoszk/trybunalkonstytucyjny
   - lszoszk/ECHR-Dashboard
   - lszoszk/UN-TreatyBodiesDocSearch
-  - lszoszk/lszoszk.github.io # this repo
   - lszoszk/UnitedNations_recommendations
+  - lszoszk/AI_workshop
+  - lszoszk/lszoszk.github.io # this repo

@@ -21,6 +21,6 @@ My research focuses on <strong>international human rights law</strong> and the c
 
 I employ a range of methodologies, including natural language processing (Python), statistics, corpus linguistics, and grounded theory.
 
-Currently, I am working on <a href="https://lszoszk.github.io/projects/neurorights/">neurorights</a> and develop a <a href="https://lszoszk.github.io/projects/generalcomments/">search engine for the UN Treaty Bodies' documents</a>.
+Currently, I am working on <a href="https://lszoszk.github.io/projects/neurorights/">neurorights</a> and develop search tools for legal documents, including a <a href="https://lszoszk.github.io/projects/constcourt/">Polish Constitutional Court dashboard</a>, an <a href="https://lszoszk.github.io/projects/echrdashboard/">ECHR case law search engine</a>, and a <a href="https://lszoszk.github.io/projects/generalcomments/">UN Treaty Bodies document search</a>.
 
-During the 2024-25 academic year, I’m on a Fulbright scholarship at the <a href="https://ntc.columbia.edu/">Columbia University (Neurotechnology Center)</a>, focusing on mental privacy and speech decoding.
+In 2024-25, I was a Fulbright scholar at the <a href="https://ntc.columbia.edu/">Columbia University (Neurotechnology Center)</a>, focusing on mental privacy and speech decoding.

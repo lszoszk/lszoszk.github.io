@@ -1,0 +1,5 @@
+name: ECHR-Dashboard
+description: "ECHR case law analytics dashboard with paragraph-level structural search and GitHub Pages deployment"
+language: Python
+stargazers_count: 0
+forks_count: 0
