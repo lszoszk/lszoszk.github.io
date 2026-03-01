@@ -59,6 +59,25 @@ Teaching non-programmers to build working applications through AI-assisted codin
 
 <hr style="margin: 3rem 0; border: none; border-top: 2px dashed #ccc;">
 
+<h2>🧠 The Emprompted: AI Literacy and AI-Human Collaboration for Human Rights Professionals</h2>
+
+A 2-day hands-on workshop held at the ITU in Geneva (December 2025), organized with the <a href="https://www.gchumanrights.org" target="_blank">Global Campus of Human Rights</a>. Participants learned to use LLMs for rapid prototyping of human rights monitoring and analysis tools — building five working applications from a single UN report.
+
+<h3>Key topics</h3>
+<ul>
+<li><strong>Paradigm shift:</strong> why LLMs enable non-programmers to build working tools</li>
+<li><strong>Five apps from one report:</strong> practical prototypes derived from the SR report on AI in judicial systems (A/80/169)</li>
+<li><strong>AI literacy framework:</strong> task design, data structuring, validation, and governance</li>
+<li><strong>Jagged technological frontier:</strong> mapping where AI excels vs. where human judgment is essential</li>
+</ul>
+
+<h3>Workshop Materials</h3>
+<ul>
+<li><strong>Course Website:</strong> <a href="https://lszoszk.github.io/ideas/ai-human-collaboration" target="_blank">The Emprompted | Geneva 2025</a></li>
+</ul>
+
+<hr style="margin: 3rem 0; border: none; border-top: 2px dashed #ccc;">
+
 <h2>⚖️ Human Rights and Technology in the Digital Age – An Interdisciplinary Perspective</h2>
 
 Digital technologies – such as Artificial Intelligence, biometric recognition systems, or credit scoring systems – are gradually entering our daily lives, without us even noticing them. This course aims at providing students with solid knowledge on the impact of these technologies on the protection of human rights. To this end, this course highlights the importance of an ethical, human-centric, and accessible tech-infused future.
