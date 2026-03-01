@@ -59,17 +59,11 @@ Teaching non-programmers to build working applications through AI-assisted codin
 
 <hr style="margin: 3rem 0; border: none; border-top: 2px dashed #ccc;">
 
-<h2>🧠 The Emprompted: AI Literacy and AI-Human Collaboration for Human Rights Professionals</h2>
+<h2>🧠 The Emprompted: AI-Human Collaboration for Human Rights Professionals</h2>
 
-A 2-day hands-on workshop held at the ITU in Geneva (December 2025), organized with the <a href="https://www.gchumanrights.org" target="_blank">Global Campus of Human Rights</a>. Participants learned to use LLMs for rapid prototyping of human rights monitoring and analysis tools — building five working applications from a single UN report.
+A vibecoding workshop at <a href="https://www.itu.int" target="_blank">International Telecommunication Union</a> HQ in Geneva (December 2025), with human rights professionals from <a href="https://www.ohchr.org" target="_blank">OHCHR</a>, <a href="https://www.impactoss.org" target="_blank">Impact OSS</a>, and <a href="https://huridocs.org" target="_blank">HURIDOCS</a>. Organized by the <a href="https://www.freiheit.org/human-rights-hub" target="_blank">FNF Human Rights Hub</a>.
 
-<h3>Key topics</h3>
-<ul>
-<li><strong>Paradigm shift:</strong> why LLMs enable non-programmers to build working tools</li>
-<li><strong>Five apps from one report:</strong> practical prototypes derived from the SR report on AI in judicial systems (A/80/169)</li>
-<li><strong>AI literacy framework:</strong> task design, data structuring, validation, and governance</li>
-<li><strong>Jagged technological frontier:</strong> mapping where AI excels vs. where human judgment is essential</li>
-</ul>
+The focus: building simple but transformative tools &mdash; document analysis dashboards, search engines, filtering systems &mdash; that solve real bottlenecks when working with hundreds of PDFs. Not replacing human expertise, but amplifying it.
 
 <h3>Workshop Materials</h3>
 <ul>
