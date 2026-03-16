@@ -20,7 +20,7 @@ category: work
 <h3>Summary:</h3>
 <ul>
 <li><strong>Title:</strong> Do we need the recognition of neurorights? The scope of State and business actors' human rights obligations in the area of neurotechnologies</li>
-<li><strong>Project Team:</strong> Łukasz Szoszkiewicz (Principal Investigator), to be completed</li>
-<li><strong>Funding:</strong> National Science Centre</li>
+<li><strong>Project Team:</strong> Łukasz Szoszkiewicz (Principal Investigator), prof. Michał Klichowski, Eryk Dziemidzionek, Magdalena Marynowska</li>
+<li><strong>Funding:</strong> The project is supported by a National Science Centre (Poland) grant: Do we need the recognition of neurorights? The scope of State and business actors' human rights obligations in the area of neurotechnologies (project no. 2023/49/B/HS5/02139).</li>
 <li><strong>Timeframe:</strong> October 2024 – September 2028</li>
 </ul>
