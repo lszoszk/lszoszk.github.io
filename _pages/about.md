@@ -23,7 +23,7 @@ Previously, I was a Fulbright Scholar at <a href="https://ntc.columbia.edu/">Col
 
 My work sits at the intersection of <strong>international human rights law</strong>, <strong>legal informatics</strong>, and <strong>computational social science</strong>. I focus especially on the UN framework, mental privacy, digital technologies, social rights, and the problem of making complex legal materials easier to search, analyze, and use.
 
-I combine legal analysis with natural language processing (Python), statistics, corpus linguistics, and grounded theory.
+I combine legal analysis with natural language processing, statistics, corpus linguistics, and grounded theory.
 
 ## What I do
 
