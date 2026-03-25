@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Uncomfortable data
-description: Idenifying promising practices in the context of data collection on migrant children
+description: Research on data collection frameworks concerning migrant children deprived of liberty
 img: assets/img/uncomfortabledata.png
-importance: 2
-category: completed
+importance: 3
+category: Selected previous projects
 giscus_comments: true
 related_publications: true
 ---

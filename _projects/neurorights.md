@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Neurorights
-description: Determining State and business human rights obligations in area of neurotechnologies
+description: Research on mental privacy, neurorights, and human rights obligations in neurotechnology
 img: assets/img/neurorights.jpg
-importance: 3
-category: work
+importance: 1
+category: Current focus
 ---
 
 <p>The aim of the project is to determine the existing State and business human rights obligations in the area of neurotechnologies and assess whether recognition of new human rights is essential to adequately protect individuals from the unintended consequences of the application of such technologies.</p>

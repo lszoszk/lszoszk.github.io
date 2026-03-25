@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Access to HR information
-description: Open-source dashboards for paragraph-level search across human rights case law
+description: Search dashboards for human rights case law, including the Polish Constitutional Court and the ECtHR
 img: assets/img/project20.png
-importance: 1
-category: work
+importance: 2
+category: Current focus
 giscus_comments: true
 ---
 

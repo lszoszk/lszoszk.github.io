@@ -1,10 +1,10 @@
 ---
 layout: page
 title: UN Treaty Bodies Search
-description: Search and analyze General Comments/Recommendations adopted by the UN Treaty Bodies
+description: Search and analyze UN Treaty Body General Comments and Recommendations
 img: assets/img/project21.jpg
-importance: 1
-category: work
+importance: 3
+category: Current focus
 giscus_comments: true
 ---
 

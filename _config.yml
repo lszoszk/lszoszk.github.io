@@ -8,12 +8,12 @@ middle_name:
 last_name: Szoszkiewicz
 email: l.szoszkiewicz@amu.edu.pl
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal website of Łukasz Szoszkiewicz, PhD. I am a social scientist with legal background and self-trained data scientist.
+  Personal website of Łukasz Szoszkiewicz, PhD. Human rights researcher and tool builder working at the intersection of law, AI, and neurotechnology.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos: <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: human rights, child rights, Artificial Intelligence, neuroscience, data science, business  # add your own keywords or leave empty
+keywords: human rights, AI governance, neurorights, mental privacy, legal tech, UN human rights, neurotechnology  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 💻  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -104,7 +104,7 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-    You can contact me via email or any of the social networks above.
+    I am especially interested in collaborations on human rights, legal tech, and AI governance. You can contact me via email or any of the social networks above.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification

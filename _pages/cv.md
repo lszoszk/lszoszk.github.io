@@ -5,7 +5,7 @@ title: cv
 nav: true
 nav_order: 5
 cv_pdf: example_pdf.pdf
-description: Last update - January 2024. 
+description: Last update - March 2026.
 toc:
   sidebar: left
 ---
