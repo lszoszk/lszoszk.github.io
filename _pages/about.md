@@ -23,18 +23,12 @@ Previously, I was a Fulbright Scholar at <a href="https://ntc.columbia.edu/">Col
 
 My work sits at the intersection of <strong>international human rights law</strong>, <strong>legal informatics</strong>, and <strong>computational social science</strong>. I focus especially on the UN framework, mental privacy, digital technologies, social rights, and the problem of making complex legal materials easier to search, analyze, and use.
 
-I combine legal analysis with natural language processing, statistics, corpus linguistics, and grounded theory.
+I currently work on <a href="https://lszoszk.github.io/projects/neurorights/">neurorights and mental privacy</a> as well as building search tools for human rights (e.g. <a href="https://lszoszk.github.io/projects/generalcomments/">UN Treaty Bodies documents</a>).
 
-## What I do
+### What I do
 
 - <strong>Research:</strong> I study how emerging technologies, especially AI and neurotechnologies, reshape human rights obligations and regulatory frameworks.
 - <strong>Build:</strong> I develop open-source search and analysis tools for human rights case law and UN documents, including dashboards for the Polish Constitutional Court, the European Court of Human Rights, and UN Treaty Bodies materials.
 - <strong>Teach:</strong> I design courses and workshops that help lawyers, researchers, and human rights professionals use computational methods and AI tools in practice.
-
-## Current focus
-
-- <a href="https://lszoszk.github.io/projects/neurorights/">Neurorights and mental privacy</a>
-- <a href="https://lszoszk.github.io/projects/accesstohrinfo/">Search tools for human rights case law</a>
-- <a href="https://lszoszk.github.io/projects/generalcomments/">UN Treaty Bodies Search</a>
 
 I am especially interested in collaborations on human rights, legal tech, and AI governance.
