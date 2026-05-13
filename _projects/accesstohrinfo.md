@@ -34,7 +34,7 @@ giscus_comments: true
 
 <h2>European Court of Human Rights</h2>
 
-<p>An analytics dashboard for ECtHR case law with paragraph-level structural search, filters for articles, keywords, and respondent states.</p>
+<p>A dashboard for ECtHR case law with paragraph-level structural search, citation tracking, and analytics. Paragraphs are rebuilt from HUDOC source DOCX files for source-exact text fidelity. French-language judgments are included.</p>
 
 <p align="center">
 <a href="https://lszoszk.github.io/ECHR-Dashboard/"><button class="button-57" role="button">visit dashboard</button></a>
@@ -42,7 +42,10 @@ giscus_comments: true
 
 <h3>Features</h3>
 <ul>
-    <li><strong>Paragraph-level search</strong> across ECHR judgments with instant result highlighting.</li>
+    <li><strong>Paragraph-level search</strong> across ECHR judgments with instant highlighting, filters for articles, respondent states, judges, importance level, and document type.</li>
+    <li><strong>Citation extraction</strong> — each case shows which ECtHR decisions and domestic-law sources it cites, and which later cases cite it back.</li>
+    <li><strong>Source-exact paragraphs</strong> rebuilt from HUDOC DOCX files, with HUDOC-faithful modal rendering including multi-column appendix tables.</li>
+    <li><strong>In-browser ML classifier</strong> for creating custom paragraph labels using TF-IDF, character n-gram, or keyword-overlap models.</li>
     <li><strong>Analytics page</strong> with case statistics and visualizations.</li>
     <li><strong>Automated data pipeline</strong> with GitHub Actions for building and deploying updated datasets.</li>
 </ul>
