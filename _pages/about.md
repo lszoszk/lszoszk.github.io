@@ -28,7 +28,7 @@ I currently work on <a href="https://lszoszk.github.io/projects/neurorights/">ne
 ### What I do
 
 - <strong>Research:</strong> I study how emerging technologies, especially AI and neurotechnologies, reshape human rights obligations and regulatory frameworks.
-- <strong>Build:</strong> I develop open-source search and analysis tools for human rights case law and UN documents, including dashboards for the Polish Constitutional Court, the European Court of Human Rights, and UN Treaty Bodies materials.
+- <strong>Build:</strong> I develop open-source search and analysis tools for human rights case law and UN documents, including the <a href="https://lszoszk.github.io/generalcomments/">UN Human Rights Database</a>, the <a href="https://lszoszk.github.io/ECHR-Dashboard/">ECtHR Dashboard</a>, <a href="https://lszoszk.github.io/UnitedNations_recommendations/">UHRI+</a>, and the <a href="https://lszoszk.github.io/hrc-voting/">HRC Voting dashboard</a>.
 - <strong>Teach:</strong> I design courses and workshops that help lawyers, researchers, and human rights professionals use computational methods and AI tools in practice.
 
 I am especially interested in collaborations on human rights, legal tech, and AI governance.
