@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: Research projects and practical tools at the intersection of human rights, AI, and legal text analysis.
 nav: true
-nav_order: 3
+nav_order: 2
 display_categories: ["Current focus", "Selected previous projects"]
 horizontal: true
 ---

@@ -4,7 +4,7 @@ permalink: /publications/
 title: publications
 description: Forthcoming publications on the concept of promising practices, business and human rights and the right to Internet access. 
 nav: true
-nav_order: 2
+nav_order: 1
 ---
 <!-- _pages/publications.md -->
 <div class="publications">

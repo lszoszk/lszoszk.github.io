@@ -4,7 +4,7 @@ permalink: /talks/
 title: talks
 description: Talks & presentations.
 nav: true
-nav_order: 1
+nav_order: 5
 ---
 
 <!-- This path is served by the separate `lszoszk/talks` GitHub Pages deployment,
