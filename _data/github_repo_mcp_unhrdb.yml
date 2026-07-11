@@ -1,0 +1,7 @@
+name: mcp-unhrdb
+description: "MCP server exposing citable UN human rights paragraphs and recommendations directly to AI clients"
+language: JavaScript
+labels:
+  - MCP server
+  - AI integration
+  - Infrastructure

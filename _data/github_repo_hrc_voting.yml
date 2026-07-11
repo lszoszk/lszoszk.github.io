@@ -1,0 +1,7 @@
+name: HRC Voting
+description: "Interactive dashboard and reproducible dataset of UN Commission on Human Rights and Human Rights Council roll-call votes"
+language: HTML
+labels:
+  - Web app
+  - Voting data
+  - Reproducible

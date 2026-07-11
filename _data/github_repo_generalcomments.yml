@@ -1,0 +1,7 @@
+name: UN Human Rights Database
+description: "Paragraph-level search across UN Treaty Body General Comments, jurisprudence, and Special Procedures reports"
+language: Python
+labels:
+  - Web app
+  - Legal search
+  - Open dataset

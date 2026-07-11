@@ -534,6 +534,11 @@ footer.sticky-bottom {
   }
 }
 
+.repo-card-inner {
+  display: flex;
+  flex-direction: column;
+}
+
 .repo-header {
   display: flex;
   align-items: center;
@@ -556,6 +561,7 @@ footer.sticky-bottom {
 }
 
 .repo-description {
+  flex: 1;
   color: var(--global-text-color-light);
   font-size: 0.85rem;
   line-height: 1.4;
@@ -565,6 +571,25 @@ footer.sticky-bottom {
   -webkit-box-orient: vertical;
   overflow: hidden;
   min-height: 2.4rem;
+}
+
+.repo-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.repo-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.22rem 0.55rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 999px;
+  color: var(--global-text-color-light);
+  background-color: var(--global-bg-color);
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.2;
 }
 
 .repo-stats {

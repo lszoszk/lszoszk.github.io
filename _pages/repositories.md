@@ -2,12 +2,12 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: My GitHub repositories. Check out what I am currently working on.
+description: Selected open-source tools and research infrastructure for human rights research.
 nav: true
 nav_order: 3
 ---
 
-## My GitHub profile
+## GitHub profile
 
 {% if site.data.repositories.github_users %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
@@ -19,7 +19,9 @@ nav_order: 3
 
 ---
 
-## GitHub Repositories
+## Selected open-source tools
+
+<p>A curated selection of applications and research infrastructure. Course and workshop materials are under <a href="{{ '/teaching/' | relative_url }}">teaching</a>; presentations are under <a href="{{ '/talks/' | relative_url }}">talks</a>.</p>
 
 {% if site.data.repositories.github_repos %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
