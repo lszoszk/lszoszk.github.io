@@ -23,7 +23,7 @@ Previously, I was a Fulbright Scholar at <a href="https://ntc.columbia.edu/">Col
 
 My work sits at the intersection of <strong>international human rights law</strong>, <strong>legal informatics</strong>, and <strong>computational social science</strong>. I focus especially on the UN framework, mental privacy, digital technologies, social rights, and the problem of making complex legal materials easier to search, analyze, and use.
 
-I currently work on <a href="https://lszoszk.github.io/projects/neurorights/">neurorights and mental privacy</a> as well as building search tools for human rights (e.g. <a href="https://lszoszk.github.io/projects/generalcomments/">UN Treaty Bodies documents</a>).
+I currently work on <a href="{{ '/research/neurorights/' | relative_url }}">neurorights and mental privacy</a> as well as building <a href="{{ '/tools/' | relative_url }}">open-source research tools</a> for human rights law.
 
 ### What I do
 

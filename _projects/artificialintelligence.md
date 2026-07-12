@@ -4,7 +4,7 @@ title: Data rights in the age of AI
 description: Research on state obligations in data governance under international human rights law
 img: assets/img/robot.jpg
 importance: 1
-category: Selected previous projects
+category: Selected research
 giscus_comments: true
 related_publications: true
 ---

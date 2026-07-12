@@ -1,18 +1,18 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: Research projects and practical tools at the intersection of human rights, AI, and legal text analysis.
+title: research
+permalink: /research/
+description: Current and completed research on human rights, AI, neurotechnology, and data.
 nav: true
 nav_order: 2
-display_categories: ["Current focus", "Selected previous projects"]
+display_categories: ["Current research", "Selected research"]
 horizontal: true
 ---
 
 <!-- pages/projects.md -->
-<p>This page brings together my current research and tool-building work. Across these projects, I study how emerging technologies reshape human rights law and build tools that help researchers and practitioners work with complex legal texts.</p>
+<p class="projects-lead">My research examines how emerging technologies reshape human rights law and how legal institutions produce, classify, and use data.</p>
 
-<p>If you are new here, start with <a href="https://lszoszk.github.io/projects/neurorights/">Neurorights</a> for the research agenda and with <a href="https://lszoszk.github.io/projects/accesstohrinfo/">Access to HR information</a> and <a href="https://lszoszk.github.io/projects/generalcomments/">UN Treaty Bodies Search</a> for practical tools.</p>
+<p>For the open-source applications and datasets developed alongside this work, see <a href="{{ '/tools/' | relative_url }}">tools</a>.</p>
 
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}

@@ -4,7 +4,7 @@ title: Uncomfortable data
 description: Research on data collection frameworks concerning migrant children deprived of liberty
 img: assets/img/uncomfortabledata.png
 importance: 3
-category: Selected previous projects
+category: Selected research
 giscus_comments: true
 related_publications: true
 ---

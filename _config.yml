@@ -171,7 +171,10 @@ collections:
     permalink: /news/:path/
   projects:
     output: true
-    permalink: /projects/:path/
+    permalink: /research/:path/
+  tools:
+    output: true
+    permalink: /tools/:path/
 
 announcements:
   enabled: true

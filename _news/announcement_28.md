@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-⚖️ Major update to the <a href="https://lszoszk.github.io/ECHR-Dashboard/">ECHR Dashboard</a>: paragraphs are now rebuilt from HUDOC source DOCX files rather than scraped HTML, giving source-exact text for every judgment. The update also adds <strong>citation extraction</strong> — each case now shows which ECtHR decisions and domestic-law sources it cites and which later cases cite it back. French-language judgments are included for the first time.
+⚖️ Major update to the <a href="https://lszoszk.github.io/ECHR-Dashboard/">ECHR Dashboard</a>: paragraphs are now rebuilt from HUDOC source DOCX files rather than scraped HTML, giving source-exact text for every judgment. The update also adds <strong>citation extraction</strong> — each case now shows which ECtHR decisions and domestic-law sources it cites and which later cases cite it back.

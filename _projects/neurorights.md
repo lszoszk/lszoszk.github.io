@@ -4,7 +4,7 @@ title: Neurorights
 description: Research on mental privacy, neurorights, and human rights obligations in neurotechnology
 img: assets/img/neurorights.jpg
 importance: 1
-category: Current focus
+category: Current research
 ---
 
 <p>The aim of the project is to determine the existing State and business human rights obligations in the area of neurotechnologies and assess whether recognition of new human rights is essential to adequately protect individuals from the unintended consequences of the application of such technologies.</p>
@@ -16,6 +16,21 @@ category: Current focus
 <p>The project will offer, for the first time, a multilevel analysis that integrates the perspectives of scientists (analysis of literature from law, ethics, and neuroscience), industry (analysis of patents), and human rights lawyers (analysis of legal framework).</p>
 
 <p>The analysis of international human rights law is primarily based on UN treaties, UN Guiding Principles on Business and Human Rights (UNGPs), and documents adopted by UN treaty bodies (General Comments, Concluding Observations).</p>
+
+<h2>Outputs</h2>
+
+<div class="project-outputs">
+  <article class="project-output">
+    <div class="project-output-meta">
+      <span>Book chapter</span>
+      <span>2025</span>
+    </div>
+    <h3><a href="https://doi.org/10.1007/978-3-031-94690-5_12">Mental Augmentation, Human Rights, and the Future of Choice</a></h3>
+    <p class="project-output-authors"><strong>Łukasz Szoszkiewicz</strong> and Stephen Damianos</p>
+    <p>In <em>Ethics and Medical Technology</em>, pp. 225–241. Springer.</p>
+    <a class="project-output-link" href="https://link.springer.com/chapter/10.1007/978-3-031-94690-5_12">View publication <span aria-hidden="true">→</span></a>
+  </article>
+</div>
 
 <h3>Summary:</h3>
 <ul>

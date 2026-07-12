@@ -1,0 +1,26 @@
+<article class="tool-card">
+  <a class="tool-card-visual" href="{{ tool.app }}" target="_blank" rel="noopener noreferrer" aria-label="Open {{ tool.title }} in a new tab">
+    {% include figure.html path=tool.img sizes="(min-width: 768px) 380px, 100vw" alt=tool.title %}
+    <span class="tool-visual-action">Open <span aria-hidden="true">↗</span></span>
+  </a>
+  <div class="tool-card-body">
+    <div class="tool-card-heading">
+      <span class="tool-kicker">{{ tool.kicker }}</span>
+      {% if tool.status %}<span class="tool-status">{{ tool.status }}</span>{% endif %}
+    </div>
+    <h2><a href="{{ tool.url | relative_url }}">{{ tool.title }}</a></h2>
+    <p>{{ tool.description }}</p>
+    {% if tool.tags %}
+    <div class="tool-tags" aria-label="Tool characteristics">
+      {% for tag in tool.tags %}<span>{{ tag }}</span>{% endfor %}
+    </div>
+    {% endif %}
+    <div class="tool-links">
+      <a href="{{ tool.url | relative_url }}">Details</a>
+      <a href="{{ tool.app }}" target="_blank" rel="noopener noreferrer">Open <span aria-hidden="true">↗</span></a>
+      {% if tool.dataset %}<a href="{{ tool.dataset }}">Dataset</a>{% endif %}
+      <a href="{{ tool.github }}">Source</a>
+      {% if tool.mcp %}<a href="{{ tool.mcp }}">MCP</a>{% endif %}
+    </div>
+  </div>
+</article>
