@@ -11,7 +11,7 @@ profile:
 
 news: true  # includes a list of news items
 latest_posts:  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # publications remain available from the main navigation
 social: true  # includes social icons at the bottom of the page
 ---
 
@@ -19,16 +19,64 @@ I research how <strong>AI</strong> and <strong>neurotechnologies</strong> challe
 
 I am an Assistant Professor at <a href="https://prawo.amu.edu.pl/en/">Adam Mickiewicz University</a>, Director for European Affairs at <a href="https://neurorightsfoundation.org/people">The Neurorights Foundation</a>, and a 2025-26 <a href="https://www.reconstitution.eu/en/fellows/current-fellows">re:constitution fellow</a> hosted by <a href="https://huridocs.org/">HURIDOCS</a>.
 
-Previously, I was a Fulbright Scholar at <a href="https://ntc.columbia.edu/">Columbia University’s Neurotechnology Center</a>, where I focused on mental privacy and speech decoding.
+Previously, I was a Fulbright Scholar at <a href="https://ntc.columbia.edu/">Columbia University’s Neurotechnology Center</a>, where I focused on mental privacy and speech decoding. My work combines <strong>international human rights law</strong>, <strong>legal informatics</strong>, and <strong>computational social science</strong>.
 
-My work sits at the intersection of <strong>international human rights law</strong>, <strong>legal informatics</strong>, and <strong>computational social science</strong>. I focus especially on the UN framework, mental privacy, digital technologies, social rights, and the problem of making complex legal materials easier to search, analyze, and use.
+<section class="home-tools" aria-labelledby="home-tools-title">
+  <div class="home-tools-heading">
+    <div>
+      <span class="home-tools-eyebrow">Research infrastructure</span>
+      <h2 id="home-tools-title">Tools for working with human rights law</h2>
+    </div>
+    <a class="home-tools-all" href="{{ '/tools/' | relative_url }}">Explore all tools <span aria-hidden="true">→</span></a>
+  </div>
 
-I currently work on <a href="{{ '/research/neurorights/' | relative_url }}">neurorights and mental privacy</a> as well as building <a href="{{ '/tools/' | relative_url }}">open-source research tools</a> for human rights law.
+  <article class="home-tool-primary">
+    <div class="home-tool-primary-copy">
+      <div class="home-tool-title-row">
+        <span class="home-tool-number">01</span>
+        <span class="home-tool-status live">Live</span>
+      </div>
+      <h3 class="home-tool-long-title"><a href="{{ '/tools/unhrdb/' | relative_url }}">UN Human Rights Database</a></h3>
+      <p class="home-tool-tagline">Search what UN human rights mechanisms actually adopted, down to the paragraph.</p>
+      <div class="home-tool-facts" aria-label="UNHRDB coverage">
+        <span><strong>320k+</strong> paragraphs</span>
+        <span><strong>6k+</strong> documents</span>
+        <span><strong>Source-first</strong> citations</span>
+      </div>
+      <div class="home-mcp-note">
+        <span class="home-mcp-label">Also available through MCP</span>
+        <p>MCP is a connector that lets AI assistants search UNHRDB directly. Instead of inventing an answer, they can retrieve the exact UN passage, document symbol, and paragraph number.</p>
+      </div>
+      <div class="home-tool-actions">
+        <a class="home-tool-action primary" href="https://lszoszk.github.io/generalcomments/">Open UNHRDB</a>
+        <a class="home-tool-action" href="{{ '/tools/unhrdb/' | relative_url }}">How it works</a>
+      </div>
+    </div>
+    <a class="home-tool-primary-visual" href="https://lszoszk.github.io/generalcomments/" aria-label="Open UNHRDB">
+      <img src="{{ '/assets/img/tools/unhrdb-search.png' | relative_url }}" alt="UNHRDB paragraph search interface">
+      <span>Open the live database <span aria-hidden="true">↗</span></span>
+    </a>
+  </article>
 
-### What I do
+  <div class="home-tool-secondary-grid">
+    <article class="home-tool-secondary">
+      <div class="home-tool-title-row">
+        <span class="home-tool-number">02</span>
+        <span class="home-tool-status live">Live</span>
+      </div>
+      <h3><a href="{{ '/tools/uhri/' | relative_url }}">UHRI+</a></h3>
+      <p>Explore 267,000+ recommendations from UN human rights mechanisms across countries, themes, and time.</p>
+      <a class="home-tool-text-link" href="https://lszoszk.github.io/UnitedNations_recommendations/">Open UHRI+ <span aria-hidden="true">↗</span></a>
+    </article>
 
-- <strong>Research:</strong> I study how emerging technologies, especially AI and neurotechnologies, reshape human rights obligations and regulatory frameworks.
-- <strong>Build:</strong> I develop open-source search and analysis tools for human rights case law and UN documents, including the <a href="https://lszoszk.github.io/generalcomments/">UN Human Rights Database</a>, the <a href="https://lszoszk.github.io/ECHR-Dashboard/">ECtHR Dashboard</a>, <a href="https://lszoszk.github.io/UnitedNations_recommendations/">UHRI+</a>, and the <a href="https://lszoszk.github.io/hrc-voting/">HRC Voting dashboard</a>.
-- <strong>Teach:</strong> I design courses and workshops that help lawyers, researchers, and human rights professionals use computational methods and AI tools in practice.
-
-I am especially interested in collaborations on human rights, legal tech, and AI governance.
+    <article class="home-tool-secondary is-development">
+      <div class="home-tool-title-row">
+        <span class="home-tool-number">03</span>
+        <span class="home-tool-status development">Under development</span>
+      </div>
+      <h3><a href="{{ '/tools/hudoc-researcher/' | relative_url }}">HUDOC+</a></h3>
+      <p>Structural and semantic search across nearly 20,000 ECtHR judgments, with source-exact text and citation analysis.</p>
+      <a class="home-tool-text-link" href="{{ '/tools/hudoc-researcher/' | relative_url }}">View development preview <span aria-hidden="true">→</span></a>
+    </article>
+  </div>
+</section>

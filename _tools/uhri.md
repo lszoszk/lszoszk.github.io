@@ -44,7 +44,7 @@ giscus_comments: true
 <div class="project-callout">
   <span class="project-callout-label">AI integration</span>
   <h3>UHRI+ recommendations are available through MCP</h3>
-  <p>The same <a href="https://github.com/lszoszk/mcp-unhrdb">mcp-unhrdb</a> connector exposes dedicated tools for recommendation search, record lookup, and facet discovery. The recommendations corpus remains separate from UNHRDB paragraphs, preventing different source types from being blended.</p>
+  <p>The same <a href="https://github.com/lszoszk/mcp-unhrdb">mcp-unhrdb</a> connector exposes dedicated tools for recommendation search, record lookup, and facet discovery. The recommendations corpus remains separate from UNHRDB paragraphs, preventing different source types from being blended. The connector has its own <a href="https://doi.org/10.5281/zenodo.21319705">Zenodo DOI</a>.</p>
 </div>
 
 ## Why it matters

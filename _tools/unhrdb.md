@@ -45,7 +45,7 @@ giscus_comments: true
 <div class="project-callout">
   <span class="project-callout-label">AI integration</span>
   <h3>UNHRDB is also available through MCP</h3>
-  <p><a href="https://github.com/lszoszk/mcp-unhrdb">mcp-unhrdb</a> lets Claude and other MCP clients search the same corpus and resolve citations. It returns verbatim UN paragraphs rather than generated summaries, preserving the document symbol and paragraph number.</p>
+  <p><a href="https://github.com/lszoszk/mcp-unhrdb">mcp-unhrdb</a> lets Claude and other MCP clients search the same corpus and resolve citations. It returns verbatim UN paragraphs rather than generated summaries, preserving the document symbol and paragraph number. The connector has its own <a href="https://doi.org/10.5281/zenodo.21319705">Zenodo DOI</a>.</p>
 </div>
 
 ## Research approach

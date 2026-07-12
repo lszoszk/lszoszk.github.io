@@ -1,7 +1,7 @@
 ---
 layout: page
-title: HUDOC Researcher
-description: Paragraph-level case-law search with citation tracking and source-exact HUDOC text
+title: HUDOC+
+description: Paragraph-level search across nearly 20,000 ECtHR judgments with citation tracking and source-exact HUDOC text
 img: assets/img/tools/hudoc-search-results.png
 importance: 4
 kicker: European case law
@@ -12,14 +12,16 @@ tags:
   - Legal analytics
 app: https://lszoszk.github.io/ECHR-Dashboard/
 github: https://github.com/lszoszk/ECHR-Dashboard
+doi: https://doi.org/10.5281/zenodo.21319703
 giscus_comments: true
 ---
 
-<p class="project-intro">A research dashboard for exploring European Court of Human Rights judgments as structured legal data, while keeping the wording and organisation of the HUDOC source documents visible.</p>
+<p class="project-intro">A research dashboard for exploring nearly 20,000 European Court of Human Rights judgments as structured legal data, while keeping the wording and organisation of the HUDOC source documents visible.</p>
 
 <div class="project-actions">
   <a class="project-action primary" href="https://lszoszk.github.io/ECHR-Dashboard/">Open dashboard</a>
   <a class="project-action" href="https://github.com/lszoszk/ECHR-Dashboard">Source code</a>
+  <a class="project-action" href="https://doi.org/10.5281/zenodo.21319703">Zenodo DOI</a>
 </div>
 
 <div class="project-metrics">
@@ -41,3 +43,7 @@ giscus_comments: true
 ## Design principle
 
 The dashboard combines computational analysis with a source-first reader. Search and citation graphs help users find relationships, but the primary legal text remains the centre of the interface and can be traced back to HUDOC.
+
+## Citation
+
+The software has a stable <a href="https://doi.org/10.5281/zenodo.21319703">Zenodo concept DOI</a>. HUDOC+ is developed by Łukasz Szoszkiewicz and Sebastian Marcisz; legal propositions and quoted paragraphs should additionally cite the authoritative HUDOC case record.
