@@ -54,18 +54,17 @@ Previously, I was a Fulbright Scholar at <a href="https://ntc.columbia.edu/">Col
     </div>
     <a class="home-tool-primary-visual" href="https://lszoszk.github.io/generalcomments/" aria-label="Open UNHRDB">
       <img src="{{ '/assets/img/tools/unhrdb-search.png' | relative_url }}" alt="UNHRDB paragraph search interface">
-      <span>Open the live database <span aria-hidden="true">↗</span></span>
     </a>
   </article>
 
-  <div class="home-tool-secondary-grid">
+  <div class="home-tool-secondary-grid" id="home-secondary-grid">
     <article class="home-tool-secondary">
       <div class="home-tool-title-row">
         <span class="home-tool-number">02</span>
         <span class="home-tool-status live">Live</span>
       </div>
       <h3><a href="{{ '/tools/uhri/' | relative_url }}">UHRI+</a></h3>
-      <p>Explore 267,000+ recommendations from UN human rights mechanisms across countries, themes, and time.</p>
+      <p>The original UHRI dataset, cleaned — with visualizations and a statistics overlay across 267,000+ UN recommendations.</p>
       <a class="home-tool-text-link" href="https://lszoszk.github.io/UnitedNations_recommendations/">Open UHRI+ <span aria-hidden="true">↗</span></a>
     </article>
 
@@ -75,8 +74,48 @@ Previously, I was a Fulbright Scholar at <a href="https://ntc.columbia.edu/">Col
         <span class="home-tool-status development">Under development</span>
       </div>
       <h3><a href="{{ '/tools/hudoc-researcher/' | relative_url }}">HUDOC+</a></h3>
-      <p>Structural and semantic search across nearly 20,000 ECtHR judgments, with source-exact text and citation analysis.</p>
+      <p>Paragraph-level structural and semantic search across ECtHR judgments, with quick citation export.</p>
       <a class="home-tool-text-link" href="{{ '/tools/hudoc-researcher/' | relative_url }}">View development preview <span aria-hidden="true">→</span></a>
+    </article>
+
+    <article class="home-tool-secondary" style="display:none">
+      <div class="home-tool-title-row">
+        <span class="home-tool-number">04</span>
+        <span class="home-tool-status live">Live</span>
+      </div>
+      <h3><a href="https://lszoszk.github.io/hrc-voting/">HRC Voting</a></h3>
+      <p>Every UN Commission on Human Rights &amp; Human Rights Council roll-call vote, 1946–2026 — 6,346 resolutions, 80,159 votes, with a citable open dataset.</p>
+      <a class="home-tool-text-link" href="https://lszoszk.github.io/hrc-voting/">Open HRC Voting <span aria-hidden="true">↗</span></a>
     </article>
   </div>
 </section>
+
+<script>
+  // Bottom two tiles: show a random 2 of the 3 candidates on each load
+  // (so HRC Voting rotates in). No-JS fallback shows the first two.
+  (function () {
+    var grid = document.getElementById('home-secondary-grid');
+    if (!grid) return;
+    var tiles = Array.prototype.slice.call(grid.querySelectorAll('.home-tool-secondary'));
+    if (tiles.length <= 2) return;
+    var order = tiles.map(function (_, i) { return i; });
+    for (var i = order.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = order[i]; order[i] = order[j]; order[j] = t;
+    }
+    var show = {};
+    order.slice(0, 2).forEach(function (i) { show[i] = true; });
+    var n = 2;
+    tiles.forEach(function (el, i) {
+      if (show[i]) {
+        el.style.display = '';
+        var num = el.querySelector('.home-tool-number');
+        if (num) num.textContent = '0' + n++;
+      } else {
+        el.style.display = 'none';
+      }
+    });
+  })();
+</script>
+
+<p class="home-personal-note" style="margin-top:2.2rem;color:var(--global-text-color-light);font-style:italic;font-size:0.95em;">Long before the footnotes, there was the open road — I hitchhiked and backpacked across Europe, North America, and Asia, and still send the occasional dispatch to the alternative travel blog <a href="https://choosetravel.pl">choosetravel.pl</a>.</p>
