@@ -21,6 +21,8 @@ I am an Assistant Professor at <a href="https://prawo.amu.edu.pl/en/">Adam Micki
 
 Previously, I was a Fulbright Scholar at <a href="https://ntc.columbia.edu/">Columbia University’s Neurotechnology Center</a>, where I focused on mental privacy and speech decoding. My work combines <strong>international human rights law</strong>, <strong>legal informatics</strong>, and <strong>computational social science</strong>.
 
+<p class="home-personal-note" style="margin-top:1.35rem;font-style:italic;">Long before the footnotes, there was the open road — I hitchhiked and backpacked across Europe, North America, and Asia, and still send the occasional dispatch to the alternative travel blog <a href="https://choosetravel.pl">choosetravel.pl</a>.</p>
+
 <section class="home-tools" aria-labelledby="home-tools-title">
   <div class="home-tools-heading">
     <div>
@@ -117,5 +119,3 @@ Previously, I was a Fulbright Scholar at <a href="https://ntc.columbia.edu/">Col
     });
   })();
 </script>
-
-<p class="home-personal-note" style="margin-top:2.2rem;color:var(--global-text-color-light);font-style:italic;font-size:0.95em;">Long before the footnotes, there was the open road — I hitchhiked and backpacked across Europe, North America, and Asia, and still send the occasional dispatch to the alternative travel blog <a href="https://choosetravel.pl">choosetravel.pl</a>.</p>
