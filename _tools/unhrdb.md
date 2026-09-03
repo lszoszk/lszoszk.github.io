@@ -28,8 +28,8 @@ giscus_comments: true
 </div>
 
 <div class="project-metrics">
-  <div><strong>320k+</strong><span>searchable paragraphs</span></div>
-  <div><strong>6,000+</strong><span>UN documents</span></div>
+  <div><strong>322k+</strong><span>searchable paragraphs</span></div>
+  <div><strong>6,100+</strong><span>UN documents</span></div>
   <div><strong>Verbatim</strong><span>paragraph-level citations</span></div>
 </div>
 
