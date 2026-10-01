@@ -1,7 +1,7 @@
 ---
 layout: page
 title: HRC Voting
-description: Explore every roll-call vote of the UN Commission on Human Rights and Human Rights Council
+description: Explore the roll-call votes of the UN Commission on Human Rights, Human Rights Council and General Assembly Third Committee
 img: assets/img/tools/hrc-voting.png
 importance: 3
 kicker: Voting data
@@ -24,8 +24,8 @@ giscus_comments: true
 </div>
 
 <div class="project-metrics">
-  <div><strong>6,346</strong><span>resolutions</span></div>
-  <div><strong>80,159</strong><span>country votes</span></div>
+  <div><strong>6,392</strong><span>catalogued records</span></div>
+  <div><strong>80,676</strong><span>country votes</span></div>
   <div><strong>1946–2026</strong><span>institutional history</span></div>
 </div>
 

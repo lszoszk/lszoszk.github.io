@@ -1,5 +1,5 @@
 name: HRC Voting
-description: "Interactive dashboard and reproducible dataset of UN Commission on Human Rights and Human Rights Council roll-call votes"
+description: "Interactive dashboard and reproducible dataset of UN Commission on Human Rights, Human Rights Council and General Assembly Third Committee roll-call votes"
 language: HTML
 labels:
   - Web app

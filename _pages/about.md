@@ -86,7 +86,7 @@ Previously, I was a Fulbright Scholar at <a href="https://ntc.columbia.edu/">Col
         <span class="home-tool-status live">Live</span>
       </div>
       <h3><a href="https://lszoszk.github.io/hrc-voting/">HRC Voting</a></h3>
-      <p>Every UN Commission on Human Rights &amp; Human Rights Council roll-call vote, 1946–2026 — 6,346 resolutions, 80,159 votes, with a citable open dataset.</p>
+      <p>Roll-call votes of the UN Commission on Human Rights, Human Rights Council &amp; General Assembly Third Committee, 1946–2026 — 6,392 catalogued records, 80,676 country votes, with a citable open dataset.</p>
       <a class="home-tool-text-link" href="https://lszoszk.github.io/hrc-voting/">Open HRC Voting <span aria-hidden="true">↗</span></a>
     </article>
   </div>
