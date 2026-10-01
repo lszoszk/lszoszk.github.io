@@ -244,6 +244,10 @@ defaults:
       type: "posts"
     values:
       sitemap: false
+  - scope:
+      path: "blog"
+    values:
+      sitemap: false
 
 sass:
   style: compressed
