@@ -2,3 +2,4 @@ User-agent: *
 Disallow:
 
 Sitemap: https://lszoszk.github.io/sitemap.xml
+Sitemap: https://lszoszk.github.io/hrc-voting/sitemap.xml
