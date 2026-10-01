@@ -4,10 +4,17 @@
 
 ## Research tools
 
+- [UHRI+ — UN Human Rights Recommendations Dashboard](https://lszoszk.github.io/UnitedNations_recommendations/): search and analytics across more than 270,000 recommendations from UN Treaty Bodies, Special Procedures and the Universal Periodic Review, built on the OHCHR Universal Human Rights Index. Details for language models: [llms.txt](https://lszoszk.github.io/UnitedNations_recommendations/llms.txt). Connect it to an AI assistant: [ai.html](https://lszoszk.github.io/UnitedNations_recommendations/ai.html). Cite: DOI [10.5281/zenodo.21319464](https://doi.org/10.5281/zenodo.21319464)
 - [UN Human Rights Database (UNHRDB)](https://lszoszk.github.io/generalcomments/): paragraph-level search of UN human rights law — Treaty Body General Comments, treaty-body decisions and Special Procedures reports, each paragraph keyed to its UN symbol. Details for language models: [llms.txt](https://lszoszk.github.io/generalcomments/llms.txt)
 - [Human Rights Council voting](https://lszoszk.github.io/hrc-voting/): recorded votes on resolutions of the Commission on Human Rights, the Human Rights Council and the General Assembly Third Committee.
+- [HUDOC+](https://lszoszk.github.io/ECHR-Dashboard/): paragraph-level search across nearly 20,000 European Court of Human Rights judgments, with citation tracking and source-exact HUDOC text.
+- [MCP server mcp-unhrdb](https://github.com/lszoszk/mcp-unhrdb): one connector for UHRI+ recommendations and UNHRDB paragraphs, returning verbatim UN text with document symbols.
 
 ## Person
 
 - [ORCID](https://orcid.org/0000-0001-6671-2893)
 - [Website](https://lszoszk.github.io/)
+- [Research](https://lszoszk.github.io/research/)
+- [Publications](https://lszoszk.github.io/publications/)
+- [Tools](https://lszoszk.github.io/tools/)
+- [CV](https://lszoszk.github.io/cv/)
