@@ -5,3 +5,4 @@ Sitemap: https://lszoszk.github.io/sitemap.xml
 Sitemap: https://lszoszk.github.io/hrc-voting/sitemap.xml
 Sitemap: https://lszoszk.github.io/UnitedNations_recommendations/sitemap.xml
 Sitemap: https://lszoszk.github.io/generalcomments/sitemap.xml
+Sitemap: https://lszoszk.github.io/ECHR-Dashboard/sitemap.xml
