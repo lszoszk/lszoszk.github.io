@@ -8,3 +8,4 @@ Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
 Sitemap: {{ site.baseurl | prepend: site.url }}/hrc-voting/sitemap.xml
 Sitemap: {{ site.baseurl | prepend: site.url }}/UnitedNations_recommendations/sitemap.xml
 Sitemap: {{ site.baseurl | prepend: site.url }}/generalcomments/sitemap.xml
+Sitemap: {{ site.baseurl | prepend: site.url }}/ECHR-Dashboard/sitemap.xml
