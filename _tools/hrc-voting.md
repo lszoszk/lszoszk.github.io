@@ -12,6 +12,7 @@ tags:
   - UN institutions
 app: https://lszoszk.github.io/hrc-voting/
 github: https://github.com/lszoszk/hrc-voting
+mcp: https://github.com/lszoszk/mcp-hrc-voting
 giscus_comments: true
 ---
 
@@ -21,6 +22,7 @@ giscus_comments: true
   <a class="project-action primary" href="https://lszoszk.github.io/hrc-voting/">Open dashboard</a>
   <a class="project-action" href="https://github.com/lszoszk/hrc-voting">Source code</a>
   <a class="project-action" href="https://doi.org/10.5281/zenodo.21281232">Dataset DOI</a>
+  <a class="project-action" href="https://github.com/lszoszk/mcp-hrc-voting">MCP server</a>
 </div>
 
 <div class="project-metrics">
@@ -38,6 +40,7 @@ giscus_comments: true
 
 ## Use with Claude and other AI assistants
 
+- <a href="https://github.com/lszoszk/mcp-hrc-voting">mcp-hrc-voting</a>: the same data as an MCP server (nine read-only tools, offline, same safeguards) for Claude Desktop, Claude Code and other MCP clients.
 - <a href="https://lszoszk.github.io/hrc-voting/skills/">Claude skills</a>: <code>hrc-voting</code> answers questions about how States voted (country records, voting partners, consensus versus recorded votes, amendments, checking a published figure) from an offline snapshot of the dataset, and <code>hrc-voting-cite</code> writes citations and methods notes.
 - A plain page for every State and every recorded resolution, readable without JavaScript, and an <a href="https://lszoszk.github.io/hrc-voting/llms.txt">llms.txt</a> map of the site.
 
