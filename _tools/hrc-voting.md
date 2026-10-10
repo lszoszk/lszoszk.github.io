@@ -36,6 +36,11 @@ giscus_comments: true
 - Visualises yes, no, abstention, and absence patterns through timelines and vote matrices.
 - Publishes the full harvesting and transformation pipeline alongside the dashboard.
 
+## Use with Claude and other AI assistants
+
+- <a href="https://lszoszk.github.io/hrc-voting/skills/">Claude skills</a>: <code>hrc-voting</code> answers questions about how States voted (country records, voting partners, consensus versus recorded votes, amendments, checking a published figure) from an offline snapshot of the dataset, and <code>hrc-voting-cite</code> writes citations and methods notes.
+- A plain page for every State and every recorded resolution, readable without JavaScript, and an <a href="https://lszoszk.github.io/hrc-voting/llms.txt">llms.txt</a> map of the site.
+
 ## Data and reproducibility
 
 The records are harvested from the OHCHR Search Library and normalised into a reproducible dataset covering both predecessor and current institutions. The archived dataset has a permanent Zenodo DOI, while the open-source pipeline documents how the source records become dashboard-ready voting data.
