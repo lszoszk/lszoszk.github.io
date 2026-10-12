@@ -40,7 +40,7 @@ giscus_comments: true
     <source src="{{ '/assets/video/hudoc-researcher-film.mp4' | relative_url }}" type="video/mp4">
     Your browser cannot play embedded video; <a href="{{ '/assets/video/hudoc-researcher-film.mp4' | relative_url }}">download the film (mp4, 17 MB)</a>.
   </video>
-  <figcaption class="caption">HUDOC Researcher in 100 seconds (English subtitles).</figcaption>
+  <figcaption class="caption">HUDOC Researcher in 100 seconds (English subtitles). The film shows the corpus counts of the day it was recorded; the current counts are given above.</figcaption>
 </figure>
 
 <details>
