@@ -32,7 +32,7 @@ giscus_comments: true
 
 ## Film
 
-<figure id="film">
+<figure>
   <video controls preload="metadata" playsinline style="width:100%;height:auto" class="rounded z-depth-1" poster="{{ '/assets/img/tools/hudoc-researcher-film-poster.jpg' | relative_url }}">
     <source src="{{ '/assets/video/hudoc-researcher-film.mp4' | relative_url }}" type="video/mp4">
     Your browser cannot play embedded video; <a href="{{ '/assets/video/hudoc-researcher-film.mp4' | relative_url }}">download the film (mp4, 17 MB)</a>.
