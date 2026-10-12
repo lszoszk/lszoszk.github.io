@@ -946,6 +946,11 @@ footer.sticky-bottom {
     box-shadow: 0 0 0 3px rgba(39, 132, 91, 0.12);
   }
 
+  &.beta::before {
+    background: #3a6ea5;
+    box-shadow: 0 0 0 3px rgba(58, 110, 165, 0.14);
+  }
+
   &.development::before {
     background: #c4882f;
     box-shadow: 0 0 0 3px rgba(196, 136, 47, 0.14);

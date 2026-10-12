@@ -70,14 +70,14 @@ Previously, I was a Fulbright Scholar at <a href="https://ntc.columbia.edu/">Col
       <a class="home-tool-text-link" href="https://lszoszk.github.io/UnitedNations_recommendations/">Open UHRI+ <span aria-hidden="true">↗</span></a>
     </article>
 
-    <article class="home-tool-secondary is-development">
+    <article class="home-tool-secondary">
       <div class="home-tool-title-row">
         <span class="home-tool-number">03</span>
-        <span class="home-tool-status development">Under development</span>
+        <span class="home-tool-status beta">Public beta</span>
       </div>
       <h3><a href="{{ '/tools/hudoc-researcher/' | relative_url }}">HUDOC Researcher</a></h3>
-      <p>Paragraph-level structural and semantic search across ECtHR judgments, with quick citation export.</p>
-      <a class="home-tool-text-link" href="{{ '/tools/hudoc-researcher/' | relative_url }}">View development preview <span aria-hidden="true">→</span></a>
+      <p>Paragraph-level search of the case law of the European Court of Human Rights (over 20,000 judgments in English and over 9,000 only in French), with Semantic Search, a citation network and a Check of the citations in a draft.</p>
+      <a class="home-tool-text-link" href="https://lszoszk.github.io/ECHR-Dashboard/">Open HUDOC Researcher <span aria-hidden="true">↗</span></a>
     </article>
 
     <article class="home-tool-secondary" style="display:none">

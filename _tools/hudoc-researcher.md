@@ -1,7 +1,7 @@
 ---
 layout: page
 title: HUDOC Researcher
-description: Paragraph-level search across nearly 20,000 ECtHR judgments with citation tracking and source-exact HUDOC text
+description: Paragraph-level search of the case law of the European Court of Human Rights (over 20,000 judgments in English and over 9,000 only in French), with a citation network, Semantic Search and a Check of the citations in a draft
 img: assets/img/tools/hudoc-search-results.png
 importance: 4
 kicker: European case law
@@ -9,25 +9,28 @@ status: Public beta
 tags:
   - Paragraph search
   - Citation graph
+  - Semantic search
   - Legal analytics
 app: https://lszoszk.github.io/ECHR-Dashboard/
 github: https://github.com/lszoszk/ECHR-Dashboard
+mcp: https://github.com/lszoszk/mcp-echr
 doi: https://doi.org/10.5281/zenodo.21319703
 giscus_comments: true
 ---
 
-<p class="project-intro">A research dashboard for exploring nearly 20,000 European Court of Human Rights judgments as structured legal data, while keeping the wording and organisation of the HUDOC source documents visible.</p>
+<p class="project-intro">An independent toolkit built on HUDOC data for working with the case law of the European Court of Human Rights at the level of the Court's own paragraphs. HUDOC remains the authoritative source and stays one click away from every paragraph.</p>
 
 <div class="project-actions">
   <a class="project-action primary" href="https://lszoszk.github.io/ECHR-Dashboard/">Open dashboard</a>
   <a class="project-action" href="https://github.com/lszoszk/ECHR-Dashboard">Source code</a>
   <a class="project-action" href="https://doi.org/10.5281/zenodo.21319703">Zenodo DOI</a>
+  <a class="project-action" href="https://github.com/lszoszk/mcp-echr">MCP server</a>
 </div>
 
 <div class="project-metrics">
-  <div><strong>Paragraph-level</strong><span>structural search</span></div>
-  <div><strong>Source-exact</strong><span>HUDOC DOCX text</span></div>
-  <div><strong>Bidirectional</strong><span>citation tracking</span></div>
+  <div><strong>20,073</strong><span>judgments in English</span></div>
+  <div><strong>9,284</strong><span>only in French, searched in French</span></div>
+  <div><strong>8 Oct 2026</strong><span>corpus cut-off, topped up monthly</span></div>
 </div>
 
 ## Film
@@ -54,11 +57,18 @@ giscus_comments: true
 
 ## What it does
 
-- Searches judgment paragraphs with filters for Convention articles, respondent States, judges, importance, sections, and document type.
-- Rebuilds paragraphs from HUDOC source DOCX files rather than relying on scraped webpage text.
-- Extracts the ECtHR decisions and domestic-law sources cited by each judgment, plus later cases that cite it back.
-- Includes case analytics and an in-browser classifier for creating custom paragraph labels.
-- Uses an automated data pipeline for rebuilding and deploying the searchable corpus.
+- Searches the paragraphs of the judgments with HUDOC's operators and filters (Convention article, respondent State, importance, outcome, formation and the part of the judgment), and shows what each judgment cites as well as the later cases that cite it (287,316 citation links between the judgments and decisions of the corpus).
+- Covers 20,073 judgments in English (14 November 1960 – 8 October 2026) and, in their authentic French text, the 9,284 judgments that HUDOC publishes only in French. Unofficial English machine translations of the 2,460 most-cited of them can be switched on, clearly labelled. Decisions are a selection for now (3,557, about 12% of HUDOC's English decisions) and appear when Decisions is ticked.
+- Rebuilds paragraphs from HUDOC source DOCX files rather than relying on scraped webpage text, keeps the Court's own paragraph numbers, and gives each paragraph a link to HUDOC and a ready OSCOLA citation.
+- Semantic Search (experimental) finds passages from a plain-language description of a case. The query can be in any language, while the passages returned are in English.
+- Check compares the citations, paragraph numbers and quotations in a pasted text with the judgments.
+- Workspace keeps the paragraphs and searches you save, with your notes, in your browser, and Statistics presents the corpus in charts.
+
+## Use with Claude and other AI assistants
+
+- <a href="https://github.com/lszoszk/mcp-echr">mcp-echr</a>: the same search as an MCP server (seven tools, hosted, so a connector can be added without installing anything), which lets Claude or another assistant quote the Court verbatim, with the case name, application number, date and paragraph number.
+- <a href="https://github.com/lszoszk/mcp-echr/raw/main/skills/echr-research.zip">echr-research</a>: a Claude skill for finding the case law on an issue, quoting it with OSCOLA pinpoints and checking the citations in a draft.
+- Setup instructions are on the <a href="https://lszoszk.github.io/ECHR-Dashboard/about.html">About page</a> of the dashboard.
 
 ## Design principle
 
@@ -67,3 +77,5 @@ The dashboard combines computational analysis with a source-first reader. Search
 ## Citation
 
 The software has a stable <a href="https://doi.org/10.5281/zenodo.21319703">Zenodo concept DOI</a>. HUDOC Researcher is developed by Łukasz Szoszkiewicz and Sebastian Marcisz; legal propositions and quoted paragraphs should additionally cite the authoritative HUDOC case record.
+
+The software is released under the PolyForm Noncommercial License 1.0.0. The curated dataset (the segmentation into paragraphs, paragraph numbers, section labels, normalized metadata and citation links) is published on <a href="https://huggingface.co/datasets/lszoszk/ecthr-judgments">Hugging Face</a> under CC BY-NC-SA 4.0, while the judgments themselves remain © Council of Europe / European Court of Human Rights. HUDOC Researcher is not affiliated with the Court and is not legal advice.
