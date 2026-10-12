@@ -1,6 +1,6 @@
 ---
 layout: page
-title: HUDOC+
+title: HUDOC Researcher
 description: Paragraph-level search across nearly 20,000 ECtHR judgments with citation tracking and source-exact HUDOC text
 img: assets/img/tools/hudoc-search-results.png
 importance: 4
@@ -66,4 +66,4 @@ The dashboard combines computational analysis with a source-first reader. Search
 
 ## Citation
 
-The software has a stable <a href="https://doi.org/10.5281/zenodo.21319703">Zenodo concept DOI</a>. HUDOC+ is developed by Łukasz Szoszkiewicz and Sebastian Marcisz; legal propositions and quoted paragraphs should additionally cite the authoritative HUDOC case record.
+The software has a stable <a href="https://doi.org/10.5281/zenodo.21319703">Zenodo concept DOI</a>. HUDOC Researcher is developed by Łukasz Szoszkiewicz and Sebastian Marcisz; legal propositions and quoted paragraphs should additionally cite the authoritative HUDOC case record.

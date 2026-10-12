@@ -75,7 +75,7 @@ Previously, I was a Fulbright Scholar at <a href="https://ntc.columbia.edu/">Col
         <span class="home-tool-number">03</span>
         <span class="home-tool-status development">Under development</span>
       </div>
-      <h3><a href="{{ '/tools/hudoc-researcher/' | relative_url }}">HUDOC+</a></h3>
+      <h3><a href="{{ '/tools/hudoc-researcher/' | relative_url }}">HUDOC Researcher</a></h3>
       <p>Paragraph-level structural and semantic search across ECtHR judgments, with quick citation export.</p>
       <a class="home-tool-text-link" href="{{ '/tools/hudoc-researcher/' | relative_url }}">View development preview <span aria-hidden="true">→</span></a>
     </article>

@@ -1,4 +1,4 @@
-name: ECtHR Dashboard
+name: HUDOC Researcher
 description: "Case-law dashboard with paragraph-level structural search, citation tracking, analytics, and source-exact HUDOC text"
 language: Python
 labels:
