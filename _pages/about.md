@@ -41,7 +41,7 @@ Previously, I was a Fulbright Scholar at <a href="https://ntc.columbia.edu/">Col
       <h3 class="home-tool-long-title"><a href="{{ '/tools/unhrdb/' | relative_url }}">UN Human Rights Database</a></h3>
       <p class="home-tool-tagline">Search what UN human rights mechanisms actually adopted, down to the paragraph.</p>
       <div class="home-tool-facts" aria-label="UNHRDB coverage">
-        <span><strong>322k+</strong> paragraphs</span>
+        <span><strong>326k+</strong> paragraphs</span>
         <span><strong>6.1k+</strong> documents</span>
         <span><strong>Source-first</strong> citations</span>
       </div>
