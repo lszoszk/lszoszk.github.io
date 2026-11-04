@@ -30,6 +30,26 @@ giscus_comments: true
   <div><strong>6,768</strong><span>decisions and votes</span></div>
 </div>
 
+## Film
+
+<figure>
+  <video controls preload="metadata" playsinline style="width:100%;height:auto" class="rounded z-depth-1" poster="{{ '/assets/img/tools/travaux-film-poster.jpg' | relative_url }}">
+    <source src="{{ '/assets/video/travaux-film.mp4' | relative_url }}" type="video/mp4">
+    Your browser cannot play embedded video; <a href="{{ '/assets/video/travaux-film.mp4' | relative_url }}">download the film (mp4, 16 MB)</a>.
+  </video>
+  <figcaption class="caption">UN Travaux Préparatoires in 90 seconds (English subtitles). The film shows the counts of the day it was recorded; the current counts are given above.</figcaption>
+</figure>
+
+<details>
+  <summary>Transcript</summary>
+<p>The Universal Declaration of Human Rights and the two Covenants were drafted at the United Nations between 1946 and 1966, and the drafting records run to more than eighteen thousand pages. To find who said what, and why a provision reads as it does, one reads them page by page. UN Travaux Préparatoires, an independent resource built from the UN's own documents, divides them into speeches, each with its speaker, delegation, date, article and page.</p>
+<p>Search opens every result in its record, at its page, with a ready citation and a link to the UN copy. Each article can be followed through the drafting: its text at every stage, the meetings that debated it, and every vote, by name where the record gives one. Ask takes a question in plain words and returns the passages closest to it in meaning, even when the delegates used other words.</p>
+<p>Summary records paraphrase the speakers, the text is machine-read, and about one article tag in twenty is wrong: the About page gives every figure, and every passage links to the scan. AI brings new risks, such as invented quotations, and two tools answer them.</p>
+<p>Check holds every citation and quotation in your draft against the record it names. Through the MCP server and the Claude skill, your AI assistant cites the records by symbol and page, instead of from memory. The UN document remains the authority, one click away from every speech.</p>
+</details>
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoObject", "name": "UN Travaux Préparatoires in 90 seconds", "description": "A 90-second film on UN Travaux Préparatoires, an independent resource built from the UN's own drafting records of the Universal Declaration of Human Rights and the two Covenants (1946–66): speeches with speaker, delegation, date, article and page, Search, the articles through the drafting, Ask, Check, and the MCP server and Claude skill. English subtitles.", "thumbnailUrl": "https://lszoszk.github.io/assets/img/tools/travaux-film-poster.jpg", "uploadDate": "2026-11-04", "duration": "PT1M29S", "contentUrl": "https://lszoszk.github.io/assets/video/travaux-film.mp4", "encodingFormat": "video/mp4", "inLanguage": "en", "author": {"@type": "Person", "name": "Łukasz Szoszkiewicz"}}</script>
+
 ## What it does
 
 - Searches every speech, chair turn and vote of the Commission on Human Rights, the Economic and Social Council and the General Assembly's Third Committee, 1946–66, by word, phrase, speaker, delegation, article or session.
