@@ -70,4 +70,8 @@ The text is machine-read from scans of 1946–66, and the speakers, speech bound
 
 ## Data and citation
 
-Cite the UN document by symbol and pinpoint for anything you quote (e.g. E/CN.4/SR.60, p. 10 (Malik, Lebanon)), and the database itself as: Szoszkiewicz, Ł. (2026). UN Travaux Préparatoires [Database]. Adam Mickiewicz University. The additions (division into speeches, speakers, delegations, article tags, decisions) are released under CC BY-NC 4.0; the UN documents stay under the UN's terms.
+Cite the UN document by symbol and pinpoint for anything you quote (e.g. E/CN.4/SR.60, p. 10 (Malik, Lebanon)), and the database itself as: Szoszkiewicz, Ł. (2026). UN Travaux Préparatoires [Database]. Adam Mickiewicz University. The additions (division into speeches, speakers, delegations, article tags, decisions) are released under CC BY-NC-SA 4.0, and the code under the PolyForm Noncommercial License 1.0.0; the UN documents stay under the UN's terms.
+
+## Acknowledgements
+
+We gratefully acknowledge Polish high-performance computing infrastructure PLGrid (HPC Centers: ACK Cyfronet AGH) for providing computer facilities and support within computational grant no. PLG/2026/020181. The grant's GPUs (the Athena cluster) read the scans of the records with the vision model whose text the database uses.
