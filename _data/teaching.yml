@@ -110,19 +110,15 @@ university:
   when: ''
   lang: EN · PL
   url: https://amupie.amu.edu.pl/1222/details
-  description: 'Two modules, data science and international human rights law. In the laboratory classes students run the code themselves: legal text as data, predicting ECtHR outcomes, bias and Simpson''s paradox, and AI transparency (SyRI and the Polish SLPS).'
+  description: 'Two modules, data science and international human rights law. In the laboratory classes students run the code themselves (Google Colab, in English and Polish): legal text as data, predicting ECtHR outcomes, bias and Simpson''s paradox, and AI transparency (SyRI and the Polish SLPS).'
   tags:
   - Google Colab
   - 4 labs
   links:
-  - label: Text as data (EN)
+  - label: Text as data
     url: https://colab.research.google.com/drive/1UldzcjlsbsyPsWq3QCveW-rr_u5-vLgd?usp=sharing
-  - label: (PL)
-    url: https://colab.research.google.com/drive/1R6D8WYGCtRX_JUKWfaz69GhWHhwyFtil?usp=sharing
-  - label: Predicting ECtHR outcomes (EN)
+  - label: Predicting ECtHR outcomes
     url: https://colab.research.google.com/drive/1AFMhbAwAQtJUgAWGuA5vOT3805CDg5HE?usp=sharing
-  - label: (PL)
-    url: https://colab.research.google.com/drive/19HVAq40ay3oBLLsxCEWjJG675UzyX5KV?usp=sharing
   - label: Bias and Simpson's paradox
     url: https://colab.research.google.com/drive/1BGyL1VMKHsEz4-bHVW9m0JMTKRV3937_?usp=sharing
   - label: AI transparency (PL)
@@ -143,9 +139,3 @@ university:
     url: https://github.com/SICSS-AMULaw
   - label: SICSS network
     url: https://sicss.io
-  - label: '2022'
-    url: https://prawo.amu.edu.pl/aktualnosci/szkola-letnia-sicss-amu-law/
-  - label: '2024'
-    url: https://prawo.amu.edu.pl/aktualnosci/szkola-letnia-nauk-obliczeniowych-w-prawie-sicss-amu-law/
-  - label: '2025'
-    url: https://prawo.amu.edu.pl/aktualnosci/sicss-amu-law-2025-interdyscyplinarne-spotkanie-prawa-i-sztucznej-inteligencji-na-naszym-wydziale/
