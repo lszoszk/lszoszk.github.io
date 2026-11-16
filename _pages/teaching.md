@@ -2,114 +2,81 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for my courses and workshops.
+description: Workshops on AI and data for human rights professionals, university courses at Adam Mickiewicz University, and interactive materials for class.
 nav: true
 nav_order: 4
 ---
 
-<h2>🎯 Responsible Vibe-Coding: Programming with Natural Language for Human Rights</h2>
+<p class="project-intro">I teach lawyers and human rights professionals to work with AI and data by building small tools on the documents they already use, such as UN reports, General Comments and court judgments. No coding experience is needed, and participants build their first tool during the workshop itself.</p>
 
-Teaching non-programmers to build working applications through AI-assisted coding. After two days, human rights lawyers in Venice built legal document search tools from scratch—with zero prior coding experience.
+<div class="project-actions">
+  <a class="project-action primary" href="mailto:l.szoszkiewicz@amu.edu.pl?subject=Workshop%20invitation">Invite me to run a workshop</a>
+  <a class="project-action" href="#workshops">Workshops</a>
+  <a class="project-action" href="#classroom">Materials for class</a>
+  <a class="project-action" href="#university">University courses</a>
+</div>
 
-<blockquote>
-"Programming apps doesn't look hard anymore."<br>
-<em>— Workshop participant, Venice 2025</em>
+<p class="teaching-hosts"><span>Hosts and partners</span> Global Campus of Human Rights · International Telecommunication Union · OHCHR · FNF Human Rights Hub · Adam Mickiewicz University</p>
+
+<h2 class="teaching-section" id="workshops">Workshops for human rights professionals</h2>
+
+<p class="teaching-section-lead">From 90 minutes to two days, on site or online. Participants leave with a tool they built themselves and with a clear idea of where AI fails on legal sources and how to check it.</p>
+
+<div class="tools-grid">
+  {% for item in site.data.teaching.workshops %}{% include teaching_card.html %}{% endfor %}
+</div>
+
+<blockquote class="teaching-quote">
+  “Programming apps doesn't look hard anymore.”
+  <cite>Participant, Responsible Vibe-Coding for Human Rights, Venice 2025</cite>
 </blockquote>
 
-<h3>Why Human Rights Experts Need NLP & Vibe-Coding</h3>
+<h2 class="teaching-section" id="classroom">Materials for class</h2>
 
-<p>Human rights work is fundamentally about text: treaties, reports, legal documents, testimonies. Even basic NLP techniques can be gamechangers for human rights work:</p>
+<p class="teaching-section-lead">Interactive materials I made for my classes. They open in the browser, without installation or login.</p>
 
-<ul>
-<li>Transform collection of documents into searchable databases</li>
-<li>Find patterns invisible to human reading (trends across decades of reports)</li>
-<li>Quantify arguments with data (e.g., "Internet access" mentioned 27 times in 2024 reports - <a href="https://www.tandfonline.com/doi/abs/10.1080/13642987.2025.2552467">see example</a>)</li>
-<li>Build tools like <a href="https://lszoszk.pythonanywhere.com" target="_blank">General Comments Database</a></li>
-<li>Democratize access to legal information</li>
-</ul>
+<div class="tools-grid teaching-grid-3">
+  {% for item in site.data.teaching.materials %}{% include teaching_card.html %}{% endfor %}
+</div>
 
-<p>Read about promises and pitfalls of NLP and AI in judiciary in the <a href="https://www.ohchr.org/en/documents/thematic-reports/a80169-ai-judicial-systems-promises-and-pitfalls-report-special" target="_blank">recent report of the SR on Independence of Judges and Lawyers (A/80/169)</a>.</p>
+<h2 class="teaching-section" id="university">University courses</h2>
 
-<h3>Six Lessons from Teaching Vibe-Coding</h3>
+<div class="tools-grid teaching-grid-3">
+  {% for item in site.data.teaching.university %}{% include teaching_card.html %}{% endfor %}
+</div>
 
-<ol>
-<li><strong>🔓 The AI Exposure Gap is Massive:</strong> Only 6% of participants had used paid LLMs. Most judged AI's capabilities based on free tiers—creating misleading impressions of what AI can do.</li>
+<div class="teaching-invite" id="invite">
+  <h2>Invite me</h2>
+  <p>I run workshops for UN staff, national human rights institutions, NGOs, courts and universities, in English or Polish. Write to <a href="mailto:l.szoszkiewicz@amu.edu.pl?subject=Workshop%20invitation">l.szoszkiewicz@amu.edu.pl</a> with the audience and its size, the date, the length (from 90 minutes to two days), on site or online, and the documents your team works with. I can then build the workshop on those documents.</p>
+</div>
 
-<li><strong>🎯 Purpose Must Precede Process:</strong> Top complaint: "I didn't understand WHY we were building this." Start with the problem (why this beats Ctrl+F), not the solution (how to build a search engine).</li>
+<details class="teaching-lessons">
+  <summary>What I learned teaching vibe-coding to 16 human rights professionals (Venice, 2025)</summary>
+  <ol>
+    <li><strong>The exposure gap is large.</strong> Only one of 16 participants had used a paid language model; most judged what AI can do by the free versions.</li>
+    <li><strong>Purpose before process.</strong> The most frequent complaint was “I didn't understand why we were building this”. A workshop should therefore start with the problem (why this is better than Ctrl+F).</li>
+    <li><strong>Seeing it work is the turning point.</strong> For participants without a technical background, a working demo has to come before the explanation.</li>
+    <li><strong>The outcomes are bimodal.</strong> About 38% got it at once and 25% stayed lost, with little in between. AI tools do not flatten the learning curve; they change its shape.</li>
+    <li><strong>Too many applications confuse more than the concepts.</strong> Participants were not lost in programming but in switching between Cursor, Colab and the terminal, so fewer tools work better.</li>
+    <li><strong>Natural language is not natural to everyone.</strong> Prompting still requires structured thinking, and some participants struggle with it in Python and in prompts alike.</li>
+  </ol>
+  <p>The same lessons, with the materials, are on the <a href="https://lszoszk.github.io/ideas/ai-human-collaboration">Geneva 2025 workshop website</a>.</p>
+</details>
 
-<li><strong>⚡ The "Seeing It Work" Moment is Critical:</strong> For non-technical learners: working demos before explanations. Abstract concepts mean nothing until they see concrete output.</li>
-
-<li><strong>📊 Bimodal Learning Outcomes:</strong> 38% "got it" immediately, 25% remained lost—little middle ground. AI tools don't reduce learning curves; they change their shape entirely.</li>
-
-<li><strong>🔄 Application Overwhelm > Concept Overwhelm:</strong> Participants weren't confused by programming—they were overwhelmed by tool-switching (Cursor → Colab → Terminal). Friction reduction > technical purity.</li>
-
-<li><strong>💬 "Natural Language" Isn't Natural to Everyone:</strong> Prompting in English ≠ accessible. Programming is structured thinking. Some struggle with computational logic, whether in Python or prompts.</li>
-</ol>
-
-<h3>Workshop Materials</h3>
-<ul>
-<li><strong>Course Website:</strong> <a href="https://lszoszk.github.io/ideas/vibecoding-human-rights" target="_blank">Responsible Vibe-Coding for Human Rights | Venice 2025</a></li>
-<li><strong>Presentation:</strong> <a href="https://lszoszk.github.io/AI_workshop/" target="_blank">AI for Human Rights &mdash; Workshop Slides</a></li>
-<li><strong>Focus:</strong> Building real tools (document databases, search engines) in 2 days</li>
-<li><strong>Methods:</strong> Google Colab, Claude Code, natural language prompting</li>
-<li><strong>Philosophy:</strong> Learning through building, not theory</li>
-</ul>
-
-<p><em>Teaching AI literacy to human rights professionals isn't about making them programmers—it's about showing what's possible and giving them confidence to try.</em></p>
-
-<hr style="margin: 3rem 0; border: none; border-top: 2px dashed #ccc;">
-
-<h2>🧠 The Emprompted: AI-Human Collaboration for Human Rights Professionals</h2>
-
-A vibecoding workshop at <a href="https://www.itu.int" target="_blank">International Telecommunication Union</a> HQ in Geneva (December 2025), with human rights professionals from <a href="https://www.ohchr.org" target="_blank">OHCHR</a>, <a href="https://www.impactoss.org" target="_blank">Impact OSS</a>, and <a href="https://huridocs.org" target="_blank">HURIDOCS</a>. Organized by the <a href="https://www.freiheit.org/human-rights-hub" target="_blank">FNF Human Rights Hub</a>.
-
-The focus: building simple but transformative tools &mdash; document analysis dashboards, search engines, filtering systems &mdash; that solve real bottlenecks when working with hundreds of PDFs. Not replacing human expertise, but amplifying it.
-
-<h3>Workshop Materials</h3>
-<ul>
-<li><strong>Course Website:</strong> <a href="https://lszoszk.github.io/ideas/ai-human-collaboration" target="_blank">The Emprompted | Geneva 2025</a></li>
-</ul>
-
-<hr style="margin: 3rem 0; border: none; border-top: 2px dashed #ccc;">
-
-<h2>⚖️ Human Rights and Technology in the Digital Age – An Interdisciplinary Perspective</h2>
-
-Digital technologies – such as Artificial Intelligence, biometric recognition systems, or credit scoring systems – are gradually entering our daily lives, without us even noticing them. This course aims at providing students with solid knowledge on the impact of these technologies on the protection of human rights. To this end, this course highlights the importance of an ethical, human-centric, and accessible tech-infused future.
-
-The course is divided into two modules, namely: 1) introduction to data science; and 2) international human rights law. The first module allows the students to better understand the concepts of programming, statistical modeling, and algorithms and gain some basic practical skills in these areas. In this context, the students will be provided with an opportunity to experience first-hand the dilemmas and challenges of designing an application (e.g. through running a code on their own). Within the second module, the students will learn about the existing case-law, regulations, and soft law initiatives related to the intersection of international human rights law and digital technologies. Completion of this module improves skills in analyzing legal texts and case law.
-
-<h3>Hands-on Laboratory Classes</h3>
-<ul>
-<li><strong>Analyzing Legal Text as Data</strong> | Google Colab: <a href="https://colab.research.google.com/drive/1UldzcjlsbsyPsWq3QCveW-rr_u5-vLgd?usp=sharing">EN version</a> | <a href="https://colab.research.google.com/drive/1R6D8WYGCtRX_JUKWfaz69GhWHhwyFtil?usp=sharing">PL version</a></li>
-
-<li><strong>Statistical Modeling - Predicting ECtHR Outcomes</strong> | Google Colab: <a href="https://colab.research.google.com/drive/1AFMhbAwAQtJUgAWGuA5vOT3805CDg5HE?usp=sharing">EN version</a> | <a href="https://colab.research.google.com/drive/19HVAq40ay3oBLLsxCEWjJG675UzyX5KV?usp=sharing">PL version</a></li>
-
-<li><strong>Detecting Bias in Data & Simpson's Paradox</strong> | <a href="https://colab.research.google.com/drive/1BGyL1VMKHsEz4-bHVW9m0JMTKRV3937_?usp=sharing">Google Colab</a></li>
-
-<li><strong>AI Transparency and Human Rights</strong> | Google Colab: <a href="https://colab.research.google.com/drive/1xAbce68JpSPjvcEe7d8mNxFaL7scM8gb?usp=sharing">PL version</a><br>
-<em>Real-life examples: SyRI (Netherlands) and SLPS (Poland)</em></li>
-</ul>
-
-<a href="https://amupie.amu.edu.pl/1222/details">More information</a>
-
-<hr style="margin: 3rem 0; border: none; border-top: 2px dashed #ccc;">
-
-<h2>🤝 Summer Institute in Computational Social Science – SICSS-AMU/Law</h2>
-
-<p>The Summer Institutes in Computational Social Science (SICSS) are a global network of two-week summer schools that train early-career researchers to use data, code, and modern AI tools to study society – from social media and politics to law and human rights. They combine lectures, coding labs, and group projects, and all teaching materials are openly available online.</p>
-
-<p><strong>SICSS-AMU/Law</strong> is the Poznań node of this network, hosted at the Faculty of Law and Administration, Adam Mickiewicz University. It is one of the few SICSS locations worldwide focused specifically on legal applications of machine learning, natural language processing, and statistics, with materials and projects maintained openly on GitHub.</p>
-
-<h3>What Happens at SICSS-AMU/Law?</h3>
-
-<p>Over two intensive weeks, participants learn how to turn legal and policy questions into empirical research using code and data. Classes mix short expert talks, hands-on coding in Python or R, and collaborative projects guided by teaching assistants. The school follows the core SICSS format – lectures, exercises, and participant-led research – but adapts it to law and human rights.</p>
-
-<ul>
-    <li><strong>Tools:</strong> Python and R, Jupyter/Google Colab, large language models (LLMs) from OpenAI and Perplexity, collaborative platforms like Slack, Zoom, and Miro.</li>
-    <li><strong>Teaching format:</strong> expert lectures, guided coding notebooks, and group research projects developed in the second week of the school.</li>
-</ul> <h3>Topics and Example Projects</h3> <p>The school is designed for people who work with legal texts and data but may never have written a line of code. Typical exercises and projects include:</p>
-
-<ul>
-    <li><strong>Natural Language Processing (NLP) for law:</strong> analyzing large collections of judgments, statutes, or reports as data.</li>
-<li><strong>Programming with LLMs:</strong> using systems like ChatGPT to prototype legal tools via prompting and APIs.</li>
-<li><strong>Predictive modeling:</strong> exploring how machine learning can forecast court decisions and what its ethical limits are.</li> <li><strong>Sentencing and trends:</strong> using statistics to reveal patterns in the Criminal Code and case law.</li> <li><strong>Human rights investigations:</strong> OSINT techniques and AI tools to help document and measure human rights violations.</li> <li><strong>Legal chatbots & RAG:</strong> building AI-powered assistants that answer questions about laws and regulations (e.g. EU AI Act) using retrieval-augmented generation.</li> </ul> <h3>Who Is It For?</h3> <p>SICSS-AMU/Law is aimed at advanced students, PhD candidates, post-docs, and early-career researchers, as well as practitioners interested in empirical and data-driven approaches to law. Past editions have brought together participants from universities and institutions across Europe, Asia, and North America, making it a genuinely international and interdisciplinary environment.</p> <p>Participation is <strong>tuition-free</strong> thanks to grants and support from Duke University and the Faculty of Law and Administration, lowering the barrier for researchers who want to experiment with computational methods in legal research.</p> <h3>Materials & Further Information</h3> <ul> <li><strong>Global program:</strong> <a href="https://sicss.io" target="_blank">Summer Institutes in Computational Social Science</a></li> <li><strong>SICSS-AMU/Law Materials & Projects:</strong> <a href="https://github.com/SICSS-AMULaw" target="_blank">SICSS-AMU/Law GitHub Organization</a></li> <li><strong>News & reports (PL):</strong> <a href="https://prawo.amu.edu.pl/aktualnosci/szkola-letnia-sicss-amu-law/" target="_blank">SICSS-AMU/Law 2022</a>, <a href="https://prawo.amu.edu.pl/aktualnosci/szkola-letnia-nauk-obliczeniowych-w-prawie-sicss-amu-law/" target="_blank">SICSS-AMU/Law 2024</a>, <a href="https://prawo.amu.edu.pl/aktualnosci/sicss-amu-law-2025-interdyscyplinarne-spotkanie-prawa-i-sztucznej-inteligencji-na-naszym-wydziale/" target="_blank">SICSS-AMU/Law 2025</a></li> </ul> <p><em>SICSS-AMU/Law is where legal scholars, human rights practitioners, and data scientists meet to ask a simple question: what happens when we treat law not only as a system of rules, but also as a rich source of data?</em></p>
+{% assign all_items = site.data.teaching.workshops | concat: site.data.teaching.materials | concat: site.data.teaching.university %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "Teaching – Łukasz Szoszkiewicz",
+  "url": "{{ page.url | absolute_url }}",
+  "description": {{ page.description | jsonify }},
+  "author": {"@type": "Person", "name": "Łukasz Szoszkiewicz", "url": "https://lszoszk.github.io/", "identifier": "https://orcid.org/0000-0001-6671-2893", "affiliation": {"@type": "CollegeOrUniversity", "name": "Adam Mickiewicz University, Poznań"}},
+  "mainEntity": {
+    "@type": "ItemList",
+    "itemListElement": [{% for item in all_items %}
+      {"@type": "ListItem", "position": {{ forloop.index }}, "item": {"@type": "LearningResource", "name": {{ item.title | jsonify }}, "url": {{ item.url | jsonify }}, "description": {{ item.description | jsonify }}, "inLanguage": {% if item.lang == "PL" %}"pl"{% elsif item.lang == "EN" %}"en"{% else %}["en", "pl"]{% endif %}, "author": {"@type": "Person", "name": "Łukasz Szoszkiewicz"}}}{% unless forloop.last %},{% endunless %}{% endfor %}
+    ]
+  }
+}
+</script>

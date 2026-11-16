@@ -1,0 +1,29 @@
+<article class="tool-card teaching-card">
+  {% if item.img %}
+  <a class="tool-card-visual" href="{{ item.url }}" target="_blank" rel="noopener noreferrer" aria-label="Open {{ item.title }} in a new tab">
+    {% include figure.html path=item.img sizes="(min-width: 768px) 380px, 100vw" alt=item.title %}
+    <span class="tool-visual-action">Open <span aria-hidden="true">↗</span></span>
+  </a>
+  {% endif %}
+  <div class="tool-card-body">
+    <div class="tool-card-heading">
+      <span class="tool-kicker">{{ item.kicker }}</span>
+      <span class="teaching-lang" title="Language of the material">{{ item.lang }}</span>
+    </div>
+    <h2><a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a></h2>
+    {% if item.when or item.where %}
+    <p class="teaching-when">{{ item.when }}{% if item.when and item.where %} · {% endif %}{{ item.where }}</p>
+    {% endif %}
+    <p>{{ item.description }}</p>
+    {% if item.tags %}
+    <div class="tool-tags">
+      {% for tag in item.tags %}<span>{{ tag }}</span>{% endfor %}
+    </div>
+    {% endif %}
+    {% if item.links %}
+    <div class="tool-links">
+      {% for link in item.links %}<a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.label }}</a>{% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</article>

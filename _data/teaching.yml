@@ -1,0 +1,151 @@
+# Teaching page (_pages/teaching.md). A selection, not everything: the best of each kind.
+# img: a file in assets/img/teaching/ (screenshot); without it the card shows the title on a coloured panel.
+# lang: EN or PL (the language of the material). status: shown at the top right of the card.
+
+workshops:
+- title: AI and Human Rights, from the Inside
+  kicker: Global Campus of Human Rights
+  when: '2026'
+  where: Venice (Lido)
+  lang: EN
+  url: https://lszoszk.github.io/teaching-materials/global-campus/
+  img: assets/img/teaching/global-campus.jpg
+  description: 'Four sessions in the New Technologies cluster: how language models are made and where they fail, open tools built with AI on UN human rights sources, and two sessions of Garage Research, in which participants build their own.'
+  tags:
+  - 4 sessions
+  - Garage Research
+  links:
+  - label: Slides and demos
+    url: https://lszoszk.github.io/teaching-materials/global-campus/
+- title: 'Find It. Cite It. Check It: From Paragraphs to Votes'
+  kicker: Knowvember · OHCHR
+  when: 10 November 2026
+  where: Online
+  lang: EN
+  url: https://lszoszk.github.io/talks/knowvember-2026/
+  img: assets/img/teaching/knowvember.jpg
+  description: 'Hands-on searching of UN human rights sources on one question, the words "necessary in a democratic society" in Article 21 ICCPR: General Comment No. 37, the 1952 vote in the drafting records, the Council''s votes on peaceful protests and the recommendations to States.'
+  tags:
+  - UN sources
+  - Citation check
+  links:
+  - label: Slides
+    url: https://lszoszk.github.io/talks/knowvember-2026/
+- title: 'The Emprompted: AI-Human Collaboration for Human Rights Professionals'
+  kicker: ITU · FNF Human Rights Hub
+  when: December 2025
+  where: Geneva
+  lang: EN
+  url: https://lszoszk.github.io/ideas/ai-human-collaboration
+  img: assets/img/teaching/geneva2025.jpg
+  description: 'A vibe-coding workshop at the ITU headquarters with participants from OHCHR, Impact OSS and HURIDOCS: document dashboards, search engines and filters for work with hundreds of PDFs.'
+  tags:
+  - Vibe-coding
+  - Document analysis
+  links:
+  - label: Course website
+    url: https://lszoszk.github.io/ideas/ai-human-collaboration
+- title: Responsible Vibe-Coding for Human Rights
+  kicker: Global Campus of Human Rights
+  when: '2025'
+  where: Venice
+  lang: EN
+  url: https://lszoszk.github.io/ideas/vibecoding-human-rights
+  img: assets/img/teaching/venice2025.jpg
+  description: Two days in which 16 human rights professionals, most of them lawyers without any coding experience, built legal document search tools from scratch.
+  tags:
+  - 2 days
+  - No coding needed
+  links:
+  - label: Course website
+    url: https://lszoszk.github.io/ideas/vibecoding-human-rights
+materials:
+- title: Is COMPAS Fair? (Loomis v. Wisconsin)
+  kicker: Interactive exercise
+  lang: PL
+  url: https://lszoszk.github.io/teaching-materials/loomis-v-wisconsin/
+  img: assets/img/teaching/loomis.jpg
+  description: Students move the risk threshold on ProPublica's data on 5,278 defendants and see that COMPAS can be fair by one measure and harmful by another, so the choice of the measure is a decision someone has to make.
+  tags:
+  - Algorithms and courts
+  - Data
+- title: Radbruch Says
+  kicker: Song and animation
+  lang: PL
+  url: https://lszoszk.github.io/teaching-materials/radbruch-says/
+  img: assets/img/teaching/radbruch.jpg
+  description: 'The Radbruch formula as a song: each verse is one of the Five Minutes of Legal Philosophy (1945), with Polish subtitles, the lyrics and Radbruch''s texts.'
+  tags:
+  - Legal philosophy
+  - Video
+- title: Why Study Law if AI Already Knows the Provisions?
+  kicker: Opening lecture, AMU
+  when: 2 October 2026
+  lang: PL
+  url: https://lszoszk.github.io/talks/nowy-swiat/
+  img: assets/img/teaching/opening-lecture.jpg
+  description: 'An opening lecture for first-year students of law and administration, built as a map to explore: jagged frontiers, courts, hallucinated case law and what is still worth learning by hand.'
+  tags:
+  - First-year students
+  - Playable map
+  links:
+  - label: Slides
+    url: https://lszoszk.github.io/talks/nowy-swiat/
+university:
+- title: International Protection of Human Rights in the Digital World
+  kicker: Faculty of Law and Administration, AMU
+  when: 2026/2027
+  lang: PL
+  url: https://lszoszk.github.io/teaching-materials/amu-ihrl/
+  img: assets/img/teaching/amu-ihrl.jpg
+  description: 'An interactive course map: four paths to pass the course, the calendar, the rules for working with AI and an experiment run in class. It grows through the semester.'
+  tags:
+  - Course map
+  - AI rules
+  links:
+  - label: Course map
+    url: https://lszoszk.github.io/teaching-materials/amu-ihrl/
+- title: Human Rights and Technology in the Digital Age
+  kicker: Interdisciplinary course, AMU
+  when: ''
+  lang: EN · PL
+  url: https://amupie.amu.edu.pl/1222/details
+  description: 'Two modules, data science and international human rights law. In the laboratory classes students run the code themselves: legal text as data, predicting ECtHR outcomes, bias and Simpson''s paradox, and AI transparency (SyRI and the Polish SLPS).'
+  tags:
+  - Google Colab
+  - 4 labs
+  links:
+  - label: Text as data (EN)
+    url: https://colab.research.google.com/drive/1UldzcjlsbsyPsWq3QCveW-rr_u5-vLgd?usp=sharing
+  - label: (PL)
+    url: https://colab.research.google.com/drive/1R6D8WYGCtRX_JUKWfaz69GhWHhwyFtil?usp=sharing
+  - label: Predicting ECtHR outcomes (EN)
+    url: https://colab.research.google.com/drive/1AFMhbAwAQtJUgAWGuA5vOT3805CDg5HE?usp=sharing
+  - label: (PL)
+    url: https://colab.research.google.com/drive/19HVAq40ay3oBLLsxCEWjJG675UzyX5KV?usp=sharing
+  - label: Bias and Simpson's paradox
+    url: https://colab.research.google.com/drive/1BGyL1VMKHsEz4-bHVW9m0JMTKRV3937_?usp=sharing
+  - label: AI transparency (PL)
+    url: https://colab.research.google.com/drive/1xAbce68JpSPjvcEe7d8mNxFaL7scM8gb?usp=sharing
+  - label: Course page
+    url: https://amupie.amu.edu.pl/1222/details
+- title: Summer Institute in Computational Social Science (SICSS-AMU/Law)
+  kicker: Summer school, AMU
+  when: 2022, 2024, 2025
+  lang: EN
+  url: https://github.com/SICSS-AMULaw
+  description: 'The Poznań node of the SICSS network, one of the few focused on law: two weeks of lectures, coding labs in Python and R, and group projects on NLP for law, legal chatbots, prediction and OSINT. Tuition-free.'
+  tags:
+  - 2 weeks
+  - Python and R
+  links:
+  - label: Materials on GitHub
+    url: https://github.com/SICSS-AMULaw
+  - label: SICSS network
+    url: https://sicss.io
+  - label: '2022'
+    url: https://prawo.amu.edu.pl/aktualnosci/szkola-letnia-sicss-amu-law/
+  - label: '2024'
+    url: https://prawo.amu.edu.pl/aktualnosci/szkola-letnia-nauk-obliczeniowych-w-prawie-sicss-amu-law/
+  - label: '2025'
+    url: https://prawo.amu.edu.pl/aktualnosci/sicss-amu-law-2025-interdyscyplinarne-spotkanie-prawa-i-sztucznej-inteligencji-na-naszym-wydziale/

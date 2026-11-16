@@ -2153,3 +2153,133 @@ nav[data-toggle="toc"] {
 #toc-sidebar {
   z-index: 1;
 }
+
+// Teaching page
+
+.teaching-hosts {
+  margin: 0 0 2.5rem;
+  color: var(--global-text-color-light);
+  font-size: 0.85rem;
+  line-height: 1.6;
+
+  span {
+    display: block;
+    margin-bottom: 0.2rem;
+    color: var(--global-theme-color);
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+  }
+}
+
+h2.teaching-section {
+  margin: 3rem 0 0.5rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.65rem;
+  font-weight: 500;
+}
+
+.teaching-section-lead {
+  max-width: 46rem;
+  margin-bottom: 1.4rem;
+  color: var(--global-text-color-light);
+}
+
+.teaching-grid-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  .tool-card h2 {
+    font-size: 1.12rem;
+  }
+}
+
+.teaching-lang {
+  padding: 0.1rem 0.42rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 4px;
+  color: var(--global-text-color-light);
+  font-size: 0.64rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+}
+
+.tool-card-body > p.teaching-when {
+  margin: -0.3rem 0 0.6rem;
+  color: var(--global-text-color);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.teaching-quote {
+  max-width: 40rem;
+  margin: 2rem auto 0;
+  padding: 0.4rem 0 0.4rem 1.2rem;
+  border-left: 3px solid var(--global-theme-color);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.3rem;
+  line-height: 1.45;
+
+  cite {
+    display: block;
+    margin-top: 0.4rem;
+    color: var(--global-text-color-light);
+    font-family: inherit;
+    font-size: 0.85rem;
+    font-style: normal;
+  }
+}
+
+.teaching-invite {
+  margin: 3.5rem 0 2rem;
+  padding: 1.5rem 1.6rem;
+  border: 1px solid var(--global-theme-color);
+  border-radius: 14px;
+  background: var(--global-card-bg-color);
+
+  h2 {
+    margin: 0 0 0.6rem;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  p {
+    margin: 0;
+    line-height: 1.65;
+  }
+}
+
+.teaching-lessons {
+  margin-bottom: 2rem;
+  padding: 0.9rem 1.1rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+
+  summary {
+    cursor: pointer;
+    font-weight: 700;
+  }
+
+  ol {
+    margin: 1rem 0 0.6rem;
+  }
+
+  li {
+    margin-bottom: 0.5rem;
+    line-height: 1.55;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .teaching-grid-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 767.98px) {
+  .teaching-grid-3 {
+    grid-template-columns: 1fr;
+  }
+}
