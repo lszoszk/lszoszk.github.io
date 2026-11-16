@@ -59,38 +59,6 @@ workshops:
   links:
   - label: Course website
     url: https://lszoszk.github.io/ideas/vibecoding-human-rights
-materials:
-- title: Is COMPAS Fair? (Loomis v. Wisconsin)
-  kicker: Interactive exercise
-  lang: PL
-  url: https://lszoszk.github.io/teaching-materials/loomis-v-wisconsin/
-  img: assets/img/teaching/loomis.jpg
-  description: Students move the risk threshold on ProPublica's data on 5,278 defendants and see that COMPAS can be fair by one measure and harmful by another, so the choice of the measure is a decision someone has to make.
-  tags:
-  - Algorithms and courts
-  - Data
-- title: Radbruch Says
-  kicker: Song and animation
-  lang: PL
-  url: https://lszoszk.github.io/teaching-materials/radbruch-says/
-  img: assets/img/teaching/radbruch.jpg
-  description: 'The Radbruch formula as a song: each verse is one of the Five Minutes of Legal Philosophy (1945), with Polish subtitles, the lyrics and Radbruch''s texts.'
-  tags:
-  - Legal philosophy
-  - Video
-- title: Why Study Law if AI Already Knows the Provisions?
-  kicker: Opening lecture, AMU
-  when: 2 October 2026
-  lang: PL
-  url: https://lszoszk.github.io/talks/nowy-swiat/
-  img: assets/img/teaching/opening-lecture.jpg
-  description: 'An opening lecture for first-year students of law and administration, built as a map to explore: jagged frontiers, courts, hallucinated case law and what is still worth learning by hand.'
-  tags:
-  - First-year students
-  - Playable map
-  links:
-  - label: Slides
-    url: https://lszoszk.github.io/talks/nowy-swiat/
 university:
 - title: International Protection of Human Rights in the Digital World
   kicker: Faculty of Law and Administration, AMU
@@ -105,6 +73,19 @@ university:
   links:
   - label: Course map
     url: https://lszoszk.github.io/teaching-materials/amu-ihrl/
+- title: Why Study Law if AI Already Knows the Provisions?
+  kicker: Opening lecture, AMU
+  when: 2 October 2026
+  lang: PL
+  url: https://lszoszk.github.io/talks/nowy-swiat/
+  img: assets/img/teaching/opening-lecture.jpg
+  description: 'An opening lecture for first-year students of law and administration, built as a map to explore: jagged frontiers, courts, hallucinated case law and what is still worth learning by hand.'
+  tags:
+  - First-year students
+  - Playable map
+  links:
+  - label: Slides
+    url: https://lszoszk.github.io/talks/nowy-swiat/
 - title: Human Rights and Technology in the Digital Age
   kicker: Interdisciplinary course, AMU
   when: ''

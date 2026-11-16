@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Workshops on AI and data for human rights professionals, university courses at Adam Mickiewicz University, and interactive materials for class.
+description: Workshops on AI and data for human rights professionals and university courses at Adam Mickiewicz University.
 nav: true
 nav_order: 4
 ---
@@ -12,7 +12,6 @@ nav_order: 4
 <div class="project-actions">
   <a class="project-action primary" href="mailto:l.szoszkiewicz@amu.edu.pl?subject=Workshop%20invitation">Invite me to run a workshop</a>
   <a class="project-action" href="#workshops">Workshops</a>
-  <a class="project-action" href="#classroom">Materials for class</a>
   <a class="project-action" href="#university">University courses</a>
 </div>
 
@@ -31,17 +30,9 @@ nav_order: 4
   <cite>Participant, Responsible Vibe-Coding for Human Rights, Venice 2025</cite>
 </blockquote>
 
-<h2 class="teaching-section" id="classroom">Materials for class</h2>
-
-<p class="teaching-section-lead">Interactive materials I made for my classes. They open in the browser, without installation or login.</p>
-
-<div class="tools-grid teaching-grid-3">
-  {% for item in site.data.teaching.materials %}{% include teaching_card.html %}{% endfor %}
-</div>
-
 <h2 class="teaching-section" id="university">University courses</h2>
 
-<div class="tools-grid teaching-grid-3">
+<div class="tools-grid">
   {% for item in site.data.teaching.university %}{% include teaching_card.html %}{% endfor %}
 </div>
 
@@ -63,7 +54,7 @@ nav_order: 4
   <p>The same lessons, with the materials, are on the <a href="https://lszoszk.github.io/ideas/ai-human-collaboration">Geneva 2025 workshop website</a>.</p>
 </details>
 
-{% assign all_items = site.data.teaching.workshops | concat: site.data.teaching.materials | concat: site.data.teaching.university %}
+{% assign all_items = site.data.teaching.workshops | concat: site.data.teaching.university %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

@@ -2186,14 +2186,6 @@ h2.teaching-section {
   color: var(--global-text-color-light);
 }
 
-.teaching-grid-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-
-  .tool-card h2 {
-    font-size: 1.12rem;
-  }
-}
-
 .teaching-lang {
   padding: 0.1rem 0.42rem;
   border: 1px solid var(--global-divider-color);
@@ -2269,17 +2261,5 @@ h2.teaching-section {
   li {
     margin-bottom: 0.5rem;
     line-height: 1.55;
-  }
-}
-
-@media (max-width: 991.98px) {
-  .teaching-grid-3 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-@media (max-width: 767.98px) {
-  .teaching-grid-3 {
-    grid-template-columns: 1fr;
   }
 }
